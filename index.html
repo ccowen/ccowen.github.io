@@ -17,9 +17,14 @@
     <link href="vendor/font-awesome/css/font-awesome.min.css" rel="stylesheet" type="text/css">
     <link href="https://fonts.googleapis.com/css?family=Lora:400,700,400italic,700italic" rel="stylesheet" type="text/css">
     <link href='https://fonts.googleapis.com/css?family=Cabin:700' rel='stylesheet' type='text/css'>
+    <link href="https://fonts.googleapis.com/css?family=Roboto+Slab|Work+Sans:100" rel="stylesheet">
 
     <!-- Custom styles for this template -->
     <link href="css/grayscale.css" rel="stylesheet">
+
+    <!-- my custom styles for this blog -->
+    <link rel="stylesheet" type="text/css" href="css/style.css">
+
 
   </head>
 
@@ -85,12 +90,11 @@
     </section>
 
     <!-- draggableExpressions Section - former download section-->
-    <section id="download" class="download-section content-section text-center">
-      <div class="container">
+    <section id="download" class="download-section">
 
           <!-- Trigger/Open The Modal -->
-          <button id="myBtn" class="btn-default btn-lg">instructions</button>
-          <button id="myBtn" class="btn-default btn-lg">instructions</button>
+          <button id="instructionsBtn" class="btn btn-default btn-lg">instructions</button>
+          <button id="infoBtn" class="btn btn-default btn-lg">info</button>
 
           <!-- modal --> 
           <div id="myModal" class="modal">
@@ -98,15 +102,13 @@
             <!-- Modal content -->
             <div class="modal-content">
               <span class="close">&times;</span>
-              <p id="modalText">You can click and drag, <br> and click and drag, ... <br><br> -parallel expressions</p>
+              <p id="modalText">You can click and drag the text 'expressions', <br> and click and drag, ... <br><br> Visual language - parallel expressions</p>
             </div>
 
           </div>
 
           <div class="expressions expressions0">
           </div>
-
-      </div>
 
     </section>
 
@@ -159,8 +161,16 @@
     <!-- Plugin JavaScript -->
     <script src="vendor/jquery-easing/jquery.easing.min.js"></script>
 
+        <!-- link to the jQuery Library -->
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+
+    <script src="https://code.jquery.com/ui/1.12.1/jquery-ui.min.js"
+      integrity="sha256-VazP97ZCwtekAsvgPBSUwPFKdrwD3unUfSGVYrahUqU="
+      crossorigin="anonymous"></script>
+
     <!-- Custom scripts for this template -->
-    <script src="js/grayscale.min.js"></script>
+    <script src="js/grayscale.js"></script>
+    <script type="text/javascript" src="js/javascript.js"></script>
 
   </body>
 

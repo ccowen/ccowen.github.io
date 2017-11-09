@@ -151,12 +151,13 @@ a {
 
 .download-section {
   color: white;
+  height: 80vh;
   background: url("../img/backgroundPe.jpg") no-repeat center;
   background-color: black;
   -webkit-background-size: cover;
   -moz-background-size: cover;
   -o-background-size: cover;
-  background-size: 100%;
+  background-size: 100% 100%;
   background-repeat: no-repeat; }
 
 #map {
