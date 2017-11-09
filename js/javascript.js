@@ -7,7 +7,7 @@ function newDraggable() {
         axis: "y",
         helper: "clone"
     }).on('dragstart', function (e, ui) {
-        $(ui.helper).css('z-index','initial');
+        $(ui.helper).css('z-index','auto');
         $(ui.helper).attr('class', 'expressions expressions' + i);
         console.log(i);        
     }).on('dragstop', function (e, ui) {
@@ -39,7 +39,7 @@ window.onload = function(){
     var btn = document.getElementById("instructionsBtn");
 
     // Get the <span> element that closes the modal
-    var span = document.getElementsByClassName("close")[0];
+    var span = document.getElementsByClassName("close-mycss")[0];
 
     // When the user clicks on the button, open the modal 
     btn.onclick = function() {

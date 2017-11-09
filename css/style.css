@@ -2,7 +2,7 @@
 
 .expressions {
 	width: 100vw;
-	height: 12vh;
+	height: 80px;
 	background-size: 100%;
 	background-repeat: no-repeat;
 }
@@ -33,7 +33,7 @@
 
 /* --------------------------- modal ---------------------------- */
 /* The Modal (background) */
-.modal {
+.modal-mycss {
     display: none; /* Hidden by default */
     position: fixed; /* Stay in place */
     z-index: 1; /* Sit on top */
@@ -47,40 +47,38 @@
 }
 
 /* Modal Content/Box */
-.modal-content {
-    background-color: #E61E25;
+.modal-content-mycss {
+    background-color: #061610;
     margin: 15% auto; /* 15% from the top and centered */
     padding: 20px;
     border: 1px solid #888;
-    width: 30%; /* Could be more or less, depending on screen size */
+    width: 50%; /* Could be more or less, depending on screen size */
 }
 
 /* The Close Button */
-.close {
+.close-mycss {
     color: #aaa;
     float: right;
     font-size: 28px;
     font-weight: bold;
 }
 
-.close:hover,
-.close:focus {
+.close-mycss:hover,
+.close-mycss:focus {
     color: black;
     text-decoration: none;
     cursor: pointer;
 }
 
-#modalText {
-	font-family: 'Work Sans', serif;
-	font-size: 24px;
+#modalText-mycss {
 	color: white;
 	text-align: center;
+    margin: 0px;
+    padding-bottom: 20px;
 }
 
-#myBtn {
-	font-family: 'Roboto Slab', serif;
-	font-size: 12px;
-	padding: 8px;
-	margin: 10px 0px 0px 10px;
-	background-color: white;
+.modalHeader {
+    padding-top: 20px;
+    text-align: center;
+    color: white;
 }
