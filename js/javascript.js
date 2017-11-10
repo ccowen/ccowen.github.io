@@ -5,7 +5,8 @@ function newDraggable() {
     console.log("newDraggable");
     $(".expressions").draggable({
         axis: "y",
-        helper: "clone"
+        helper: "clone",
+        containment: "parent"
     }).on('dragstart', function (e, ui) {
         $(ui.helper).css('z-index','auto');
         $(ui.helper).attr('class', 'expressions expressions' + i);
