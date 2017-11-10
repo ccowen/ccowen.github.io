@@ -2,7 +2,8 @@
 
 .expressions {
 	width: 100vw;
-	height: 80px;
+	min-height: 80px;
+    max-height: 12vh;
 	background-size: 100%;
 	background-repeat: no-repeat;
 }
@@ -53,10 +54,12 @@
     padding: 20px;
     border: 1px solid #888;
     width: 50%; /* Could be more or less, depending on screen size */
+    text-align: center!important;
 }
 
 /* The Close Button */
-.close-mycss {
+.close-mycss,
+.close2-mycss {
     color: #aaa;
     float: right;
     font-size: 28px;
@@ -81,4 +84,8 @@
     padding-top: 20px;
     text-align: center;
     color: white;
+}
+
+.green {
+    color: #42DCA3;
 }
