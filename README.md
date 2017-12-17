@@ -1,6 +1,7 @@
-# Github Portfolio
+# Github Portfolio 
 
-## [link](https://ccowen.github.io/)  
+### (main portfolio @ [parallelexpressions.com](http://www.parallelexpressions.com) 
+## [Github portfolio link](https://ccowen.github.io/)  
 
 ![Portfolio Screenshot](img/portfolioScreenshot.png?raw=true "Title")
 
