@@ -1,4 +1,15 @@
-/* ------------------ divs ------------------- */
+/* ------------------ main header style ------------------- */
+#hello {
+    font-size: 200px;
+    color: white;
+}
+
+#helloBtn {
+    color: rgba(142, 32, 65, .4);
+    border: 2px solid rgba(142, 32, 65, .2);
+}
+
+/* ------------------ expression divs ------------------- */
 
 .expressions {
 	width: 100vw;
@@ -86,6 +97,26 @@
     color: white;
 }
 
+/* other stuff */
+/*color*/
 .green {
     color: #42DCA3;
+}
+
+/*profilepic*/
+#profilePicture {
+    border-radius: 50%;
+    width: 225px;
+    padding-bottom: 40px;
+}
+
+/* buttons for parallelexpressions */
+#peButtonDiv {
+    padding: 5px 0px 0px 5px;
+}
+
+#instructionsBtn,
+#infoBtn {
+    color: black;
+    border: 1px solid black;
 }

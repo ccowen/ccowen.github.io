@@ -48,11 +48,6 @@ a {
     text-decoration: none;
     color: #1d9b6c; }
 
-.highlight {
-  background-color: rgba(100, 100, 150, .3);
-  color: white;
-}
-
 #mainNav {
   font-family: 'Cabin', 'Helvetica Neue', Helvetica, Arial, sans-serif;
   margin-bottom: 0;

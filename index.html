@@ -34,9 +34,8 @@
         <div class="container">
           <div class="row">
             <div class="col-lg-8 mx-auto">
-              <h1 class="brand-heading highlight">Hello</h1>
-              <p class="intro-text highlight">Hi! I'm Caitlin Cowen, aspiring front-end developer, artist, musician. Lorem Ipsum vhkjhkhjkjk.</p>
-              <a href="#about" class="btn btn-circle js-scroll-trigger">
+              <h1 id="hello" class="brand-heading highlight">Hello</h1> 
+              <a id="helloBtn" href="#about" class="btn btn-circle js-scroll-trigger">
                 <i class="fa fa-angle-double-down animated"></i>
               </a>
             </div>
@@ -50,14 +49,11 @@
       <div class="container">
         <div class="row">
           <div class="col-lg-8 mx-auto">
+            <img id="profilePicture" src="img/profilePicture.jpg" alt="My Picture">
             <h2>About Me</h2>
-            <p>Hi! I'm Caitlin Cowen. Grayscale is a free Bootstrap theme created by Start Bootstrap. It can be yours right now, simply download the template on
-              <a href="http://startbootstrap.com/template-overviews/grayscale/">the preview page</a>. The theme is open source, and you can use it for any purpose, personal or commercial.</p>
-            <p>This theme features stock photos by
-              <a href="http://gratisography.com/">Gratisography</a>
-              along with a custom Google Maps skin courtesy of
-              <a href="http://snazzymaps.com/">Snazzy Maps</a>.</p>
-            <p>Grayscale includes full HTML, CSS, and custom JavaScript files along with SASS and LESS files for easy customization!</p>
+            <p>Aspiring Front-End Developer with a background in design and music theory, skills converge in creating visual and audio solutions that compliment user experiences.</p>
+
+            <p>A creative problem-solver with expert proficiency in Adobe Creative Suite, HTML, CSS, JavaScript, WordPress, Audio Editing, Video Editing and Microsoft Office. Highly adept in Adobe InDesign, Illustrator, Photoshop, After Effects, and Premiere Pro and Audition.</p>
           </div>
         </div>
       </div>
@@ -66,9 +62,13 @@
     <!-- draggableExpressions Section - former download section-->
     <section id="download" class="download-section">
 
-          <!-- Trigger/Open The Modal -->
-          <button id="instructionsBtn" class="btn btn-default btn-lg">instructions</button>
-          <button id="infoBtn" class="btn btn-default btn-lg">info</button>
+          <div id="peButtonDiv">
+
+              <!-- Trigger/Open The Modal -->
+              <button id="instructionsBtn" class="btn btn-default btn-lg">instructions</button>
+              <button id="infoBtn" class="btn btn-default btn-lg">info</button>
+
+          </div>
 
           <!-- modal --> 
           <div id="instructionsModal" class="modal-mycss">
@@ -89,10 +89,9 @@
             <div class="modal-content-mycss">
               <span class="close2-mycss">&times;</span>
               <h2 class="modalHeader">What does it mean?</h2>
-              <p id="modalText-mycss">Expressive typography is an art of creating type that looks like what is means.<br><br>This example represents <span class="green">parallel expressions</span>. Think about parallel lines, and how your interactions create 'parallel expressions'. <br>(which also happens to be the name of my blog) </p>
+              <p id="modalText-mycss">Expressive typography is an art of creating type that looks like what is means.<br><br>This example represents <span class="green">parallel expressions</span>. Think about parallel lines, and how your interactions create 'parallel expressions'. <br>(which also happens to be the name of my portfolio site) </p>
               <a href="http://www.parallelexpressions.com/" class="btn btn-default btn-lg" id="blogBtn">
-                <i class="fa fa-spinner fa-fw"></i>
-                <span class="network-name">||exp</span>
+                <span class="network-name">parallelexpressions.com</span>
               </a>
             </div>
 
@@ -119,15 +118,9 @@
                 </a>
               </li>
               <li class="list-inline-item">
-                <a href="https://plus.google.com/+Startbootstrap/posts" class="btn btn-default btn-lg">
+                <a href="https://www.linkedin.com/in/caitlin-cowen/" class="btn btn-default btn-lg">
                   <i class="fa fa-linkedin-square fa-fw"></i>
                   <span class="network-name">LinkedIn</span>
-                </a>
-              </li>
-              <li class="list-inline-item">
-                <a href="https://twitter.com/SBootstrap" class="btn btn-default btn-lg">
-                  <i class="fa fa-twitter fa-fw"></i>
-                  <span class="network-name">Twitter</span>
                 </a>
               </li>
             </ul>
