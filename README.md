@@ -2,7 +2,7 @@
 
 ## [link](https://ccowen.github.io/)  
 
-![Portfolio Screenshot](img/portfolioScreenshort.png?raw=true "Title")
+![Portfolio Screenshot](img/portfolioScreenshot.png?raw=true "Title")
 
 ## Theme: [Start Bootstrap - Grayscale](https://startbootstrap.com/template-overviews/grayscale/)
 
