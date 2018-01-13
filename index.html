@@ -1,160 +1,154 @@
 <!DOCTYPE html>
 <html lang="en">
 
-  <head>
-
+<head>
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
     <meta name="description" content="">
     <meta name="author" content="">
-
     <title>Portfolio</title>
-
     <!-- Bootstrap core CSS -->
     <link href="vendor/bootstrap/css/bootstrap.min.css" rel="stylesheet">
-
     <!-- Custom fonts for this template -->
     <link href="vendor/font-awesome/css/font-awesome.min.css" rel="stylesheet" type="text/css">
     <link href="https://fonts.googleapis.com/css?family=Lora:400,700,400italic,700italic" rel="stylesheet" type="text/css">
     <link href='https://fonts.googleapis.com/css?family=Cabin:700' rel='stylesheet' type='text/css'>
-
     <!-- Custom styles for this template -->
     <link href="css/grayscale.css" rel="stylesheet">
-
     <!-- my custom styles for this blog -->
     <link rel="stylesheet" type="text/css" href="css/style.css">
+</head>
 
-  </head>
-
-  <body id="page-top">
-
+<body id="page-top">
+    <!-- Navigation -->
+    <nav class="navbar navbar-expand-lg navbar-light fixed-top" id="mainNav">
+        <div class="container">
+            <!-- <a class="navbar-brand js-scroll-trigger" href="#page-top">Start Bootstrap</a>
+            <button class="navbar-toggler navbar-toggler-right" type="button" data-toggle="collapse" data-target="#navbarResponsive" aria-controls="navbarResponsive" aria-expanded="false" aria-label="Toggle navigation">
+                Menu
+                <i class="fa fa-bars"></i>
+            </button> -->
+            <div class="collapse navbar-collapse" id="navbarResponsive">
+                <ul class="navbar-nav ml-auto">
+                    <li class="nav-item">
+                        <a class="nav-link js-scroll-trigger" href="#about">About</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link js-scroll-trigger" href="#contact">Contact</a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </nav>
     <!-- Intro Header -->
     <header class="masthead">
-      <div class="intro-body">
-        <div class="container">
-          <div class="row">
-            <div class="col-lg-8 mx-auto">
-              <h1 id="hello" class="brand-heading highlight">Hello</h1> 
-              <a id="helloBtn" href="#about" class="btn btn-circle js-scroll-trigger">
+        <div class="intro-body">
+            <div class="container">
+                <div class="row">
+                    <div class="col-lg-8 mx-auto">
+                        <h1 id="hello" class="brand-heading highlight">
+                <span id="helloLetter0" class="helloLetter">H</span><span id="helloLetter1" class="helloLetter">e</span><span id="helloLetter2" class="helloLetter">l</span><span id="helloLetter3" class="helloLetter">l</span><span id="helloLetter4" class="helloLetter">o</span>
+              </h1>
+                        <a id="helloBtn" href="#about" class="btn btn-circle js-scroll-trigger">
                 <i class="fa fa-angle-double-down animated"></i>
               </a>
+                    </div>
+                </div>
             </div>
-          </div>
         </div>
-      </div>
     </header>
-
     <!-- About Section -->
     <section id="about" class="content-section text-center">
-      <div class="container">
-        <div class="row">
-          <div class="col-lg-8 mx-auto">
-            <img id="profilePicture" src="img/profilePicture.jpg" alt="My Picture">
-            <h2>About Me</h2>
-            <p>Aspiring Front-End Developer with a background in design and music theory, skills converge in creating visual and audio solutions that compliment user experiences.</p>
-
-            <p>A creative problem-solver with expert proficiency in Adobe Creative Suite, HTML, CSS, JavaScript, WordPress, Audio Editing, Video Editing and Microsoft Office. Highly adept in Adobe InDesign, Illustrator, Photoshop, After Effects, and Premiere Pro and Audition.</p>
-          </div>
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-8 mx-auto">
+                    <img id="profilePicture" src="img/profilePicture.jpg" alt="My Picture">
+                    <h2>About Me</h2>
+                    <p>Aspiring Front-End Developer with a background in design and music theory, skills converge in creating visual and audio solutions that compliment user experiences.</p>
+                    <p>A creative problem-solver with expert proficiency in Adobe Creative Suite, HTML, CSS, JavaScript, WordPress, Audio Editing, Video Editing and Microsoft Office. Highly adept in Adobe InDesign, Illustrator, Photoshop, After Effects, and Premiere Pro and Audition.</p>
+                </div>
+            </div>
         </div>
-      </div>
     </section>
-
     <!-- draggableExpressions Section - former download section-->
     <section id="download" class="download-section">
-
-          <div id="peButtonDiv">
-
-              <!-- Trigger/Open The Modal -->
-              <button id="instructionsBtn" class="btn btn-default btn-lg">instructions</button>
-              <button id="infoBtn" class="btn btn-default btn-lg">info</button>
-
-          </div>
-
-          <!-- modal --> 
-          <div id="instructionsModal" class="modal-mycss">
-
+        <div id="peButtonDiv">
+            <!-- Trigger/Open The Modal -->
+            <button id="instructionsBtn" class="btn btn-default btn-lg">instructions</button>
+            <button id="infoBtn" class="btn btn-default btn-lg">info</button>
+        </div>
+        <!-- modal -->
+        <div id="instructionsModal" class="modal-mycss">
             <!-- Modal content -->
             <div class="modal-content-mycss">
-              <span class="close-mycss">&times;</span>
-              <h2 class="modalHeader">expressive typography:<br>parallel expressions</h2>
-              <p id="modalText-mycss">You can click and drag the text 'expressions', <br> and click and drag ... </p>
+                <span class="close-mycss">&times;</span>
+                <h2 class="modalHeader">expressive typography:<br>parallel expressions</h2>
+                <p id="modalText-mycss">You can click and drag the text 'expressions',
+                    <br> and click and drag ... </p>
             </div>
-
-          </div>
-
-          <!-- modal2 --> 
-          <div id="infoModal" class="modal-mycss">
-
+        </div>
+        <!-- modal2 -->
+        <div id="infoModal" class="modal-mycss">
             <!-- Modal content -->
             <div class="modal-content-mycss">
-              <span class="close2-mycss">&times;</span>
-              <h2 class="modalHeader">What does it mean?</h2>
-              <p id="modalText-mycss">Expressive typography is an art of creating type that looks like what is means.<br><br>This example represents <span class="green">parallel expressions</span>. Think about parallel lines, and how your interactions create 'parallel expressions'. <br>(which also happens to be the name of my portfolio site) </p>
-              <a href="http://www.parallelexpressions.com/" class="btn btn-default btn-lg" id="blogBtn">
+                <span class="close2-mycss">&times;</span>
+                <h2 class="modalHeader">What does it mean?</h2>
+                <p id="modalText-mycss">Expressive typography is an art of creating type that looks like what is means.
+                    <br>
+                    <br>This example represents <span class="green">parallel expressions</span>. Think about parallel lines, and how your interactions create 'parallel expressions'.
+                    <br>(which also happens to be the name of my portfolio site) </p>
+                <a href="http://www.parallelexpressions.com/" class="btn btn-default btn-lg" id="blogBtn">
                 <span class="network-name">parallelexpressions.com</span>
               </a>
             </div>
-
-          </div>
-
-          <div class="expressions expressions0">
-          </div>
-
+        </div>
+        <div class="expressions expressions0">
+        </div>
     </section>
-
     <!-- Contact Section -->
     <section id="contact" class="content-section text-center">
-      <div class="container">
-        <div class="row">
-          <div class="col-lg-8 mx-auto">
-            <h2>Contact Me</h2>
-            <p> ... if you scrolled this far, you might as well say hi ! <a href="mailto:caitlincowen2016@u.northwestern.edu?Subject=Hello">Email me</a> or connect on social media.
-              </p>
-            <ul class="list-inline banner-social-buttons">
-              <li class="list-inline-item">
-                <a href="https://github.com/ccowen" class="btn btn-default btn-lg">
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-8 mx-auto">
+                    <h2>Contact Me</h2>
+                    <p> ... if you scrolled this far, you might as well say hi ! <a href="mailto:caitlincowen2016@u.northwestern.edu?Subject=Hello">Email me</a> or connect on social media.
+                    </p>
+                    <ul class="list-inline banner-social-buttons">
+                        <li class="list-inline-item">
+                            <a href="https://github.com/ccowen" class="btn btn-default btn-lg">
                   <i class="fa fa-github fa-fw"></i>
                   <span class="network-name">Github</span>
                 </a>
-              </li>
-              <li class="list-inline-item">
-                <a href="https://www.linkedin.com/in/caitlin-cowen/" class="btn btn-default btn-lg">
+                        </li>
+                        <li class="list-inline-item">
+                            <a href="https://www.linkedin.com/in/caitlin-cowen/" class="btn btn-default btn-lg">
                   <i class="fa fa-linkedin-square fa-fw"></i>
                   <span class="network-name">LinkedIn</span>
                 </a>
-              </li>
-            </ul>
-          </div>
+                        </li>
+                    </ul>
+                </div>
+            </div>
         </div>
-      </div>
     </section>
-
     <!-- Footer -->
     <footer>
-      <div class="container text-center">
-        <p>Copyright &copy; Caitlin Cowen 2017</p>
-      </div>
+        <div class="container text-center">
+            <p>Copyright &copy; Caitlin Cowen 2017</p>
+        </div>
     </footer>
-
     <!-- Bootstrap core JavaScript -->
     <script src="vendor/jquery/jquery.min.js"></script>
     <script src="vendor/popper/popper.min.js"></script>
     <script src="vendor/bootstrap/js/bootstrap.min.js"></script>
-
     <!-- Plugin JavaScript -->
     <script src="vendor/jquery-easing/jquery.easing.min.js"></script>
-
     <!-- link to the jQuery Library -->
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
-
-    <script src="https://code.jquery.com/ui/1.12.1/jquery-ui.min.js"
-      integrity="sha256-VazP97ZCwtekAsvgPBSUwPFKdrwD3unUfSGVYrahUqU="
-      crossorigin="anonymous"></script>
-
+    <script src="https://code.jquery.com/ui/1.12.1/jquery-ui.min.js" integrity="sha256-VazP97ZCwtekAsvgPBSUwPFKdrwD3unUfSGVYrahUqU=" crossorigin="anonymous"></script>
     <!-- Custom scripts for this template -->
     <script src="js/grayscale.js"></script>
     <script type="text/javascript" src="js/javascript.js"></script>
-
-  </body>
+</body>
 
 </html>

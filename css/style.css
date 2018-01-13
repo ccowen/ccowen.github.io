@@ -4,6 +4,15 @@
     color: white;
 }
 
+.helloLetterColor {
+    color: #861548;
+}
+
+.nav-link {
+    background-color: #441A0F;
+    margin: 0px 3px 0px 3px;
+}
+
 #helloBtn {
     color: rgba(142, 32, 65, .4);
     border: 2px solid rgba(142, 32, 65, .2);
@@ -13,8 +22,8 @@
 
 .expressions {
 	width: 100vw;
-	min-height: 80px;
-    max-height: 12vh;
+	min-height: 110px;
+    /*max-height: 14vh;*/
 	background-size: 100%;
 	background-repeat: no-repeat;
 }
