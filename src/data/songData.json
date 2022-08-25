@@ -1,0 +1,1203 @@
+{"records": {
+    "sample_songs": {
+        "song1": {
+            "notes": "extended chorus3",
+            "name": "Pocketful of Sunshine",
+            "artist": "Natasha Bedingfield",
+            "total_duration": "3:22",
+
+            "sections": {
+                "intro": {"start": "0:00", "duration": 8, "sample_keys": ["1", "2"]},
+                "verse1": {"start": "0:08", "duration": 18, "sample_keys": ["3", "4", "5", "6"]},
+                "chorus1": {"start": "0:26", "duration": 18},
+                "verse2": {"start": "0:44", "duration": 34, "sample_keys": ["7", "8"]},
+                "chorus2": {"start": "1:18", "duration": 18},
+                "bridge": {"start": "1:36", "duration": 18},
+                "chorus3": {"start": "1:54", "duration": 54},
+                "outro": {"start": "2:48", "duration": 34}
+            },
+
+            "samples": {
+                "1": {
+                   "lyrics": "instrumental melody, whistle like",
+                    "mashup_time_seconds": null, 
+                    "mashup_measure": 1,
+                    "sample_song_section": "intro",
+                    "sample_song_start": "0:00",
+                    "sample_duration_seconds": 3.8
+                },
+                "2": {
+                    "lyrics": "instrumental melody, whistle like",
+                     "mashup_time_seconds": null, 
+                     "mashup_measure": 2,
+                     "sample_song_section": "intro",
+                     "sample_song_start": "0:04",
+                     "sample_duration_seconds": 4
+                 },
+                 "3": {
+                    "lyrics": "instrumental melody, whistle like",
+                     "mashup_time_seconds": null, 
+                     "mashup_measure": 3,
+                     "sample_song_section": "verse1",
+                     "sample_song_start": "0:08",
+                     "sample_duration_seconds": 4
+                 },
+                 "4": {
+                    "lyrics": "instrumental melody, whistle like",
+                     "mashup_time_seconds": null, 
+                     "mashup_measure": 4,
+                     "sample_song_section": "verse1",
+                     "sample_song_start": "0:12",
+                     "sample_duration_seconds": 5
+                 },
+                 "5": {
+                    "lyrics": "instrumental melody, whistle like",
+                     "mashup_time_seconds": null, 
+                     "mashup_measure": 5,
+                     "sample_song_section": "verse1",
+                     "sample_song_start": "0:17",
+                     "sample_duration_seconds": 4
+                 },
+                 "6": {
+                    "lyrics": "instrumental melody, whistle like",
+                     "mashup_time_seconds": null, 
+                     "mashup_measure": 6,
+                     "sample_song_section": "verse1",
+                     "sample_song_start": "0:21",
+                     "sample_duration_seconds": 5
+                 },
+                 "7": {
+                    "lyrics": "instrumental melody, whistle like",
+                     "mashup_time_seconds": null, 
+                     "mashup_measure": 7,
+                     "sample_song_section": "verse2",
+                     "sample_song_start": "0:44",
+                     "sample_duration_seconds": 4
+                 },
+                 "8": {
+                    "lyrics": "instrumental melody, whistle like",
+                     "mashup_time_seconds": null, 
+                     "mashup_measure": 8,
+                     "sample_song_section": "verse2",
+                     "sample_song_start": "0:48",
+                     "sample_duration_seconds": 5
+                 }
+            }
+        },
+        "song2": {
+            "notes": "extended chorus3",
+            "name": "Apologize",
+            "artist": "Timbaland, OneRepublic",
+            "total_duration": "3:04",
+
+            "sections": {
+                "intro": {"start": "0:00", "duration": 16, "sample_keys": ["1", "2"]},
+                "verse1": {"start": "0:16", "duration": 32, "sample_keys": ["3"]},
+                "chorus1": {"start": "0:48", "duration": 25, "sample_keys": ["4", "5", "6"]},
+                "verse2": {"start": "1:13", "duration": 32},
+                "chorus2": {"start": "1:45", "duration": 35, "sample_keys": ["7", "8", "9"]},
+                "chorus3": {"start": "2:20", "duration": 32, "sample_keys": ["10", "11"]},
+                "outro": {"start": "2:52", "duration": 12},
+                "overtime": {"sample_keys": ["12", "13", "14"]}
+            },
+
+            "samples": {
+                "1": {
+                    "lyrics": "ey ey ey",
+                    "mashup_time_seconds": null,
+                    "mashup_measure": 2,
+                    "sample_song_section": "intro",
+                    "sample_song_start": "0:05",
+                    "sample_duration_seconds": 2
+                },
+                "2": {
+                    "lyrics": "ey ey ey",
+                    "mashup_time_seconds": null,
+                    "mashup_measure": 4,
+                    "sample_song_section": "intro",
+                    "sample_song_start": "0:14",
+                    "sample_duration_seconds": 2
+                },
+                "3": {
+                    "lyrics": "ey ey ey",
+                    "mashup_time_seconds": null,
+                    "mashup_measure": 6,
+                    "sample_song_section": "verse1",
+                    "sample_song_start": "0:30",
+                    "sample_duration_seconds": 2
+                },
+                "4": {
+                    "lyrics": "ey ey ey",
+                    "mashup_time_seconds": null, 
+                    "mashup_measure": 12,
+                    "sample_song_section": "chorus1",
+                    "sample_song_start": "0:55",
+                    "sample_duration_seconds": 2
+                },
+                "5": {
+                    "lyrics": "ey ey ey",
+                    "mashup_time_seconds": null,
+                    "mashup_measure": 15,
+                    "sample_song_section": "chorus1",
+                    "sample_song_start": "1:03",
+                    "sample_duration_seconds": 2
+                },
+                "6": {
+                    "lyrics": "ey ey ey",
+                    "mashup_time_seconds": null, 
+                    "mashup_measure": 19,
+                    "sample_song_section": "chorus1",
+                    "sample_song_start": "1:11",
+                    "sample_duration_seconds": 2
+                },
+                "7": {
+                    "lyrics": "I said it's too late to apoligize",
+                    "mashup_time_seconds": null, 
+                    "mashup_measure": 26,
+                    "sample_song_section": "chorus2",
+                    "sample_song_start": "1:53",
+                    "sample_duration_seconds": 4
+                },
+                "8": {
+                    "lyrics": "ey ey ey",
+                    "mashup_time_seconds": null, 
+                    "mashup_measure": 39,
+                    "sample_song_section": "chorus2",
+                    "sample_song_start": "2:00",
+                    "sample_duration_seconds": 2
+                },
+                "9": {
+                    "lyrics": "ey ey ey",
+                    "mashup_time_seconds": null, 
+                    "mashup_measure": 43,
+                    "sample_song_section": "chorus2",
+                    "sample_song_start": "2:08",
+                    "sample_duration_seconds": 2
+                },
+                "10": {
+                    "lyrics": "too late",
+                    "mashup_time_seconds": null, 
+                    "mashup_measure": 60,
+                    "sample_song_section": "chorus3",
+                    "sample_song_start": "2:24",
+                    "sample_duration_seconds": 3
+                },
+                "11": {
+                    "lyrics": "I said it's too late to apoligize",
+                    "mashup_time_seconds": null, 
+                    "mashup_measure": 66,
+                    "sample_song_section": "chorus3",
+                    "sample_song_start": "2:27",
+                    "sample_duration_seconds": 5
+                },
+                "12": {
+                    "notes": "This entire lyric is not said again after 2:32, so counting only increasingly, we are past the song and in overtime",
+                    "lyrics": "I said it's too late to apoligize, it's too late",
+                    "mashup_time_seconds": null, 
+                    "mashup_measure": [71,72],
+                    "sample_song_section": "overtime",
+                    "sample_song_start": null,
+                    "sample_duration_seconds": null
+                },
+                "13": {
+                    "notes": "We are already in overtime, so counting only increasingly, we are past the song and in overtime",
+                    "lyrics": "I said it's too late to apoligize, it's too late",
+                    "mashup_time_seconds": null, 
+                    "mashup_measure": [73,74],
+                    "sample_song_section": "overtime",
+                    "sample_song_start": null,
+                    "sample_duration_seconds": null
+                },
+                "14": {
+                    "notes": "We are already in overtime, so counting only increasingly, we are past the song and in overtime",
+                    "lyrics": "ey ey ey",
+                    "mashup_time_seconds": null, 
+                    "mashup_measure": 74,
+                    "sample_song_section": "overtime",
+                    "sample_song_start": null,
+                    "sample_duration_seconds": null
+                }
+            }
+        },
+        "song3": {
+            "name": "No Air",
+            "artist": "Jordin Sparks, Chris Brown",
+            "total_duration": "4:24",
+
+            "sections": {
+                "intro": {"start": "0:00", "duration": 17, "sample_keys": ["1"]},
+                "verse1": {"start": "0:17", "duration": 24},
+                "chorus1": {"start": "0:41", "duration": 48, "sample_keys": ["2", "3"]},
+                "verse2": {"start": "1:29", "duration": 24},
+                "chorus2": {"start": "1:53", "duration": 48},
+                "bridge": {"start": "2:41", "duration": 24},
+                "chorus3": {"start": "3:05", "duration": 49},
+                "outro": {"start": "3:54", "duration": 30}
+            },
+
+            "samples": {
+                "1": {
+                    "lyrics": "oooo ooooo ooooo ooooo oooo",
+                    "mashup_time_seconds": null, 
+                    "mashup_measure": [3,4],
+                    "sample_song_section": "intro",
+                    "sample_song_start": "0:05",
+                    "sample_duration_seconds": 6
+                },
+                "2": {
+                    "lyrics": "do you expect me to live alone with just me",
+                    "mashup_time_seconds": null, 
+                    "mashup_measure": 33,
+                    "sample_song_section": "chorus1",
+                    "sample_song_start": "0:42",
+                    "sample_duration_seconds": 5
+                },
+                "3": {
+                    "lyrics": "hard for me to breathe",
+                    "mashup_time_seconds": null, 
+                    "mashup_measure": 35,
+                    "sample_song_section": "chorus1",
+                    "sample_song_start": "0:51",
+                    "sample_duration_seconds": 2
+                }
+            }
+        },
+        "song4": {
+            "notes": "samples cut phrase in middle, eg Bum bum (cut out be-dum), bum bum be-dum bum",
+            "name": "Disturbia",
+            "artist": "Rihanna",
+            "total_duration": "3:58",
+
+            "sections": {
+                "intro": {"start": "0:00", "duration": 17, "sample_keys": ["1", "2", "3", "4"]},
+                "verse1": {"start": "0:17", "duration": 31},
+                "chorus1": {"start": "0:48", "duration": 46, "sample_keys": ["5", "6"]},
+                "verse2": {"start": "1:34", "duration": 30},
+                "chorus2": {"start": "2:04", "duration": 47},
+                "bridge": {"start": "2:51", "duration": 15},
+                "chorus3": {"start": "3:06", "duration": 31},
+                "outro": {"start": "3:37", "duration": 21}
+            },
+
+            "samples": {
+                "1": {
+                    "lyrics": "Bum bum, bum bum be-dum bum",
+                    "mashup_time_seconds": null, 
+                    "mashup_measure": 5,
+                    "sample_song_section": "intro",
+                    "sample_song_start": "0:02",
+                    "sample_duration_seconds": 4
+                },
+                "2": {
+                    "lyrics": "Bum bum, bum bum be-dum bum",
+                    "mashup_time_seconds": null, 
+                    "mashup_measure": 7,
+                    "sample_song_section": "intro",
+                    "sample_song_start": "0:06",
+                    "sample_duration_seconds": 3
+                },
+                "3": {
+                    "lyrics": "Bum bum, bum bum be-dum bum",
+                    "mashup_time_seconds": null, 
+                    "mashup_measure": 11,
+                    "sample_song_section": "intro",
+                    "sample_song_start": "0:09",
+                    "sample_duration_seconds": 4
+                },
+                "4": {
+                    "lyrics": "Bum bum, bum bum be-dum bum",
+                    "mashup_time_seconds": null, 
+                    "mashup_measure": 29,
+                    "sample_song_section": "intro",
+                    "sample_song_start": "0:13",
+                    "sample_duration_seconds": 4
+                },
+                "5": {
+                    "lyrics": "Bum bum, bum bum be-dum bum",
+                    "mashup_time_seconds": null, 
+                    "mashup_measure": 31,
+                    "sample_song_section": "chorus1",
+                    "sample_song_start": "1:18",
+                    "sample_duration_seconds": 5,
+                    "notes": "did not count phrase sung underneath existing chorus melody"
+                },
+                "6": {
+                    "lyrics": "Bum bum, bum bum be-dum bum",
+                    "mashup_time_seconds": null, 
+                    "mashup_measure": 51,
+                    "sample_song_section": "chorus1",
+                    "sample_song_start": "1:22",
+                    "sample_duration_seconds": 4
+                }
+                
+            }
+        },
+        "song5": {
+            "notes": "The instrumental track of this song was used sequentially. Though some phrases were extended but only within the same section. So I grouped the sample together as one segment.",
+            "name": "Viva la Vida",
+            "artist": "Coldplay",
+            "total_duration": "4:02",
+
+            "sections": {
+                "intro": {"start": "0:00", "duration": 14, "sample_keys": ["1"]},
+                "verse1": {"start": "0:14", "duration": 56, "sample_keys": ["1"]},
+                "chorus1": {"start": "1:10", "duration": 41, "sample_keys": ["1"]},
+                "verse2": {"start": "1:51", "duration": 28, "sample_keys": ["1"]},
+                "chorus2": {"start": "2:19", "duration": 40, "sample_keys": ["1"]},
+                "chorus3": {"start": "2:59", "duration": 28, "sample_keys": ["1"]},
+                "outro": {"start": "3:43", "duration": 19, "sample_keys": ["1"]},
+                "overtime": {"sample_keys": ["1"]}
+            },
+
+
+            "samples": {
+                "1": {
+                    "lyrics": "instrumental, strings",
+                    "mashup_time_seconds": null, 
+                    "mashup_measure": null,
+                    "sample_song_section": ["intro", "verse1", "chorus1", "verse2", "chorus2", "chorus3", "overtime"],
+                    "sample_song_start": "0:00",
+                    "sample_duration_seconds": 242
+                }
+            }
+        },
+        "song6": {
+            "name": "4 Minutes",
+            "artist": "Madonna, Justin Timberlake, Timbaland",
+            "total_duration": "4:05",
+
+            "sections": {
+                "intro": {"start": "0:00", "duration": 51},
+                "verse1": {"start": "0:51", "duration": 34, "sample_keys": ["1"]},
+                "chorus1": {"start": "1:25", "duration": 52},
+                "verse2": {"start": "2:17", "duration": 33},
+                "chorus2": {"start": "2:50", "duration": 51},
+                "outro": {"start": "3:41", "duration": 24}
+            },
+
+            "samples": {
+                "1": {
+                    "lyrics": "take it down slow",
+                    "mashup_time_seconds": null, 
+                    "mashup_measure": 8,
+                    "sample_song_section": "verse1",
+                    "sample_song_start": "1:11",
+                    "sample_duration_seconds": 2
+                }
+            }
+        },
+        "song7": {
+            "notes": "chorus1 is after intro",
+            "name": "Whatever You Like",
+            "artist": "T.I.",
+            "total_duration": "4:09",
+
+            "sections": {
+                "intro": {"start": "0:00", "duration": 12},
+                "chorus1": {"start": "0:12", "duration": 26, "sample_keys": ["1", "2"]},
+                "verse1": {"start": "0:38", "duration": 16},
+                "chorus2": {"start": "1:04", "duration": 25},
+                "verse2": {"start": "1:29", "duration": 51},
+                "chorus3": {"start": "2:20", "duration": 26},
+                "bridge": {"start": "2:46", "duration": 25},
+                "chorus4": {"start": "3:11", "duration": 29},
+                "outro": {"start": "3:40", "duration": 29}
+            },
+
+            "samples": {
+                "1": {
+                    "lyrics": "baby you can have whatever you like",
+                    "mashup_time_seconds": null, 
+                    "mashup_measure": 9,
+                    "sample_song_section": "chorus1",
+                    "sample_song_start": "0:17",
+                    "sample_duration_seconds": 2
+                },
+                "2": {
+                    "lyrics": "You need never ever gotta go to yo' wallet\nLong as I got rubberband banks in my pocket\nFive, six rides with rims and a body kit\nYou ain't gotta downgrade, you can get what I get",
+                    "mashup_time_seconds": null, 
+                    "mashup_measure": 9,
+                    "sample_song_section": "chorus1",
+                    "sample_song_start": "0:17",
+                    "sample_duration_seconds": 2
+                }
+            }
+        },
+        "song8": {
+            "name": "Love Song",
+            "artist": "Sara Bareilles",
+            "total_duration": "4:18",
+
+            "sections": {
+                "intro": {"start": "0:00", "duration": 9},
+                "verse1": {"start": "0:09", "duration": 44},
+                "chorus1": {"start": "0:53", "duration": 37, "sample_keys": ["1", "2"]},
+                "verse2": {"start": "1:30", "duration": 45},
+                "chorus2": {"start": "2:15", "duration": 30},
+                "bridge": {"start": "2:45", "duration": 23},
+                "chorus3": {"start": "3:08", "duration": 49},
+                "outro": {"start": "3:57", "duration": 21},
+                "overtime": {"sample_keys": ["3", "4", "5"]}
+            },
+
+            "samples": {
+                "1": {
+                    "lyrics": "cause you asked for it",
+                    "mashup_time_seconds": null,
+                    "mashup_measure": 10,
+                    "sample_song_section": "chorus1",
+                    "sample_song_start": "0:56",
+                    "sample_duration_seconds": 2
+                },
+                "2": {
+                    "lyrics": "cause you need one",
+                    "mashup_time_seconds": null,
+                    "mashup_measure": 16,
+                    "sample_song_section": "chorus1",
+                    "sample_song_start": "0:58",
+                    "sample_duration_seconds": 2
+                },
+                "3": {
+                    "lyrics": "breathing gets harder",
+                    "mashup_time_seconds": null,
+                    "mashup_measure": 34,
+                    "sample_song_section": "overtime",
+                    "sample_song_start": null,
+                    "sample_duration_seconds": null
+                },
+                "4": {
+                    "lyrics": "even I know that",
+                    "mashup_time_seconds": null,
+                    "mashup_measure": 36,
+                    "sample_song_section": "overtime",
+                    "sample_song_start": null,
+                    "sample_duration_seconds": null
+                },
+                "5": {
+                    "lyrics": "cause you need one",
+                    "mashup_time_seconds": null,
+                    "mashup_measure": [39,40],
+                    "sample_song_section": "overtime",
+                    "sample_song_start": null,
+                    "sample_duration_seconds": null
+                }
+            }
+        },
+        "song9": {
+            "name": "With You",
+            "artist": "Chris Brown",
+            "total_duration": "4:12",
+
+            "sections": {
+                "intro": {"start": "0:00", "duration": 22},
+                "verse1": {"start": "0:22", "duration": 42},
+                "chorus1": {"start": "1:04", "duration": 34, "sample_keys": ["1"]},
+                "verse2": {"start": "1:38", "duration": 30},
+                "chorus2": {"start": "2:08", "duration": 34, "sample_keys": ["2"]},
+                "bridge": {"start": "2:42", "duration": 23},
+                "chorus3": {"start": "3:05", "duration": 67, "sample_keys": ["3"]}
+            },
+
+            "samples": {
+                "1": {
+                    "lyrics": "with you with you with you with you with you",
+                    "mashup_time_seconds": null,
+                    "mashup_measure": 11,
+                    "sample_song_section": "chorus1",
+                    "sample_song_start": "1:31",
+                    "sample_duration_seconds": 5,
+                    "notes": "this phrase appears twice in chorus1, but has a slightly different rythmn emphasis on last 'with you'"
+                },
+                "2": {
+                    "lyrics": "with you with you with you with you with you",
+                    "mashup_time_seconds": null,
+                    "mashup_measure": 27,
+                    "sample_song_section": "chorus2",
+                    "sample_song_start": "2:35",
+                    "sample_duration_seconds": 5,
+                    "notes": "this phrase appears twice in chorus2, but has a slightly different rythmn emphasis on last 'with you'"
+
+                },
+                "3": {
+                    "lyrics": "and oh I'm into you\nand girl no one else would do\n'cause with every kiss and every hug\nyou make me fall in love\nand now I know I can't be the only one\nI bet it's hearts all over the world tonight\nwith the love of their life\nwho feel what I feel when I'm\nwith you with you with you with you with you\nwith you with you with you with you with you",
+                    "mashup_time_seconds": null,
+                    "mashup_measure": [57,58,59,60,61,62,63,64,65,67],
+                    "sample_song_section": "chorus3",
+                    "sample_song_start": "3:26",
+                    "sample_duration_seconds": 32
+                }
+            }
+        },
+        "song10": {
+            "name": "Forever",
+            "artist": "Chris Brown",
+            "total_duration": "4:38",
+
+            "sections": {
+                "intro": {"start": "0:00", "duration": 23},
+                "verse1": {"start": "0:23", "duration": 40, "sample_keys": ["1"]},
+                "chorus1": {"start": "1:03", "duration": 32},
+                "verse2": {"start": "1:35", "duration": 32},
+                "chorus2": {"start": "2:07", "duration": 32},
+                "bridge": {"start": "2:39", "duration": 64},
+                "chorus3": {"start": "3:43", "duration": 33},
+                "outro": {"start": "4:16", "duration": 22},
+                "overtime": {"sample_keys": ["2", "3", "4"]}
+            },
+
+            "samples": {
+                "1": {
+                    "lyrics": "tonight [tonight]",
+                    "mashup_time_seconds": null,
+                    "mashup_measure": 10,
+                    "sample_song_section": "verse1",
+                    "sample_song_start": "0:30",
+                    "sample_duration_seconds": 2
+                },
+                "2": {
+                    "lyrics": "tonight [tonight]",
+                    "mashup_time_seconds": null,
+                    "mashup_measure": 16,
+                    "sample_song_section": "overtime",
+                    "sample_song_start": null,
+                    "sample_duration_seconds": null
+                },
+                "3": {
+                    "lyrics": "tonight [tonight]",
+                    "mashup_time_seconds": null,
+                    "mashup_measure": 40,
+                    "sample_song_section": "overtime",
+                    "sample_song_start": null,
+                    "sample_duration_seconds": null
+                },
+                "4": {
+                    "lyrics": "tonight [tonight]",
+                    "mashup_time_seconds": null,
+                    "mashup_measure": 46,
+                    "sample_song_section": "overtime",
+                    "sample_song_start": null,
+                    "sample_duration_seconds": null
+                }
+            }
+        },
+        "song11": {
+            "name": "Touch My Body",
+            "artist": "Mariah Carey",
+            "total_duration": "3:24",
+
+            "sections": {
+                "intro": {"start": "0:00", "duration": 12},
+                "verse1": {"start": "0:12", "duration": 36},
+                "chorus1": {"start": "0:48", "duration": 25, "sample_keys": ["1", "2"]},
+                "verse2": {"start": "1:13", "duration": 36},
+                "chorus2": {"start": "1:49", "duration": 26},
+                "bridge": {"start": "2:15", "duration": 12},
+                "chorus3": {"start": "2:27", "duration": 24},
+                "outro": {"start": "2:51", "duration": 33}
+            },
+
+            "samples": {
+                "1": {
+                    "lyrics": "touch my body",
+                    "mashup_time_seconds": null, 
+                    "mashup_measure": 13,
+                    "sample_song_section": "chorus1",
+                    "sample_song_start": "0:48",
+                    "sample_duration_seconds": 1
+                },
+                "2": {
+                    "lyrics": "touch my body",
+                    "mashup_time_seconds": null, 
+                    "mashup_measure": 37,
+                    "sample_song_section": "chorus1",
+                    "sample_song_start": "0:54",
+                    "sample_duration_seconds": 1
+                }
+            }
+        },
+        "song12": {
+            "notes": "goes into chorus1 from intro",
+            "name": "Lollipop",
+            "artist": "Lil Wayne, Static Major",
+            "total_duration": "4:59",
+
+            "sections": {
+                "intro": {"start": "0:00", "duration": 13},
+                "chorus1": {"start": "0:13", "duration": 38, "sample_keys": ["1", "2", "3", "4"]},
+                "verse1": {"start": "0:51", "duration": 27},
+                "chorus2": {"start": "1:18", "duration": 39, "sample_keys": ["5", "6"]},
+                "bridge": {"start": "1:57", "duration": 37},
+                "chorus3": {"start": "2:34", "duration": 41},
+                "bridge2": {"start": "3:15", "duration": 25},
+                "chorus4": {"start": "3:40", "duration": 25},
+                "outro": {"start": "4:05", "duration": 54}
+            },
+
+            "samples": {
+                "1": {
+                    "lyrics": "she, she, she licked me like a lollipop",
+                    "mashup_time_seconds": null,
+                    "mashup_measure": 13,
+                    "sample_song_section": "chorus1",
+                    "sample_song_start": "0:13",
+                    "sample_duration_seconds": 3
+                },
+                "2": {
+                    "lyrics": "she, she, she licked me like a lollipop",
+                    "mashup_time_seconds": null,
+                    "mashup_measure": 17,
+                    "sample_song_section": "chorus1",
+                    "sample_song_start": "0:16",
+                    "sample_duration_seconds": 3
+                },
+                "3": {
+                    "lyrics": "she, she, she licked me like a lollipop",
+                    "mashup_time_seconds": null,
+                    "mashup_measure": 30,
+                    "sample_song_section": "chorus1",
+                    "sample_song_start": "0:19",
+                    "sample_duration_seconds": 3
+                },
+                "4": {
+                    "lyrics": "she, she, she licked me like a lollipop",
+                    "mashup_time_seconds": null,
+                    "mashup_measure": 37,
+                    "sample_song_section": "chorus1",
+                    "sample_song_start": "0:22",
+                    "sample_duration_seconds": 3
+                },
+                "5": {
+                    "lyrics": "she, she, she licked me like a lollipop",
+                    "mashup_time_seconds": null,
+                    "mashup_measure": 41,
+                    "sample_song_section": "chorus2",
+                    "sample_song_start": "1:18",
+                    "sample_duration_seconds": 3
+                },
+                "6": {
+                    "lyrics": "she, she, she licked me like a lollipop",
+                    "mashup_time_seconds": null,
+                    "mashup_measure": 69,
+                    "sample_song_section": "chorus2",
+                    "sample_song_start": "1:21",
+                    "sample_duration_seconds": 3
+                }
+            }
+        },
+        "song13": {
+            "name": "Bleeding Love",
+            "artist": "Leona Lewis",
+            "total_duration": "4:22",
+
+            "sections": {
+                "intro": {"start": "0:00", "duration": 18},
+                "verse1": {"start": "0:18", "duration": 37},
+                "chorus1": {"start": "0:55", "duration": 42, "sample_keys": ["1", "2"]},
+                "verse2": {"start": "1:37", "duration": 37},
+                "chorus2": {"start": "2:14", "duration": 38, "sample_keys": ["3"]},
+                "bridge": {"start": "2:52", "duration": 17},
+                "chorus3": {"start": "3:09", "duration": 73, "sample_keys": ["4", "5"]},
+                "overtime": {"sample_keys": ["6"]}
+            },
+
+            "samples": {
+                "1": {
+                    "lyrics": "I don't care what they say",
+                    "mashup_time_seconds": null,
+                    "mashup_measure": 14,
+                    "sample_song_section": "chorus1",
+                    "sample_song_start": "0:55",
+                    "sample_duration_seconds": 3
+                },
+                "2": {
+                    "lyrics": "they don't know the truth",
+                    "mashup_time_seconds": null,
+                    "mashup_measure": [17,18],
+                    "sample_song_section": "chorus1",
+                    "sample_song_start": "1:03",
+                    "sample_duration_seconds": 2
+                },
+                "3": {
+                    "lyrics": "I don't care what they say",
+                    "mashup_time_seconds": null,
+                    "mashup_measure": [30,31],
+                    "sample_song_section": "chorus2",
+                    "sample_song_start": "2:14",
+                    "sample_duration_seconds": 3
+                },
+                "4": {
+                    "lyrics": "I don't care what they say",
+                    "mashup_time_seconds": null,
+                    "mashup_measure": [37,38],
+                    "sample_song_section": "chorus3",
+                    "sample_song_start": "3:09",
+                    "sample_duration_seconds": 3
+                },
+                "5": {
+                    "lyrics": "they don't know the truth",
+                    "mashup_time_seconds": null,
+                    "mashup_measure": 42,
+                    "sample_song_section": "chorus3",
+                    "sample_song_start": "3:17",
+                    "sample_duration_seconds": 2
+                },
+                "6": {
+                    "lyrics": "I don't care what they say",
+                    "mashup_time_seconds": null,
+                    "mashup_measure": [69,70],
+                    "sample_song_section": "overtime",
+                    "sample_song_start": null,
+                    "sample_duration_seconds": null
+                }
+            }
+        },
+        "song14": {
+            "notes": "extended chorus3",
+            "name": "So What",
+            "artist": "Pink",
+            "total_duration": "3:35",
+
+            "sections": {
+                "intro": {"start": "0:00", "duration": 11},
+                "verse1": {"start": "0:11", "duration": 23},
+                "chorus1": {"start": "0:34", "duration": 34, "sample_keys": ["1"]},
+                "verse2": {"start": "1:08", "duration": 23},
+                "chorus2": {"start": "1:31", "duration": 35, "sample_keys": ["2", "3", "4"]},
+                "bridge": {"start": "2:06", "duration": 19},
+                "chorus3": {"start": "2:25", "duration": 70, "sample_keys": ["5"]}
+            },
+
+            "samples": {
+                "1": {
+                    "lyrics": "guess what",
+                    "mashup_time_seconds": null,
+                    "mashup_measure": 14,
+                    "sample_song_section": "chorus1",
+                    "sample_song_start": "0:42",
+                    "sample_duration_seconds": 1
+                },
+                "2": {
+                    "lyrics": "so what I'm still a rockstar",
+                    "mashup_time_seconds": null,
+                    "mashup_measure": [18,19],
+                    "sample_song_section": "chorus2",
+                    "sample_song_start": "1:31",
+                    "sample_duration_seconds": 3
+                },
+                "3": {
+                    "lyrics": "guess what",
+                    "mashup_time_seconds": null,
+                    "mashup_measure": 38,
+                    "sample_song_section": "chorus2",
+                    "sample_song_start": "1:39",
+                    "sample_duration_seconds": 1
+                },
+                "4": {
+                    "lyrics": "so what I am a rockstar",
+                    "mashup_time_seconds": null,
+                    "mashup_measure": [42,43],
+                    "sample_song_section": "chorus2",
+                    "sample_song_start": "1:54",
+                    "sample_duration_seconds": 3
+                },
+                "5": {
+                    "lyrics": "guess what",
+                    "mashup_time_seconds": null,
+                    "mashup_measure": 68,
+                    "sample_song_section": "chorus3",
+                    "sample_song_start": "2:32",
+                    "sample_duration_seconds": 1
+                }
+            }
+        },
+        "song15": {
+            "name": "I Kissed a Girl",
+            "artist": "Katy Perry",
+            "total_duration": "2:59",
+
+            "sections": {
+                "intro": {"start": "0:00", "duration": 4},
+                "verse1": {"start": "0:04", "duration": 29},
+                "chorus1": {"start": "0:33", "duration": 33, "sample_keys": ["1", "2", "3"]},
+                "verse2": {"start": "1:06", "duration": 30},
+                "chorus2": {"start": "1:36", "duration": 30},
+                "bridge": {"start": "2:06", "duration": 21},
+                "chorus3": {"start": "2:27", "duration": 32}
+            },
+
+            "samples": {
+                "1": {
+                    "lyrics": "I liked it",
+                    "mashup_time_seconds": null,
+                    "mashup_measure": 14,
+                    "sample_song_section": "chorus1",
+                    "sample_song_start": "0:35",
+                    "sample_duration_seconds": 1
+                },
+                "2": {
+                    "lyrics": "I liked it",
+                    "mashup_time_seconds": null,
+                    "mashup_measure": 38,
+                    "sample_song_section": "chorus1",
+                    "sample_song_start": "0:57",
+                    "sample_duration_seconds": 1
+                },
+                "3": {
+                    "lyrics": "I liked it",
+                    "mashup_time_seconds": null,
+                    "mashup_measure": 68,
+                    "sample_song_section": "chorus1",
+                    "sample_song_start": "1:01",
+                    "sample_duration_seconds": 1
+                }
+            }
+        },
+        "song16": {
+            "name": "Closer",
+            "artist": "Ne-Yo",
+            "total_duration": "3:54",
+
+            "sections": {
+                "intro": {"start": "0:00", "duration": 16},
+                "verse1": {"start": "0:16", "duration": 36},
+                "chorus1": {"start":"0:52", "duration": 41, "sample_keys": ["1", "2"]},
+                "verse2": {"start": "1:33", "duration": 20},
+                "chorus2": {"start": "1:53", "duration": 40},
+                "bridge": {"start": "2:33", "duration": 29},
+                "chorus3": {"start": "3:02", "duration": 52}
+            },
+
+            "samples": {
+                "1": {
+                    "lyrics": "closer",
+                    "mashup_time_seconds": null,
+                    "mashup_measure": 15,
+                    "sample_song_section": "chorus1",
+                    "sample_song_start": "0:52",
+                    "sample_duration_seconds": 3
+                },
+                "2": {
+                    "lyrics": "come closer",
+                    "mashup_time_seconds": null,
+                    "mashup_measure": 39,
+                    "sample_song_section": "chorus1",
+                    "sample_song_start": "0:56",
+                    "sample_duration_seconds": 3
+                }
+            }
+        },
+        "song17": {
+            "notes": "goes into chorus1 from intro",
+            "name": "Low",
+            "artist": "Flo Rida, T-Pain",
+            "total_duration": "3:51",
+
+            "sections": {
+                "intro": {"start": "0:00", "duration": 16},
+                "chorus1": {"start": "0:16", "duration": 31, "sample_keys": ["1"]},
+                "verse1": {"start": "0:47", "duration": 30},
+                "chorus2": {"start": "1:17", "duration": 30, "sample_keys": ["2", "3"]},
+                "verse2": {"start": "1:47", "duration": 30},
+                "chorus3": {"start": "2:17", "duration": 30},
+                "verse3": {"start": "2:47", "duration": 30},
+                "chorus4": {"start": "3:17", "duration": 33}
+            },
+
+            "samples": {
+                "1": {
+                    "lyrics": "next thing you know",
+                    "mashup_time_seconds": null,
+                    "mashup_measure": 17,
+                    "sample_song_section": "chorus1",
+                    "sample_song_start": "0:27",
+                    "sample_duration_seconds": 1
+                },
+                "2": {
+                    "lyrics": "the whole club was looking at her",
+                    "mashup_time_seconds": null,
+                    "mashup_measure": [28,29],
+                    "sample_song_section": "chorus2",
+                    "sample_song_start": "1:22",
+                    "sample_duration_seconds": 3
+                },
+                "3": {
+                    "lyrics": "next thing you know",
+                    "mashup_time_seconds": null,
+                    "mashup_measure": 41,
+                    "sample_song_section": "chorus2",
+                    "sample_song_start": "1:27",
+                    "sample_duration_seconds": 1
+                }
+            }
+        },
+        "song18": {
+            "name": "No One",
+            "artist": "Alicia Keys",
+            "total_duration": "4:13",
+
+            "sections": {
+                "intro": {"start": "0:00", "duration": 11},
+                "verse1": {"start": "0:11", "duration": 21},
+                "chorus1": {"start": "0:32", "duration": 54, "sample_keys": ["1", "2"]},
+                "verse2": {"start": "1:26", "duration": 21},
+                "chorus2": {"start": "1:47", "duration": 53},
+                "bridge": {"start": "2:40", "duration": 22},
+                "chorus3": {"start": "3:02", "duration": 43},
+                "outro": {"start": "3:45", "duration": 28}
+            },
+
+            "samples": {
+                "1": {
+                    "lyrics": "I don't worry cause everythings gonna be alright",
+                    "mashup_time_seconds": null,
+                    "mashup_measure": [19,20],
+                    "sample_song_section": "chorus1",
+                    "sample_song_start": "0:38",
+                    "sample_duration_seconds": 5
+                },
+                "2": {
+                    "lyrics": "all I know is everythings gonna be alight",
+                    "mashup_time_seconds": null,
+                    "mashup_measure": [43,44],
+                    "sample_song_section": "chorus1",
+                    "sample_song_start": "0:49",
+                    "sample_duration_seconds": 5
+                }
+            }
+        },
+        "song19": {
+            "name": "Love in This Club",
+            "artist": "Usher, Jeezy",
+            "total_duration": "4:19",
+
+            "sections": {
+                "intro": {"start": "0:00", "duration": 20},
+                "verse1": {"start": "0:20", "duration": 41, "sample_keys": ["1", "2", "3", "4"]},
+                "chorus1": {"start": "1:01", "duration": 15},
+                "verse2": {"start": "1:16", "duration": 40, "sample_keys": ["5", "6", "7", "8"]},
+                "chorus2": {"start": "1:56", "duration": 28},
+                "verse3": {"start": "2:24", "duration": 42},
+                "bridge": {"start": "3:06", "duration": 16},
+                "chorus3": {"start": "3:22", "duration": 25},
+                "outro": {"start": "3:47", "duration": 32}
+            },
+
+            "samples": {
+                "1": {
+                    "lyrics": "for somebody that'll take you out and do you right",
+                    "mashup_time_seconds": null,
+                    "mashup_measure": 21,
+                    "sample_song_section": "verse1",
+                    "sample_song_start": "0:21",
+                    "sample_duration_seconds": 5
+                },
+                "2": {
+                    "lyrics": "show you what it feels like",
+                    "mashup_time_seconds": null,
+                    "mashup_measure": 22,
+                    "sample_song_section": "verse1",
+                    "sample_song_start": "0:29",
+                    "sample_duration_seconds": 4
+                },
+                "3": {
+                    "lyrics": "tell me what you sippin' on",
+                    "mashup_time_seconds": null,
+                    "mashup_measure": 23,
+                    "sample_song_section": "verse1",
+                    "sample_song_start": "0:35",
+                    "sample_duration_seconds": 4
+                },
+                "4": {
+                    "lyrics": "I'm gonna keep it coming all night long",
+                    "mashup_time_seconds": null,
+                    "mashup_measure": 24,
+                    "sample_song_section": "verse1",
+                    "sample_song_start": "0:44",
+                    "sample_duration_seconds": 4
+                },
+                "5": {
+                    "lyrics": "baby then that's cool",
+                    "mashup_time_seconds": null,
+                    "mashup_measure": 45,
+                    "sample_song_section": "verse2",
+                    "sample_song_start": "1:16",
+                    "sample_duration_seconds": 5
+                },
+                "6": {
+                    "lyrics": "that I got you",
+                    "mashup_time_seconds": null,
+                    "mashup_measure": 46,
+                    "sample_song_section": "verse2",
+                    "sample_song_start": "1:24",
+                    "sample_duration_seconds": 3
+                },
+                "7": {
+                    "lyrics": "you're the only thing that's on my mind",
+                    "mashup_time_seconds": null,
+                    "mashup_measure": 47,
+                    "sample_song_section": "verse2",
+                    "sample_song_start": "1:32",
+                    "sample_duration_seconds": 4
+                },
+                "8": {
+                    "lyrics": "wanna give it to you all night",
+                    "mashup_time_seconds": null,
+                    "mashup_measure": 48,
+                    "sample_song_section": "verse2",
+                    "sample_song_start": "1:37",
+                    "sample_duration_seconds": 5
+                }
+            }
+        },
+        "song20": {
+            "name": "Sexy Can I",
+            "artist": "Ray J, Yung Berg",
+            "total_duration": "3:24",
+
+            "sections": {
+                "intro": {"start": "0:00", "duration": 13},
+                "chorus1": {"start": "0:13", "duration": 33},
+                "verse1": {"start": "0:46", "duration": 22},
+                "chorus2": {"start": "1:08", "duration": 11},
+                "verse2": {"start": "1:19", "duration": 45, "sample_keys": ["1"]},
+                "chorus3": {"start": "2:04", "duration": 12},
+                "verse3": {"start": "2:16", "duration": 21},
+                "chorus4": {"start": "2:37", "duration": 34},
+                "outro": {"start": "3:11", "duration": 13}
+
+            },
+
+            "samples": {
+                "1": {
+                    "lyrics": "sexy can I keep it on the low",
+                    "mashup_time_seconds": null,
+                    "mashup_measure": 25,
+                    "sample_song_section": "verse2",
+                    "sample_song_start": "1:19",
+                    "sample_duration_seconds": 3
+                }
+            }
+        },
+        "song21": {
+            "name": "Bubbly",
+            "artist": "Colbie Caillat",
+            "total_duration": "3:16",
+
+            "sections": {
+                "intro": {"start": "0:00", "duration": 15},
+                "verse1": {"start": "0:15", "duration": 14, "sample_keys": ["1"]},
+                "chorus1": {"start": "0:29", "duration": 16},
+                "verse2": {"start": "0:45", "duration": 14},
+                "chorus2": {"start": "0:59", "duration": 17},
+                "bridge": {"start": "1:16", "duration": 16},
+                "chorus3": {"start": "1:32", "duration": 32},
+                "verse3": {"start": "2:04", "duration": 14},
+                "chorus4": {"start": "2:18", "duration": 15},
+                "outro": {"start": "2:33", "duration": 43}
+            },
+
+            "samples": {
+                "1": {
+                    "lyrics": "you got me feelin' like a child now",
+                    "mashup_time_seconds": null,
+                    "mashup_measure": 34,
+                    "sample_song_section": "verse1",
+                    "sample_song_start": "0:18",
+                    "sample_duration_seconds": 4
+                }
+            }
+        },
+        "song22": {
+            "name": "Paralyzer",
+            "artist": "Finger Eleven",
+            "total_duration": "3:28",
+
+            "sections": {
+                "intro": {"start": "0:00", "duration": 23},
+                "verse1": {"start": "0:23", "duration": 36},
+                "chorus1": {"start": "0:59", "duration": 19, "sample_keys": ["1"]},
+                "verse2": {"start": "1:18", "duration": 35},
+                "chorus2": {"start": "1:53", "duration": 19},
+                "bridge": {"start": "2:12", "duration": 17},
+                "chorus3": {"start": "2:29", "duration": 37},
+                "outro": {"start": "3:06", "duration": 22}
+            },
+
+            "samples": {
+                "1": {
+                    "lyrics": "on my way to you",
+                    "mashup_time_seconds": null, 
+                    "mashup_measure": 52,
+                    "sample_song_section": "chorus1",
+                    "sample_song_start": "1:16",
+                    "sample_duration_seconds": 2
+                }
+            }
+        },
+        "song23": {
+            "name": "Kiss Kiss",
+            "artist": "Chris Brown, T-Pain",
+            "total_duration": "4:10",
+
+            "sections": {
+                "intro": {"start": "0:00", "duration": 27},
+                "chorus1": {"start": "0:27", "duration": 25, "sample_keys": ["1"]},
+                "verse1": {"start": "0:54", "duration": 28},
+                "chorus2": {"start": "1:22", "duration": 27},
+                "verse2": {"start": "1:49", "duration": 28},
+                "chorus3": {"start": "2:17", "duration": 27},
+                "verse3": {"start": "2:44", "duration": 28},
+                "chorus4": {"start": "3:12", "duration": 30},
+                "outro": {"start": "3:42", "duration": 28}
+            },
+
+
+            "samples": {
+                "1": {
+                    "lyrics": "that lovey dovey [lovey dovey] that kiss kiss [kiss kiss]\nin her mind she fantasize 'bout getting with me\nthey hatin' on me [hatin' on me] they wanna diss diss [diss diss]\nbecause she's mine and so fine thick as can be",
+                    "mashup_time_seconds": null,
+                    "mashup_measure": [53,54,55,56],
+                    "sample_song_section": "chorus1",
+                    "sample_song_start": "0:27",
+                    "sample_duration_seconds": 14
+                }
+            }
+        },
+        "song25": {
+            "name": "Take A Bow",
+            "artist": "Rihanna",
+            "total_duration": "3:49",
+
+            "sections": {
+                "intro": {"start": "0:00", "duration": 23},
+                "verse1": {"start": "0:23", "duration": 24},
+                "chorus1": {"start": "0:47", "duration": 41, "sample_keys": ["1"]},
+                "verse2": {"start": "1:28", "duration": 23},
+                "chorus2": {"start": "1:51", "duration": 41, "sample_keys": ["2"]},
+                "bridge": {"start": "2:32", "duration": 35},
+                "chorus3": {"start": "3:07", "duration": 42}
+            },
+
+            "samples": {
+                "1": {
+                    "lyrics": "but it's over now",
+                    "mashup_time_seconds": null,
+                    "mashup_measure": 70,
+                    "sample_song_section": "chorus1",
+                    "sample_song_start": "1:17",
+                    "sample_duration_seconds": 2
+                },
+                "2": {
+                    "lyrics": "don't tell me you're sorry cause you're not",
+                    "mashup_time_seconds": null,
+                    "mashup_measure": 72,
+                    "sample_song_section": "chorus2",
+                    "sample_song_start": "1:51",
+                    "sample_duration_seconds": 4
+                }
+            }
+        }
+    }
+
+}}
+
