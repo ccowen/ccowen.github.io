@@ -3,7 +3,7 @@
     "2": ["verse1"],
     "3": ["chorus1"],
     "4": ["verse2"],
-    "5": ["chorus2"],
+    "5": ["chorus2", "bridge"],
     "6": ["chorus3"],
     "7": ["outro", "overtime"]
 }

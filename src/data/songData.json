@@ -1,10 +1,10 @@
 {"records": {
     "sample_songs": {
         "song1": {
-            "notes": "extended chorus3",
             "name": "Pocketful of Sunshine",
             "artist": "Natasha Bedingfield",
             "total_duration": "3:22",
+            "type": "instrumental",
 
             "sections": {
                 "intro": {"start": "0:00", "duration": 8, "sample_keys": ["1", "2"]},
@@ -85,10 +85,10 @@
             }
         },
         "song2": {
-            "notes": "extended chorus3",
             "name": "Apologize",
             "artist": "Timbaland, OneRepublic",
             "total_duration": "3:04",
+            "type": "vocal",
 
             "sections": {
                 "intro": {"start": "0:00", "duration": 16, "sample_keys": ["1", "2"]},
@@ -223,6 +223,7 @@
             "name": "No Air",
             "artist": "Jordin Sparks, Chris Brown",
             "total_duration": "4:24",
+            "type": "vocal",
 
             "sections": {
                 "intro": {"start": "0:00", "duration": 17, "sample_keys": ["1"]},
@@ -267,6 +268,7 @@
             "name": "Disturbia",
             "artist": "Rihanna",
             "total_duration": "3:58",
+            "type": "vocal",
 
             "sections": {
                 "intro": {"start": "0:00", "duration": 17, "sample_keys": ["1", "2", "3", "4"]},
@@ -337,6 +339,7 @@
             "name": "Viva la Vida",
             "artist": "Coldplay",
             "total_duration": "4:02",
+            "type": "instrumental",
 
             "sections": {
                 "intro": {"start": "0:00", "duration": 14, "sample_keys": ["1"]},
@@ -344,7 +347,7 @@
                 "chorus1": {"start": "1:10", "duration": 41, "sample_keys": ["1"]},
                 "verse2": {"start": "1:51", "duration": 28, "sample_keys": ["1"]},
                 "chorus2": {"start": "2:19", "duration": 40, "sample_keys": ["1"]},
-                "chorus3": {"start": "2:59", "duration": 28, "sample_keys": ["1"]},
+                "chorus3": {"start": "2:59", "duration": 44, "sample_keys": ["1"]},
                 "outro": {"start": "3:43", "duration": 19, "sample_keys": ["1"]},
                 "overtime": {"sample_keys": ["1"]}
             },
@@ -354,7 +357,7 @@
                 "1": {
                     "lyrics": "instrumental, strings",
                     "mashup_time_seconds": null, 
-                    "mashup_measure": null,
+                    "mashup_measure": [6, 7, 8, 9, 10, 11, 12, 13, 14, 15, 16, 17, 18, 19, 20, 21, 22, 23, 24, 25, 26, 27, 28, 29, 30, 31, 32, 33, 34, 35, 36, 37, 38, 39, 40, 41, 42, 43, 44, 45, 46, 47, 48, 49, 50, 51, 52, 53, 54, 55, 56, 57, 58, 59, 60, 61, 62, 63, 64, 65, 66, 67, 68, 69, 70, 71, 72, 73, 74, 75, 76, 77, 78],
                     "sample_song_section": ["intro", "verse1", "chorus1", "verse2", "chorus2", "chorus3", "overtime"],
                     "sample_song_start": "0:00",
                     "sample_duration_seconds": 242
@@ -365,6 +368,7 @@
             "name": "4 Minutes",
             "artist": "Madonna, Justin Timberlake, Timbaland",
             "total_duration": "4:05",
+            "type": "vocal",
 
             "sections": {
                 "intro": {"start": "0:00", "duration": 51},
@@ -391,13 +395,14 @@
             "name": "Whatever You Like",
             "artist": "T.I.",
             "total_duration": "4:09",
+            "type": "vocal",
 
             "sections": {
                 "intro": {"start": "0:00", "duration": 12},
-                "chorus1": {"start": "0:12", "duration": 26, "sample_keys": ["1", "2"]},
-                "verse1": {"start": "0:38", "duration": 16},
+                "chorus1": {"start": "0:12", "duration": 26, "sample_keys": ["1"]},
+                "verse1": {"start": "0:38", "duration": 26},
                 "chorus2": {"start": "1:04", "duration": 25},
-                "verse2": {"start": "1:29", "duration": 51},
+                "verse2": {"start": "1:29", "duration": 51,  "sample_keys": ["2"]},
                 "chorus3": {"start": "2:20", "duration": 26},
                 "bridge": {"start": "2:46", "duration": 25},
                 "chorus4": {"start": "3:11", "duration": 29},
@@ -417,9 +422,9 @@
                     "lyrics": "You need never ever gotta go to yo' wallet\nLong as I got rubberband banks in my pocket\nFive, six rides with rims and a body kit\nYou ain't gotta downgrade, you can get what I get",
                     "mashup_time_seconds": null, 
                     "mashup_measure": 9,
-                    "sample_song_section": "chorus1",
-                    "sample_song_start": "0:17",
-                    "sample_duration_seconds": 2
+                    "sample_song_section": "verse2",
+                    "sample_song_start": "1:43",
+                    "sample_duration_seconds": 12
                 }
             }
         },
@@ -427,6 +432,7 @@
             "name": "Love Song",
             "artist": "Sara Bareilles",
             "total_duration": "4:18",
+            "type": "vocal",
 
             "sections": {
                 "intro": {"start": "0:00", "duration": 9},
@@ -487,6 +493,7 @@
             "name": "With You",
             "artist": "Chris Brown",
             "total_duration": "4:12",
+            "type": "vocal",
 
             "sections": {
                 "intro": {"start": "0:00", "duration": 22},
@@ -532,6 +539,7 @@
             "name": "Forever",
             "artist": "Chris Brown",
             "total_duration": "4:38",
+            "type": "vocal",
 
             "sections": {
                 "intro": {"start": "0:00", "duration": 23},
@@ -584,6 +592,7 @@
             "name": "Touch My Body",
             "artist": "Mariah Carey",
             "total_duration": "3:24",
+            "type": "vocal",
 
             "sections": {
                 "intro": {"start": "0:00", "duration": 12},
@@ -620,6 +629,7 @@
             "name": "Lollipop",
             "artist": "Lil Wayne, Static Major",
             "total_duration": "4:59",
+            "type": "vocal",
 
             "sections": {
                 "intro": {"start": "0:00", "duration": 13},
@@ -688,6 +698,7 @@
             "name": "Bleeding Love",
             "artist": "Leona Lewis",
             "total_duration": "4:22",
+            "type": "vocal",
 
             "sections": {
                 "intro": {"start": "0:00", "duration": 18},
@@ -752,10 +763,10 @@
             }
         },
         "song14": {
-            "notes": "extended chorus3",
             "name": "So What",
             "artist": "Pink",
             "total_duration": "3:35",
+            "type": "vocal",
 
             "sections": {
                 "intro": {"start": "0:00", "duration": 11},
@@ -814,6 +825,7 @@
             "name": "I Kissed a Girl",
             "artist": "Katy Perry",
             "total_duration": "2:59",
+            "type": "vocal",
 
             "sections": {
                 "intro": {"start": "0:00", "duration": 4},
@@ -856,6 +868,7 @@
             "name": "Closer",
             "artist": "Ne-Yo",
             "total_duration": "3:54",
+            "type": "vocal",
 
             "sections": {
                 "intro": {"start": "0:00", "duration": 16},
@@ -891,6 +904,7 @@
             "name": "Low",
             "artist": "Flo Rida, T-Pain",
             "total_duration": "3:51",
+            "type": "vocal",
 
             "sections": {
                 "intro": {"start": "0:00", "duration": 16},
@@ -934,6 +948,7 @@
             "name": "No One",
             "artist": "Alicia Keys",
             "total_duration": "4:13",
+            "type": "vocal",
 
             "sections": {
                 "intro": {"start": "0:00", "duration": 11},
@@ -969,6 +984,7 @@
             "name": "Love in This Club",
             "artist": "Usher, Jeezy",
             "total_duration": "4:19",
+            "type": "vocal",
 
             "sections": {
                 "intro": {"start": "0:00", "duration": 20},
@@ -1053,6 +1069,7 @@
             "name": "Sexy Can I",
             "artist": "Ray J, Yung Berg",
             "total_duration": "3:24",
+            "type": "vocal",
 
             "sections": {
                 "intro": {"start": "0:00", "duration": 13},
@@ -1082,6 +1099,7 @@
             "name": "Bubbly",
             "artist": "Colbie Caillat",
             "total_duration": "3:16",
+            "type": "vocal",
 
             "sections": {
                 "intro": {"start": "0:00", "duration": 15},
@@ -1111,6 +1129,7 @@
             "name": "Paralyzer",
             "artist": "Finger Eleven",
             "total_duration": "3:28",
+            "type": "vocal",
 
             "sections": {
                 "intro": {"start": "0:00", "duration": 23},
@@ -1138,6 +1157,7 @@
             "name": "Kiss Kiss",
             "artist": "Chris Brown, T-Pain",
             "total_duration": "4:10",
+            "type": "vocal",
 
             "sections": {
                 "intro": {"start": "0:00", "duration": 27},
@@ -1151,7 +1171,6 @@
                 "outro": {"start": "3:42", "duration": 28}
             },
 
-
             "samples": {
                 "1": {
                     "lyrics": "that lovey dovey [lovey dovey] that kiss kiss [kiss kiss]\nin her mind she fantasize 'bout getting with me\nthey hatin' on me [hatin' on me] they wanna diss diss [diss diss]\nbecause she's mine and so fine thick as can be",
@@ -1163,10 +1182,272 @@
                 }
             }
         },
+        "song24": {
+            "name": "Don't Stop the Music",
+            "artist": "Rihanna",
+            "total_duration": "4:27",
+            "type": "vocal",
+
+            "sections": {
+                "intro": {"start": "0:00", "duration": 32, "sample_keys": ["1", "2", "3", "4"]},
+                "verse1": {"start": "0:32", "duration": 47},
+                "chorus1": {"start": "1:19", "duration": 33, "sample_keys": ["5", "6", "7", "8", "9"]},
+                "verse2": {"start": "1:52", "duration": 29},
+                "chorus2": {"start": "2:21", "duration": 32, "sample_keys": ["10", "11", "12", "13", "14"]},
+                "bridge": {"start": "2:53", "duration": 31, "sample_keys": ["15", "16"]},
+                "chorus3": {"start": "3:24", "duration": 32, "sample_keys": ["17", "18", "19", "20", "21"]},
+                "outro": {"start": "3:56", "duration": 31,  "sample_keys": ["22", "23", "24"]},
+                "overtime": {"sample_keys": ["25", "26", "27", "28", "29", "30"]}
+            },
+
+            "samples": {
+                "1": {
+                    "lyrics": "please don't stop the",
+                    "mashup_time_seconds": null,
+                    "mashup_measure": 63,
+                    "sample_song_section": "intro",
+                    "sample_song_start": "0:00",
+                    "sample_duration_seconds": 1
+                },
+                "2": {
+                    "lyrics": "please don't stop the",
+                    "mashup_time_seconds": null,
+                    "mashup_measure": 63,
+                    "sample_song_section": "intro",
+                    "sample_song_start": "0:07",
+                    "sample_duration_seconds": 1
+                },
+                "3": {
+                    "lyrics": "please don't stop the",
+                    "mashup_time_seconds": null,
+                    "mashup_measure": 64,
+                    "sample_song_section": "intro",
+                    "sample_song_start": "0:15",
+                    "sample_duration_seconds": 1
+                },
+                "4": {
+                    "lyrics": "please don't stop the",
+                    "mashup_time_seconds": null,
+                    "mashup_measure": 64,
+                    "sample_song_section": "intro",
+                    "sample_song_start": "0:23",
+                    "sample_duration_seconds": 1
+                },
+                "5": {
+                    "lyrics": "please don't stop the",
+                    "mashup_time_seconds": null,
+                    "mashup_measure": 64,
+                    "sample_song_section": "chorus1",
+                    "sample_song_start": "1:31",
+                    "sample_duration_seconds": 1
+                },
+                "6": {
+                    "lyrics": "please don't stop the",
+                    "mashup_time_seconds": null,
+                    "mashup_measure": 64,
+                    "sample_song_section": "chorus1",
+                    "sample_song_start": "1:32",
+                    "sample_duration_seconds": 1
+                },
+                "7": {
+                    "lyrics": "please don't stop the",
+                    "mashup_time_seconds": null,
+                    "mashup_measure": 65,
+                    "sample_song_section": "chorus1",
+                    "sample_song_start": "1:47",
+                    "sample_duration_seconds": 1
+                },
+                "8": {
+                    "lyrics": "please don't stop the",
+                    "mashup_time_seconds": null,
+                    "mashup_measure": 65,
+                    "sample_song_section": "chorus1",
+                    "sample_song_start": "1:48",
+                    "sample_duration_seconds": 1
+                },
+                "9": {
+                    "lyrics": "please don't stop the",
+                    "mashup_time_seconds": null,
+                    "mashup_measure": 65,
+                    "sample_song_section": "chorus1",
+                    "sample_song_start": "1:49",
+                    "sample_duration_seconds": 1
+                },
+                "10": {
+                    "lyrics": "please don't stop the",
+                    "mashup_time_seconds": null,
+                    "mashup_measure": 65,
+                    "sample_song_section": "chorus2",
+                    "sample_song_start": "2:34",
+                    "sample_duration_seconds": 1
+                },
+                "11": {
+                    "lyrics": "please don't stop the",
+                    "mashup_time_seconds": null,
+                    "mashup_measure": 66,
+                    "sample_song_section": "chorus2",
+                    "sample_song_start": "2:35",
+                    "sample_duration_seconds": 1
+                },
+                "12": {
+                    "lyrics": "please don't stop the",
+                    "mashup_time_seconds": null,
+                    "mashup_measure": 66,
+                    "sample_song_section": "chorus2",
+                    "sample_song_start": "2:50",
+                    "sample_duration_seconds": 1
+                },
+                "13": {
+                    "lyrics": "please don't stop the",
+                    "mashup_time_seconds": null,
+                    "mashup_measure": 66,
+                    "sample_song_section": "chorus2",
+                    "sample_song_start": "2:51",
+                    "sample_duration_seconds": 1
+                },
+                "14": {
+                    "lyrics": "please don't stop the",
+                    "mashup_time_seconds": null,
+                    "mashup_measure": 66,
+                    "sample_song_section": "chorus1",
+                    "sample_song_start": "2:52",
+                    "sample_duration_seconds": 1
+                },
+                "15": {
+                    "lyrics": "please don't stop the",
+                    "mashup_time_seconds": null,
+                    "mashup_measure": 67,
+                    "sample_song_section": "bridge",
+                    "sample_song_start": "3:08",
+                    "sample_duration_seconds": 1
+                },
+                "16": {
+                    "lyrics": "please don't stop the",
+                    "mashup_time_seconds": null,
+                    "mashup_measure": 67,
+                    "sample_song_section": "bridge",
+                    "sample_song_start": "3:15",
+                    "sample_duration_seconds": 1
+                },
+                "17": {
+                    "lyrics": "please don't stop the",
+                    "mashup_time_seconds": null,
+                    "mashup_measure": 67,
+                    "sample_song_section": "chorus3",
+                    "sample_song_start": "3:27",
+                    "sample_duration_seconds": 1
+                },
+                "18": {
+                    "lyrics": "please don't stop the",
+                    "mashup_time_seconds": null,
+                    "mashup_measure": 67,
+                    "sample_song_section": "chorus3",
+                    "sample_song_start": "3:28",
+                    "sample_duration_seconds": 1
+                },
+                "19": {
+                    "lyrics": "please don't stop the",
+                    "mashup_time_seconds": null,
+                    "mashup_measure": 68,
+                    "sample_song_section": "chorus3",
+                    "sample_song_start": "3:52",
+                    "sample_duration_seconds": 1
+                },
+                "20": {
+                    "lyrics": "please don't stop the",
+                    "mashup_time_seconds": null,
+                    "mashup_measure": 68,
+                    "sample_song_section": "chorus3",
+                    "sample_song_start": "3:53",
+                    "sample_duration_seconds": 1
+                },
+                "21": {
+                    "lyrics": "please don't stop the",
+                    "mashup_time_seconds": null,
+                    "mashup_measure": 68,
+                    "sample_song_section": "chorus3",
+                    "sample_song_start": "3:54",
+                    "sample_duration_seconds": 1
+                },
+                "22": {
+                    "lyrics": "please don't stop the",
+                    "mashup_time_seconds": null,
+                    "mashup_measure": 68,
+                    "sample_song_section": "outro",
+                    "sample_song_start": "4:02",
+                    "sample_duration_seconds": 1
+                },
+                "23": {
+                    "lyrics": "please don't stop the",
+                    "mashup_time_seconds": null,
+                    "mashup_measure": 69,
+                    "sample_song_section": "outro",
+                    "sample_song_start": "4:10",
+                    "sample_duration_seconds": 1
+                },
+                "24": {
+                    "lyrics": "please don't stop the",
+                    "mashup_time_seconds": null,
+                    "mashup_measure": 69,
+                    "sample_song_section": "outro",
+                    "sample_song_start": "4:18",
+                    "sample_duration_seconds": 1
+                },
+                "25": {
+                    "lyrics": "please don't stop the",
+                    "mashup_time_seconds": null,
+                    "mashup_measure": 69,
+                    "sample_song_section": "overtime",
+                    "sample_song_start": null,
+                    "sample_duration_seconds": null
+                },
+                "26": {
+                    "lyrics": "please don't stop the",
+                    "mashup_time_seconds": null,
+                    "mashup_measure": 69,
+                    "sample_song_section": "overtime",
+                    "sample_song_start": null,
+                    "sample_duration_seconds": null
+                },
+                "27": {
+                    "lyrics": "please don't stop the",
+                    "mashup_time_seconds": null,
+                    "mashup_measure": 70,
+                    "sample_song_section": "overtime",
+                    "sample_song_start": null,
+                    "sample_duration_seconds": null
+                },
+                "28": {
+                    "lyrics": "please don't stop the",
+                    "mashup_time_seconds": null,
+                    "mashup_measure": 70,
+                    "sample_song_section": "overtime",
+                    "sample_song_start": null,
+                    "sample_duration_seconds": null
+                },
+                "29": {
+                    "lyrics": "please don't stop the",
+                    "mashup_time_seconds": null,
+                    "mashup_measure": 70,
+                    "sample_song_section": "overtime",
+                    "sample_song_start": null,
+                    "sample_duration_seconds": null
+                },
+                "30": {
+                    "lyrics": "please don't stop the",
+                    "mashup_time_seconds": null,
+                    "mashup_measure": 70,
+                    "sample_song_section": "overtime",
+                    "sample_song_start": null,
+                    "sample_duration_seconds": null
+                }
+            }
+        },
         "song25": {
             "name": "Take A Bow",
             "artist": "Rihanna",
             "total_duration": "3:49",
+            "type": "vocal",
 
             "sections": {
                 "intro": {"start": "0:00", "duration": 23},
