@@ -38,14 +38,14 @@ function WovenTimeArticle() {
             </MyParagraph>
             <MyParagraph>
                 A listener may relate to the source material emotionally, socially, 
-                or structurally remembering the source material. So I think there are 
-                many interesting ways to look at this question. This project's direction 
+                or structurally. So I think there are many interesting ways to 
+                look at this question. This project's direction 
                 goes specifically into structural references. I do not think it is most 
                 important; I went this way because it was the thought I wanted to pursue.
             </MyParagraph>
             <MyParagraph>
                 I choose to look at this question for this mashup by the time position of 
-                the tracks. What is our experience of time here when we have experienced 
+                the tracks. What is our experience of time when we have experienced 
                 the source material in time previously? Could I quantify samples by time 
                 placement and what would that show? The direction of this visualization is 
                 focused on the global position of the samples, or like where they are in 
@@ -56,11 +56,11 @@ function WovenTimeArticle() {
                 Method
             </Typography>
             <MyParagraph>
-                Here, I looked at 'The United State of Pop 2008', a mashup by DJ 
+                In this excercise, I looked at 'The United State of Pop 2008', a mashup by DJ 
                 Earworm that samples the top 25 songs in the United States in 2008. 
                 The source material is chosen by popularity in a region, so familiarity 
                 with the sourced songs is probably intended for the millions of people
-                who steamed the songs.
+                who streamed the songs.
             </MyParagraph>
             <MyParagraph>
                 I collected data based on placement to connect the use of the 
@@ -72,7 +72,7 @@ function WovenTimeArticle() {
                 Song tracks are set to play for a period of time. The track begins, 
                 plays, and ends; this process can repeat in exactly the same order. I 'could' 
                 have formed some kind of memory of these songs over the course of the year, 
-                because I listened to the radio in the United States and heard the chart topping songs many times. 
+                because I listened to the radio in the United States and heard the chart-topping songs many times. 
                 With this theory, I wanted to quantify then visualize how a mashup draws on 
                 existing experiences to create a new experience from references. Specifically 
                 based on ordered, time references from the original song tracks.
@@ -83,7 +83,7 @@ function WovenTimeArticle() {
             <MyParagraph>
                 First I notated the segments of the mashup to gather each samples 
                 information, eg the song source, lyrics, and stop/start points. 
-                Then for each song source, I had the number of samples and the order 
+                Then for each song source, I noted the number of samples and the order 
                 they were used in the mashup. I added this info in an Excel document 
                 manually. I used ELAN to store precise start and stop times, which so 
                 far has been used as a reference and not programatically. 
@@ -91,16 +91,16 @@ function WovenTimeArticle() {
             <Aside>
                 <Typography variant="subtitle2" gutterBottom>
                     At this point in data collection, this information was gathered
-                    for the song 'No Air' by Jordin Sparks ft Chris Brown.
+                    for the song 'No Air' by Jordin Sparks and Chris Brown.
                 </Typography>
                 <SongDataTable songId='song3' columns={['lyrics']}/>
             </Aside>
             <MyParagraph>
-                Then I reviewed where the samples were in the original song. This isn't 
-                always a one to one match. Like if a sample appears in a chorus, it will 
+                I then reviewed where the samples were in the original song. This isn't 
+                always a one-to-one match. For example, if a sample appears in a chorus, it will 
                 repeat again (all of these songs have choruses, a pop song section).
                 At this point I had some choices in how I collected the data. How would 
-                I discern where the sample came from in the source song? I decided that 
+                I discern frpm where a sample appeared in the source song? I decided that 
                 order was important, because the experience of time is, as I understand, 
                 unstoppably moving forwards. In the order that the samples appeared in the 
                 mashup, I looked for them in that order in the source song. 
@@ -123,19 +123,19 @@ function WovenTimeArticle() {
                 <SongDataTable songId='song13' columns={['lyrics', 'sample_song_start']}/>
             </Aside>
             <MyParagraph>
-                Then I wanted to normalize start times across the songs, because 
+                I then wanted to normalize start times across the songs, because 
                 across songs, a sample appearance at eg 0:25 would mean something 
-                different. These song tracks are 3/4 minutes generally, but vary in 
+                different. These song tracks are generally 3/4 minutes, but vary in 
                 length. Using the proportion that it appeared could be a solution, 
                 though it would be more precise than I wanted. As a percentage, values 
                 would range from 1-100. Rounding and grouping could be done from here, 
-                but I was not confident that it’s meaning made sense across songs; the 
+                but I was not confident that its meaning made sense across songs; the 
                 songs had another indicator of its points of time. The songs consisted 
                 of similar sections, and this was a journey familiar to pop music listeners.
             </MyParagraph>
             <MyParagraph>
                 These pop songs flow through a pattern of pop song sections. They feature 
-                song sections like most generally verses and choruses. There can be more 
+                song sections like verses and choruses. There can be more 
                 nuanced sections like pre-chorus, post-chorus, and a refrain. I tracked 
                 intros, verses, choruses, bridges, and outros. I did not track for example 
                 a pre-chorus; I grouped it in another section if I heard it.
@@ -157,7 +157,7 @@ function WovenTimeArticle() {
                     I chose a method with a goal of being objective, but definitely had discretion 
                     based on what I thought was important. This work is focused on the global position 
                     of the samples, or where they are in relation to the entire song. It also considers 
-                    order as important.
+                    order as an important factor.
                 </Typography>
             </Aside>
             <Typography variant="h5" gutterBottom>
