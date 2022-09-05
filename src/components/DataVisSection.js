@@ -1,12 +1,13 @@
 import React, { Component } from 'react';
 import { hot } from 'react-hot-loader'
-import { Grid } from '@mui/material';
+import { Grid, Typography, Button, Collapse } from '@mui/material';
 import ReactPlayer from 'react-player/youtube'
 
 import SongBreakout from './SongBreakout';
 import ReactPlayerDuration from './ReactPlayerDuration';
 import songData from '../data/songData.json';
-
+import colors from '../data/dataVisColors.js'
+import measureStartTimes from '../data/measureStartTimes.js'
 
 class DataVisSection extends React.Component {
   constructor(props) {
@@ -33,7 +34,7 @@ class DataVisSection extends React.Component {
     })
   }
 
-  handlePlayPause = (type) => {
+  handlePlayPause = () => {
     this.setState({ playing: !this.state.playing })
     if (!this.state.playing & this.state.url === null) {
       this.load('https://www.youtube.com/watch?v=CWi9-mWdq3I')
@@ -93,6 +94,14 @@ class DataVisSection extends React.Component {
     this.player = player
   }
 
+  calcMeasure = (seconds) => {
+
+    var index=measureStartTimes.findIndex(function(number) {
+      return number > seconds;
+    });
+    return index
+  }
+
   render() {
 
     const vals = songData['records']['sample_songs']
@@ -102,14 +111,16 @@ class DataVisSection extends React.Component {
         container 
         spacing={1} 
         columns={{ xs: 1, sm: 4, md: 7 }}
-        sx={ {borderTop: "1px solid gray", borderBottom: "1px solid gray"}}
+        sx={{
+          backgroundColor: "#1c1c1f",
+        }}
       >
         <Grid item md={3} sm={2} xs={1} sx={{"height": '500px'}}>
           <ReactPlayer 
             url={this.state.url} 
             width='100%'
             ref={this.ref}
-            // pip={this.state.pip}
+            style={{backgroundColor: colors.stripdefaultColor, marginBottom: '5px'}}
             playing={this.state.playing}
             controls={this.state.controls}
             light={this.state.light}
@@ -130,50 +141,28 @@ class DataVisSection extends React.Component {
             onDuration={this.handleDuration}
           />
 
-          <table>
-            <tbody>
-              <tr>
-                <th>Controls</th>
-                <td>
-                  <button onClick={this.handlePlayPause}>{this.state.playing ? 'Pause' : 'Play'}</button>
-                </td>
-              </tr>
-              <tr>
-                <th>Speed</th>
-                <td>
-                  <button onClick={this.handleSetPlaybackRate} value={1}>1x</button>
-                  <button onClick={this.handleSetPlaybackRate} value={1.5}>1.5x</button>
-                  <button onClick={this.handleSetPlaybackRate} value={2}>2x</button>
-                </td>
-              </tr>
-              <tr>
-                <th>Seek</th>
-                <td>
-                  <input
-                    type='range' min={0} max={0.999999} step='any'
-                    value={this.state.played}
-                    onMouseDown={this.handleSeekMouseDown}
-                    onChange={this.handleSeekChange}
-                    onMouseUp={this.handleSeekMouseUp}
-                  />
-                </td>
-              </tr>
-              <tr>
-                <th>elapsed</th>
-                <td><ReactPlayerDuration seconds={this.state.duration * this.state.played} /></td>
-              </tr>
-
-            </tbody>
-          </table>
+          <Typography variant='caption' sx={{color: 'white'}}>
+            click here first to start <Button sx={{ margin: '0px 5px'}} onClick={this.handlePlayPause} variant="outlined">{this.state.playing ? 'Pause' : 'Play'}</Button>
+            Playback time: <ReactPlayerDuration seconds={this.state.duration * this.state.played} />
+            , Measure number: {this.calcMeasure(this.state.duration * this.state.played)}
+          </Typography>
+              
         </Grid>
         <Grid item md={4} sm={2} xs={1} sx={{"height": '500px', overflowY: 'scroll'}}>
-          <Grid container spacing={1} columns={{ xs: 1, sm:1, md: 2 }}>
+
+          <Grid container spacing={1} columns={{ xs: 1, sm:1, md: 2 }} >
           {
             Object.keys(vals).map((key, index) => (
-              <SongBreakout key={index} info={vals[key]} />
+
+                <SongBreakout 
+                  key={index} 
+                  info={vals[key]} 
+                  in={vals[key]['active_mashup_measures'].includes(this.calcMeasure(this.state.duration * this.state.played))}
+                /> 
             ))
           }
           </Grid>
+
         </Grid>
   
       </Grid>

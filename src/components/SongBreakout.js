@@ -2,15 +2,29 @@ import * as React from 'react';
 import Box from '@mui/material/Box';
 import Paper from '@mui/material/Paper';
 import Grid from '@mui/material/Grid';
-import { Stack, Typography } from '@mui/material';
+import { Stack, Typography, Fade } from '@mui/material';
 import Popper from '@material-ui/core/Popper'
 
 import {usePopupState,bindHover,bindPopper} from 'material-ui-popup-state/hooks'
 import songSectionMapping from '../data/songSectionMapping.json';
+import colors from '../data/dataVisColors.js'
+
 
 function OverlineText(props) {
   return(
-    <Typography variant="overline" display="block" gutterBottom sx={{ textAlign: "right", lineHeight: 1.5, marginBottom: "0.5em", paddingRight: '5px' }}>
+    <Typography 
+      variant="overline" 
+      display="block" 
+      gutterBottom 
+      sx={{ 
+        textAlign: "right", 
+        lineHeight: 1.5, 
+        marginBottom: "5px", 
+        paddingRight: '8px', 
+        color: colors.textColor,
+        fontSize: '8px'
+      }}
+    >
       {props.text}
     </Typography>
   )
@@ -30,7 +44,7 @@ function Item(props) {
         sx={{
           height: (props.type==="normalized" ? "40px" : "20px"),
           backgroundColor: props.backgroundColor,
-          borderRight: "1px dashed gray",
+          borderRight: colors.borderStyle,
           backgroundImage: (props.backgroundImage),
           backgroundSize: "100%",
           backgroundRepeat: "no-repeat",
@@ -100,12 +114,12 @@ function createRawDataGradient(props, key) {
       let sampleEndPerceentage = Math.round(((sampleStartSeconds+props.info.samples[item]["sample_duration_seconds"])-sectionStartSeconds)/props.info.sections[key]["duration"]*100)
       let postSampleStartPercentage = (sampleEndPerceentage >= 100 ? sampleEndPerceentage : sampleEndPerceentage+1)
 
-      cssGradient += `, white ${(preSampleStartPercentage)}%, #d1c4e9 ${sampleStartPercentage}%, #d1c4e9 ${sampleEndPerceentage}%, white ${postSampleStartPercentage}%`
+      cssGradient += `, ${colors.stripdefaultColor} ${(preSampleStartPercentage)}%, ${colors.rawDataHightlightColor} ${sampleStartPercentage}%, ${colors.rawDataHightlightColor} ${sampleEndPerceentage}%, ${colors.stripdefaultColor} ${postSampleStartPercentage}%`
     });
     cssGradient += ")"
   }
   else {
-    cssGradient = "linear-gradient(to right, white 0%, white 100%)"
+    cssGradient = `linear-gradient(to right, ${colors.stripdefaultColor} 0%, ${colors.stripdefaultColor} 100%)`
   }
   return cssGradient
 }
@@ -134,7 +148,7 @@ function RawData(props){
         <Grid item xs={calcRawDataItemWidth(props, key, totalSeconds)} key={key}>
           <Item 
             type="rawß"
-            backgroundColor='white'
+            // backgroundColor={colors.stripdefaultColor}
             popoverText={createRawDataPopoverText(props, key)}
             backgroundImage={createRawDataGradient(props, key)}
           />
@@ -170,7 +184,7 @@ function NormalizedData(props) {
       <Grid item xs={1} key={key}>
         <Item 
           type="normalized" 
-          backgroundColor={doesNormalizedDataSectionHaveSample(props, songSectionMapping[key])[0] ? '#d1c4e9' : 'white'}
+          backgroundColor={doesNormalizedDataSectionHaveSample(props, songSectionMapping[key])[0] ? 'black' : colors.stripdefaultColor}
           backgroundImage={doesNormalizedDataSectionHaveSample(props, songSectionMapping[key])[0] ? `url('/sun_position${parseInt(key)}_for_${props.info.type}.jpg')` : null}
           popoverText={doesNormalizedDataSectionHaveSample(props, songSectionMapping[key])[0] ? popOverTextWithSample(doesNormalizedDataSectionHaveSample(props, songSectionMapping[key])[1], songSectionMapping[key], index+1): popOverTextWithOutSample}
         />
@@ -183,17 +197,24 @@ function NormalizedData(props) {
 export default function SongBreakout(props) {
 
   return (
-    <Grid item md={1} xs={1}>
+
+    <Grid item md={1} xs={1} 
+    sx={{
+      display: (props.in ? "block" : "none")
+    }}
+    >
+    <Fade in={props.in}>
+
       <Box sx={{ 
-        padding: "5px 0px",
-        backgroundColor: "#ede7f6",
+        padding: "5px 0px 0px 0px",
+        backgroundColor: colors.cardColor,
         borderRadius: '3px'
       }}>
 
-        <Typography variant="h6" display="block" sx={{paddingLeft: '5px'}}>
+        <Typography variant="h6" display="block" sx={{paddingLeft: '5px', color: colors.textColor}}>
           Song: '{props.info.name}'
         </Typography>
-        <Typography variant="subtitle1" display="block" gutterBottom sx={{paddingLeft: '5px'}}>
+        <Typography variant="subtitle1" display="block" gutterBottom sx={{padding: '0px 0px 5px 5px', color: colors.textColor}}>
           {props.info.artist}
         </Typography>
 
@@ -205,9 +226,7 @@ export default function SongBreakout(props) {
             columns={7} 
             sx={{ 
               marginBottom: "2px", 
-              borderTop: "1px solid gray",  
-              borderBottom: "1px solid gray",
-              borderLeft: "1px dashed gray"
+              borderLeft: colors.borderStyle
             }}
           >
             <NormalizedData info={props.info}/>
@@ -222,10 +241,8 @@ export default function SongBreakout(props) {
             spacing={0} 
             columns={100}
             sx={{ 
-              marginBottom: "2px", 
-              borderTop: "1px solid gray",  
-              borderBottom: "1px solid gray",
-              borderLeft: "1px dashed gray"
+              marginBottom: "2px",
+              borderLeft: colors.borderStyle
             }}
           >
             <RawData info={props.info} totalDuration={props.info.total_duration}/>
@@ -234,7 +251,8 @@ export default function SongBreakout(props) {
         <OverlineText text={"raw data"}/>
 
       </Box>
-    </Grid>
+      </Fade>
 
+    </Grid>
   );
 }

@@ -6,11 +6,11 @@ function Aside(props) {
     <Paper 
       square={true} 
       sx={{
-        padding: '10px 10px 10px 15px', 
+        padding: '10px 10px 0px 15px', 
         margin: "20px 10px 20px 20px", 
-        backgroundColor: 'lightgrey',
         maxHeight: '600px',
-        overflow: 'scroll'
+        overflow: 'scroll',
+        backgroundColor: '#dfdfe6'
       }}>
         {props.children}
     </Paper>

@@ -14,21 +14,29 @@ function MyParagraph(props) {
     )
 }
 
+function MySectionTitle(props) {
+    return(
+        <Typography variant="h5" gutterBottom>
+            {props.children}
+        </Typography>
+    )
+}
+
 
 function WovenTimeArticle() {
 
   return (
     <div>
         <ArticleTextWrapper>
-            <Typography variant="h2" >
+            <Typography variant="h2"> 
                 Woven Time
             </Typography>
             <Typography variant="h3" gutterBottom>
                 thoughts on our experience of time in a mashup
             </Typography>
-            <Typography variant="h5" gutterBottom>
+            <MySectionTitle>
                 Overview
-            </Typography>
+            </MySectionTitle>
             <MyParagraph>
                 This project explores our experience listening to an audio mashup.
                 Mashups bring material together from different sources, and in this
@@ -52,9 +60,9 @@ function WovenTimeArticle() {
                 relation to the entire song. It could also be interesting to review this 
                 more locally, where they are in a phrase or song section.
             </MyParagraph>
-            <Typography variant="h5" gutterBottom>
+            <MySectionTitle>
                 Method
-            </Typography>
+            </MySectionTitle>
             <MyParagraph>
                 In this excercise, I looked at 'The United State of Pop 2008', a mashup by DJ 
                 Earworm that samples the top 25 songs in the United States in 2008. 
@@ -77,9 +85,9 @@ function WovenTimeArticle() {
                 existing experiences to create a new experience from references. Specifically 
                 based on ordered, time references from the original song tracks.
             </MyParagraph>
-            <Typography variant="h5" gutterBottom>
+            <MySectionTitle>
                 Data Collection
-            </Typography>
+            </MySectionTitle>
             <MyParagraph>
                 First I notated the segments of the mashup to gather each samples 
                 information, eg the song source, lyrics, and stop/start points. 
@@ -160,39 +168,65 @@ function WovenTimeArticle() {
                     order as an important factor.
                 </Typography>
             </Aside>
-            <Typography variant="h5" gutterBottom>
-                Visualizing the Data
-            </Typography>
-            <Typography variant="h6" gutterBottom>
-                Woven Time Video
-            </Typography>
-            <Typography variant="h6" gutterBottom>
-                Vis for Song Breakout
-            </Typography>
+            <MySectionTitle>
+                Data Visualization
+            </MySectionTitle>
+            <MyParagraph>
+                todo transition note, wanted to display this data in easier way, good data vis tries to do this
+                This data visualization syncs the data points to a visual of a sun at points of the day. 
+                I thought it was a good unconscious relationship to a relative point in time, beginning, 
+                middle, or end of a cycle.
+            </MyParagraph>
+            <Aside>
+                note about seven sections, normalized data
+                put picture strips of sun, vocal and instrumental
+            </Aside>
+
+            <MyParagraph>
+                With this framework, this data visualization is a video. The sun visuals are synced to the mashup audio.
+                It is named 'Woven Time', likening the composer's role to sewing time together.
+            </MyParagraph>
+            <MySectionTitle>
+                Visual Representations for Sample Songs
+            </MySectionTitle>
+            <MyParagraph>
+                There are visual representations for each sample song, for example the picture below.
+            </MyParagraph>
+            <Aside>
+                <Typography variant="subtitle2">(A) song title</Typography>
+                <Typography variant="subtitle2">(B) song artist</Typography>
+                <Typography variant="subtitle2">(C1) song raw data horizontal linear track</Typography>
+                <Typography variant="subtitle2">(C2) song sections divided by black dashed lines </Typography>
+                <Typography variant="subtitle2">(C3) samples highlighted in purple</Typography>
+                <Typography variant="subtitle2">(D1) song sample data normalized in horizontal track</Typography>
+                <Typography variant="subtitle2">(D2) normalized data section (1 of 7) divided by black dashed lines</Typography>
+                <Typography variant="subtitle2">(D3) active sections show sun picture</Typography>
+            </Aside>
+
         </ArticleTextWrapper>
 
-        <DataVisSection/>
+        <div style={{margin: '25px 0px'}}>
+            <DataVisSection/>
+        </div>
 
         <ArticleTextWrapper>
-            <Typography variant="h5" gutterBottom>
+            <MySectionTitle>
                 Notes
-            </Typography>
-            <Typography variant="h6" gutterBottom>
-                Mashup notes @ 1:40? (extension of samples)
-            </Typography>
-            <Typography variant="h6" gutterBottom>
+            </MySectionTitle>
+            <MySectionTitle>
+                Extension of vocal samples
+            </MySectionTitle>
+
+            <MySectionTitle>
                 thoughts about 'overtime'
                 {/* frame edge */}
-            </Typography>
-            <Typography variant="h6" gutterBottom>
+            </MySectionTitle>
+            <MySectionTitle>
                 lyrics that reference time
-            </Typography>
-            <Typography variant="h5" gutterBottom>
+            </MySectionTitle>
+            <MySectionTitle>
                 Raw Data
-            </Typography>
-            <MyParagraph>
-                <a href='../data/songData.json' download>download data file</a> or view below
-            </MyParagraph>
+            </MySectionTitle>
             <Aside>
                 <div><pre>{JSON.stringify(songData['records']['sample_songs'], null, 2) }</pre></div>)
             </Aside> 
