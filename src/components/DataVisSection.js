@@ -50,12 +50,10 @@ class DataVisSection extends React.Component {
   }
 
   handlePlay = () => {
-    console.log('onPlay')
     this.setState({ playing: true })
   }
 
   handlePause = () => {
-    console.log('onPause')
     this.setState({ playing: false })
   }
 
@@ -73,7 +71,6 @@ class DataVisSection extends React.Component {
   }
 
   handleProgress = state => {
-    console.log('onProgress', this.state)
     // We only want to update time slider if we are not currently seeking
     if (!this.state.seeking) {
       this.setState(state)
@@ -81,12 +78,10 @@ class DataVisSection extends React.Component {
   }
 
   handleEnded = () => {
-    console.log('onEnded')
     this.setState({ playing: this.state.loop })
   }
 
   handleDuration = (duration) => {
-    console.log('onDuration', duration)
     this.setState({ duration })
   }
 
@@ -128,28 +123,22 @@ class DataVisSection extends React.Component {
             playbackRate={this.state.playbackRate}
             volume={this.state.volume}
             muted={this.state.muted}
-            onReady={() => console.log('onReady')}
-            onStart={() => console.log('onStart')}
             onPlay={this.handlePlay}
             onPause={this.handlePause}
-            onBuffer={() => console.log('onBuffer')}
             onPlaybackRateChange={this.handleOnPlaybackRateChange}
-            onSeek={e => console.log('onSeek', e)}
             onEnded={this.handleEnded}
-            onError={e => console.log('onError', e)}
             onProgress={this.handleProgress}
             onDuration={this.handleDuration}
           />
 
           <Typography variant='caption' sx={{color: 'white'}}>
-            click here first to start <Button sx={{ margin: '0px 5px'}} onClick={this.handlePlayPause} variant="outlined">{this.state.playing ? 'Pause' : 'Play'}</Button>
+            click here first to start <Button sx={{ margin: '0px 5px', color: colors.rawDataHightlightColor}} onClick={this.handlePlayPause} variant="outlined">{this.state.playing ? 'Pause' : 'Play'}</Button>
             Playback time: <ReactPlayerDuration seconds={this.state.duration * this.state.played} />
             , Measure number: {this.calcMeasure(this.state.duration * this.state.played)}
           </Typography>
               
         </Grid>
         <Grid item md={4} sm={2} xs={1} sx={{"height": '500px', overflowY: 'scroll'}}>
-
           <Grid container spacing={1} columns={{ xs: 1, sm:1, md: 2 }} >
           {
             Object.keys(vals).map((key, index) => (
@@ -158,6 +147,7 @@ class DataVisSection extends React.Component {
                   key={index} 
                   info={vals[key]} 
                   in={vals[key]['active_mashup_measures'].includes(this.calcMeasure(this.state.duration * this.state.played))}
+                  measure={this.calcMeasure(this.state.duration * this.state.played)}
                 /> 
             ))
           }

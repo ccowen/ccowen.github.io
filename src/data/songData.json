@@ -22,7 +22,7 @@
                 "1": {
                    "lyrics": "instrumental melody, whistle like",
                     "mashup_time_seconds": null, 
-                    "mashup_measure": 1,
+                    "mashup_measure": [1],
                     "sample_song_section": "intro",
                     "sample_song_start": "0:00",
                     "sample_duration_seconds": 3.8
@@ -30,7 +30,7 @@
                 "2": {
                     "lyrics": "instrumental melody, whistle like",
                      "mashup_time_seconds": null, 
-                     "mashup_measure": 2,
+                     "mashup_measure": [2],
                      "sample_song_section": "intro",
                      "sample_song_start": "0:04",
                      "sample_duration_seconds": 4
@@ -38,7 +38,7 @@
                  "3": {
                     "lyrics": "instrumental melody, whistle like",
                      "mashup_time_seconds": null, 
-                     "mashup_measure": 3,
+                     "mashup_measure": [3],
                      "sample_song_section": "verse1",
                      "sample_song_start": "0:08",
                      "sample_duration_seconds": 4
@@ -46,7 +46,7 @@
                  "4": {
                     "lyrics": "instrumental melody, whistle like",
                      "mashup_time_seconds": null, 
-                     "mashup_measure": 4,
+                     "mashup_measure": [4],
                      "sample_song_section": "verse1",
                      "sample_song_start": "0:12",
                      "sample_duration_seconds": 5
@@ -54,7 +54,7 @@
                  "5": {
                     "lyrics": "instrumental melody, whistle like",
                      "mashup_time_seconds": null, 
-                     "mashup_measure": 5,
+                     "mashup_measure": [5],
                      "sample_song_section": "verse1",
                      "sample_song_start": "0:17",
                      "sample_duration_seconds": 4
@@ -62,7 +62,7 @@
                  "6": {
                     "lyrics": "instrumental melody, whistle like",
                      "mashup_time_seconds": null, 
-                     "mashup_measure": 6,
+                     "mashup_measure": [6],
                      "sample_song_section": "verse1",
                      "sample_song_start": "0:21",
                      "sample_duration_seconds": 5
@@ -70,7 +70,7 @@
                  "7": {
                     "lyrics": "instrumental melody, whistle like",
                      "mashup_time_seconds": null, 
-                     "mashup_measure": 7,
+                     "mashup_measure": [7],
                      "sample_song_section": "verse2",
                      "sample_song_start": "0:44",
                      "sample_duration_seconds": 4
@@ -78,7 +78,7 @@
                  "8": {
                     "lyrics": "instrumental melody, whistle like",
                      "mashup_time_seconds": null, 
-                     "mashup_measure": 8,
+                     "mashup_measure": [8],
                      "sample_song_section": "verse2",
                      "sample_song_start": "0:48",
                      "sample_duration_seconds": 5
@@ -138,7 +138,7 @@
                 "1": {
                     "lyrics": "ey ey ey",
                     "mashup_time_seconds": null,
-                    "mashup_measure": 2,
+                    "mashup_measure": [2],
                     "sample_song_section": "intro",
                     "sample_song_start": "0:05",
                     "sample_duration_seconds": 2
@@ -146,7 +146,7 @@
                 "2": {
                     "lyrics": "ey ey ey",
                     "mashup_time_seconds": null,
-                    "mashup_measure": 4,
+                    "mashup_measure": [4],
                     "sample_song_section": "intro",
                     "sample_song_start": "0:14",
                     "sample_duration_seconds": 2
@@ -154,7 +154,7 @@
                 "3": {
                     "lyrics": "ey ey ey",
                     "mashup_time_seconds": null,
-                    "mashup_measure": 6,
+                    "mashup_measure": [6],
                     "sample_song_section": "verse1",
                     "sample_song_start": "0:30",
                     "sample_duration_seconds": 2
@@ -162,7 +162,7 @@
                 "4": {
                     "lyrics": "ey ey ey",
                     "mashup_time_seconds": null, 
-                    "mashup_measure": 12,
+                    "mashup_measure": [12],
                     "sample_song_section": "chorus1",
                     "sample_song_start": "0:55",
                     "sample_duration_seconds": 2
@@ -170,7 +170,7 @@
                 "5": {
                     "lyrics": "ey ey ey",
                     "mashup_time_seconds": null,
-                    "mashup_measure": 15,
+                    "mashup_measure": [15],
                     "sample_song_section": "chorus1",
                     "sample_song_start": "1:03",
                     "sample_duration_seconds": 2
@@ -178,7 +178,7 @@
                 "6": {
                     "lyrics": "ey ey ey",
                     "mashup_time_seconds": null, 
-                    "mashup_measure": 19,
+                    "mashup_measure": [19],
                     "sample_song_section": "chorus1",
                     "sample_song_start": "1:11",
                     "sample_duration_seconds": 2
@@ -186,7 +186,7 @@
                 "7": {
                     "lyrics": "I said it's too late to apoligize",
                     "mashup_time_seconds": null, 
-                    "mashup_measure": 26,
+                    "mashup_measure": [26],
                     "sample_song_section": "chorus2",
                     "sample_song_start": "1:53",
                     "sample_duration_seconds": 4
@@ -194,7 +194,7 @@
                 "8": {
                     "lyrics": "ey ey ey",
                     "mashup_time_seconds": null, 
-                    "mashup_measure": 39,
+                    "mashup_measure": [39],
                     "sample_song_section": "chorus2",
                     "sample_song_start": "2:00",
                     "sample_duration_seconds": 2
@@ -202,7 +202,7 @@
                 "9": {
                     "lyrics": "ey ey ey",
                     "mashup_time_seconds": null, 
-                    "mashup_measure": 43,
+                    "mashup_measure": [43],
                     "sample_song_section": "chorus2",
                     "sample_song_start": "2:08",
                     "sample_duration_seconds": 2
@@ -210,7 +210,7 @@
                 "10": {
                     "lyrics": "too late",
                     "mashup_time_seconds": null, 
-                    "mashup_measure": 60,
+                    "mashup_measure": [60],
                     "sample_song_section": "chorus3",
                     "sample_song_start": "2:24",
                     "sample_duration_seconds": 3
@@ -218,7 +218,7 @@
                 "11": {
                     "lyrics": "I said it's too late to apoligize",
                     "mashup_time_seconds": null, 
-                    "mashup_measure": 66,
+                    "mashup_measure": [66],
                     "sample_song_section": "chorus3",
                     "sample_song_start": "2:27",
                     "sample_duration_seconds": 5
@@ -245,7 +245,7 @@
                     "notes": "We are already in overtime, so counting only increasingly, we are past the song and in overtime",
                     "lyrics": "ey ey ey",
                     "mashup_time_seconds": null, 
-                    "mashup_measure": 74,
+                    "mashup_measure": [74],
                     "sample_song_section": "overtime",
                     "sample_song_start": null,
                     "sample_duration_seconds": null
@@ -282,7 +282,7 @@
                 "2": {
                     "lyrics": "do you expect me to live alone with just me",
                     "mashup_time_seconds": null, 
-                    "mashup_measure": 33,
+                    "mashup_measure": [33],
                     "sample_song_section": "chorus1",
                     "sample_song_start": "0:42",
                     "sample_duration_seconds": 5
@@ -290,7 +290,7 @@
                 "3": {
                     "lyrics": "hard for me to breathe",
                     "mashup_time_seconds": null, 
-                    "mashup_measure": 35,
+                    "mashup_measure": [35],
                     "sample_song_section": "chorus1",
                     "sample_song_start": "0:51",
                     "sample_duration_seconds": 2
@@ -320,7 +320,7 @@
                 "1": {
                     "lyrics": "Bum bum, bum bum be-dum bum",
                     "mashup_time_seconds": null, 
-                    "mashup_measure": 5,
+                    "mashup_measure": [5],
                     "sample_song_section": "intro",
                     "sample_song_start": "0:02",
                     "sample_duration_seconds": 4
@@ -328,7 +328,7 @@
                 "2": {
                     "lyrics": "Bum bum, bum bum be-dum bum",
                     "mashup_time_seconds": null, 
-                    "mashup_measure": 7,
+                    "mashup_measure": [7],
                     "sample_song_section": "intro",
                     "sample_song_start": "0:06",
                     "sample_duration_seconds": 3
@@ -336,7 +336,7 @@
                 "3": {
                     "lyrics": "Bum bum, bum bum be-dum bum",
                     "mashup_time_seconds": null, 
-                    "mashup_measure": 11,
+                    "mashup_measure": [11],
                     "sample_song_section": "intro",
                     "sample_song_start": "0:09",
                     "sample_duration_seconds": 4
@@ -344,7 +344,7 @@
                 "4": {
                     "lyrics": "Bum bum, bum bum be-dum bum",
                     "mashup_time_seconds": null, 
-                    "mashup_measure": 29,
+                    "mashup_measure": [29],
                     "sample_song_section": "intro",
                     "sample_song_start": "0:13",
                     "sample_duration_seconds": 4
@@ -352,7 +352,7 @@
                 "5": {
                     "lyrics": "Bum bum, bum bum be-dum bum",
                     "mashup_time_seconds": null, 
-                    "mashup_measure": 31,
+                    "mashup_measure": [31],
                     "sample_song_section": "chorus1",
                     "sample_song_start": "1:18",
                     "sample_duration_seconds": 5,
@@ -361,7 +361,7 @@
                 "6": {
                     "lyrics": "Bum bum, bum bum be-dum bum",
                     "mashup_time_seconds": null, 
-                    "mashup_measure": 51,
+                    "mashup_measure": [51],
                     "sample_song_section": "chorus1",
                     "sample_song_start": "1:22",
                     "sample_duration_seconds": 4
@@ -389,7 +389,7 @@
                 "1": {
                     "lyrics": "take it down slow",
                     "mashup_time_seconds": null, 
-                    "mashup_measure": 8,
+                    "mashup_measure": [8],
                     "sample_song_section": "verse1",
                     "sample_song_start": "1:11",
                     "sample_duration_seconds": 2
@@ -419,7 +419,7 @@
                 "1": {
                     "lyrics": "baby you can have whatever you like",
                     "mashup_time_seconds": null, 
-                    "mashup_measure": 9,
+                    "mashup_measure": [9],
                     "sample_song_section": "chorus1",
                     "sample_song_start": "0:17",
                     "sample_duration_seconds": 2
@@ -457,7 +457,7 @@
                 "1": {
                     "lyrics": "cause you asked for it",
                     "mashup_time_seconds": null,
-                    "mashup_measure": 10,
+                    "mashup_measure": [10],
                     "sample_song_section": "chorus1",
                     "sample_song_start": "0:56",
                     "sample_duration_seconds": 2
@@ -465,7 +465,7 @@
                 "2": {
                     "lyrics": "cause you need one",
                     "mashup_time_seconds": null,
-                    "mashup_measure": 16,
+                    "mashup_measure": [16],
                     "sample_song_section": "chorus1",
                     "sample_song_start": "0:58",
                     "sample_duration_seconds": 2
@@ -473,7 +473,7 @@
                 "3": {
                     "lyrics": "breathing gets harder",
                     "mashup_time_seconds": null,
-                    "mashup_measure": 34,
+                    "mashup_measure": [34],
                     "sample_song_section": "overtime",
                     "sample_song_start": null,
                     "sample_duration_seconds": null
@@ -481,7 +481,7 @@
                 "4": {
                     "lyrics": "even I know that",
                     "mashup_time_seconds": null,
-                    "mashup_measure": 36,
+                    "mashup_measure": [36],
                     "sample_song_section": "overtime",
                     "sample_song_start": null,
                     "sample_duration_seconds": null
@@ -517,7 +517,7 @@
                 "1": {
                     "lyrics": "with you with you with you with you with you",
                     "mashup_time_seconds": null,
-                    "mashup_measure": 11,
+                    "mashup_measure": [11],
                     "sample_song_section": "chorus1",
                     "sample_song_start": "1:31",
                     "sample_duration_seconds": 5,
@@ -526,7 +526,7 @@
                 "2": {
                     "lyrics": "with you with you with you with you with you",
                     "mashup_time_seconds": null,
-                    "mashup_measure": 27,
+                    "mashup_measure": [27],
                     "sample_song_section": "chorus2",
                     "sample_song_start": "2:35",
                     "sample_duration_seconds": 5,
@@ -566,7 +566,7 @@
                 "1": {
                     "lyrics": "tonight [tonight]",
                     "mashup_time_seconds": null,
-                    "mashup_measure": 10,
+                    "mashup_measure": [10],
                     "sample_song_section": "verse1",
                     "sample_song_start": "0:30",
                     "sample_duration_seconds": 2
@@ -574,7 +574,7 @@
                 "2": {
                     "lyrics": "tonight [tonight]",
                     "mashup_time_seconds": null,
-                    "mashup_measure": 16,
+                    "mashup_measure": [16],
                     "sample_song_section": "overtime",
                     "sample_song_start": null,
                     "sample_duration_seconds": null
@@ -582,7 +582,7 @@
                 "3": {
                     "lyrics": "tonight [tonight]",
                     "mashup_time_seconds": null,
-                    "mashup_measure": 40,
+                    "mashup_measure": [40],
                     "sample_song_section": "overtime",
                     "sample_song_start": null,
                     "sample_duration_seconds": null
@@ -590,7 +590,7 @@
                 "4": {
                     "lyrics": "tonight [tonight]",
                     "mashup_time_seconds": null,
-                    "mashup_measure": 46,
+                    "mashup_measure": [46],
                     "sample_song_section": "overtime",
                     "sample_song_start": null,
                     "sample_duration_seconds": null
@@ -619,7 +619,7 @@
                 "1": {
                     "lyrics": "touch my body",
                     "mashup_time_seconds": null, 
-                    "mashup_measure": 13,
+                    "mashup_measure": [13],
                     "sample_song_section": "chorus1",
                     "sample_song_start": "0:48",
                     "sample_duration_seconds": 1
@@ -627,7 +627,7 @@
                 "2": {
                     "lyrics": "touch my body",
                     "mashup_time_seconds": null, 
-                    "mashup_measure": 37,
+                    "mashup_measure": [37],
                     "sample_song_section": "chorus1",
                     "sample_song_start": "0:54",
                     "sample_duration_seconds": 1
@@ -657,7 +657,7 @@
                 "1": {
                     "lyrics": "she, she, she licked me like a lollipop",
                     "mashup_time_seconds": null,
-                    "mashup_measure": 13,
+                    "mashup_measure": [13],
                     "sample_song_section": "chorus1",
                     "sample_song_start": "0:13",
                     "sample_duration_seconds": 3
@@ -665,7 +665,7 @@
                 "2": {
                     "lyrics": "she, she, she licked me like a lollipop",
                     "mashup_time_seconds": null,
-                    "mashup_measure": 17,
+                    "mashup_measure": [17],
                     "sample_song_section": "chorus1",
                     "sample_song_start": "0:16",
                     "sample_duration_seconds": 3
@@ -673,7 +673,7 @@
                 "3": {
                     "lyrics": "she, she, she licked me like a lollipop",
                     "mashup_time_seconds": null,
-                    "mashup_measure": 30,
+                    "mashup_measure": [30],
                     "sample_song_section": "chorus1",
                     "sample_song_start": "0:19",
                     "sample_duration_seconds": 3
@@ -681,7 +681,7 @@
                 "4": {
                     "lyrics": "she, she, she licked me like a lollipop",
                     "mashup_time_seconds": null,
-                    "mashup_measure": 37,
+                    "mashup_measure": [37],
                     "sample_song_section": "chorus1",
                     "sample_song_start": "0:22",
                     "sample_duration_seconds": 3
@@ -689,7 +689,7 @@
                 "5": {
                     "lyrics": "she, she, she licked me like a lollipop",
                     "mashup_time_seconds": null,
-                    "mashup_measure": 41,
+                    "mashup_measure": [41],
                     "sample_song_section": "chorus2",
                     "sample_song_start": "1:18",
                     "sample_duration_seconds": 3
@@ -697,7 +697,7 @@
                 "6": {
                     "lyrics": "she, she, she licked me like a lollipop",
                     "mashup_time_seconds": null,
-                    "mashup_measure": 69,
+                    "mashup_measure": [69],
                     "sample_song_section": "chorus2",
                     "sample_song_start": "1:21",
                     "sample_duration_seconds": 3
@@ -726,7 +726,7 @@
                 "1": {
                     "lyrics": "I don't care what they say",
                     "mashup_time_seconds": null,
-                    "mashup_measure": 14,
+                    "mashup_measure": [14],
                     "sample_song_section": "chorus1",
                     "sample_song_start": "0:55",
                     "sample_duration_seconds": 3
@@ -758,7 +758,7 @@
                 "5": {
                     "lyrics": "they don't know the truth",
                     "mashup_time_seconds": null,
-                    "mashup_measure": 42,
+                    "mashup_measure": [42],
                     "sample_song_section": "chorus3",
                     "sample_song_start": "3:17",
                     "sample_duration_seconds": 2
@@ -794,7 +794,7 @@
                 "1": {
                     "lyrics": "guess what",
                     "mashup_time_seconds": null,
-                    "mashup_measure": 14,
+                    "mashup_measure": [14],
                     "sample_song_section": "chorus1",
                     "sample_song_start": "0:42",
                     "sample_duration_seconds": 1
@@ -810,7 +810,7 @@
                 "3": {
                     "lyrics": "guess what",
                     "mashup_time_seconds": null,
-                    "mashup_measure": 38,
+                    "mashup_measure": [38],
                     "sample_song_section": "chorus2",
                     "sample_song_start": "1:39",
                     "sample_duration_seconds": 1
@@ -826,7 +826,7 @@
                 "5": {
                     "lyrics": "guess what",
                     "mashup_time_seconds": null,
-                    "mashup_measure": 68,
+                    "mashup_measure": [68],
                     "sample_song_section": "chorus3",
                     "sample_song_start": "2:32",
                     "sample_duration_seconds": 1
@@ -854,7 +854,7 @@
                 "1": {
                     "lyrics": "I liked it",
                     "mashup_time_seconds": null,
-                    "mashup_measure": 14,
+                    "mashup_measure": [14],
                     "sample_song_section": "chorus1",
                     "sample_song_start": "0:35",
                     "sample_duration_seconds": 1
@@ -862,7 +862,7 @@
                 "2": {
                     "lyrics": "I liked it",
                     "mashup_time_seconds": null,
-                    "mashup_measure": 38,
+                    "mashup_measure": [38],
                     "sample_song_section": "chorus1",
                     "sample_song_start": "0:57",
                     "sample_duration_seconds": 1
@@ -870,7 +870,7 @@
                 "3": {
                     "lyrics": "I liked it",
                     "mashup_time_seconds": null,
-                    "mashup_measure": 68,
+                    "mashup_measure": [68],
                     "sample_song_section": "chorus1",
                     "sample_song_start": "1:01",
                     "sample_duration_seconds": 1
@@ -898,7 +898,7 @@
                 "1": {
                     "lyrics": "closer",
                     "mashup_time_seconds": null,
-                    "mashup_measure": 15,
+                    "mashup_measure": [15],
                     "sample_song_section": "chorus1",
                     "sample_song_start": "0:52",
                     "sample_duration_seconds": 3
@@ -906,7 +906,7 @@
                 "2": {
                     "lyrics": "come closer",
                     "mashup_time_seconds": null,
-                    "mashup_measure": 39,
+                    "mashup_measure": [39],
                     "sample_song_section": "chorus1",
                     "sample_song_start": "0:56",
                     "sample_duration_seconds": 3
@@ -936,7 +936,7 @@
                 "1": {
                     "lyrics": "next thing you know",
                     "mashup_time_seconds": null,
-                    "mashup_measure": 17,
+                    "mashup_measure": [17],
                     "sample_song_section": "chorus1",
                     "sample_song_start": "0:27",
                     "sample_duration_seconds": 1
@@ -952,7 +952,7 @@
                 "3": {
                     "lyrics": "next thing you know",
                     "mashup_time_seconds": null,
-                    "mashup_measure": 41,
+                    "mashup_measure": [41],
                     "sample_song_section": "chorus2",
                     "sample_song_start": "1:27",
                     "sample_duration_seconds": 1
@@ -1019,7 +1019,7 @@
                 "1": {
                     "lyrics": "for somebody that'll take you out and do you right",
                     "mashup_time_seconds": null,
-                    "mashup_measure": 21,
+                    "mashup_measure": [21],
                     "sample_song_section": "verse1",
                     "sample_song_start": "0:21",
                     "sample_duration_seconds": 5
@@ -1027,7 +1027,7 @@
                 "2": {
                     "lyrics": "show you what it feels like",
                     "mashup_time_seconds": null,
-                    "mashup_measure": 22,
+                    "mashup_measure": [22],
                     "sample_song_section": "verse1",
                     "sample_song_start": "0:29",
                     "sample_duration_seconds": 4
@@ -1035,7 +1035,7 @@
                 "3": {
                     "lyrics": "tell me what you sippin' on",
                     "mashup_time_seconds": null,
-                    "mashup_measure": 23,
+                    "mashup_measure": [23],
                     "sample_song_section": "verse1",
                     "sample_song_start": "0:35",
                     "sample_duration_seconds": 4
@@ -1043,7 +1043,7 @@
                 "4": {
                     "lyrics": "I'm gonna keep it coming all night long",
                     "mashup_time_seconds": null,
-                    "mashup_measure": 24,
+                    "mashup_measure": [24],
                     "sample_song_section": "verse1",
                     "sample_song_start": "0:44",
                     "sample_duration_seconds": 4
@@ -1051,7 +1051,7 @@
                 "5": {
                     "lyrics": "baby then that's cool",
                     "mashup_time_seconds": null,
-                    "mashup_measure": 45,
+                    "mashup_measure": [45],
                     "sample_song_section": "verse2",
                     "sample_song_start": "1:16",
                     "sample_duration_seconds": 5
@@ -1059,7 +1059,7 @@
                 "6": {
                     "lyrics": "that I got you",
                     "mashup_time_seconds": null,
-                    "mashup_measure": 46,
+                    "mashup_measure": [46],
                     "sample_song_section": "verse2",
                     "sample_song_start": "1:24",
                     "sample_duration_seconds": 3
@@ -1067,7 +1067,7 @@
                 "7": {
                     "lyrics": "you're the only thing that's on my mind",
                     "mashup_time_seconds": null,
-                    "mashup_measure": 47,
+                    "mashup_measure": [47],
                     "sample_song_section": "verse2",
                     "sample_song_start": "1:32",
                     "sample_duration_seconds": 4
@@ -1075,7 +1075,7 @@
                 "8": {
                     "lyrics": "wanna give it to you all night",
                     "mashup_time_seconds": null,
-                    "mashup_measure": 48,
+                    "mashup_measure": [48],
                     "sample_song_section": "verse2",
                     "sample_song_start": "1:37",
                     "sample_duration_seconds": 5
@@ -1106,7 +1106,7 @@
                 "1": {
                     "lyrics": "sexy can I keep it on the low",
                     "mashup_time_seconds": null,
-                    "mashup_measure": 25,
+                    "mashup_measure": [25],
                     "sample_song_section": "verse2",
                     "sample_song_start": "1:19",
                     "sample_duration_seconds": 3
@@ -1137,7 +1137,7 @@
                 "1": {
                     "lyrics": "you got me feelin' like a child now",
                     "mashup_time_seconds": null,
-                    "mashup_measure": 34,
+                    "mashup_measure": [34],
                     "sample_song_section": "verse1",
                     "sample_song_start": "0:18",
                     "sample_duration_seconds": 4
@@ -1166,7 +1166,7 @@
                 "1": {
                     "lyrics": "on my way to you",
                     "mashup_time_seconds": null, 
-                    "mashup_measure": 52,
+                    "mashup_measure": [52],
                     "sample_song_section": "chorus1",
                     "sample_song_start": "1:16",
                     "sample_duration_seconds": 2
@@ -1226,7 +1226,7 @@
                 "1": {
                     "lyrics": "please don't stop the",
                     "mashup_time_seconds": null,
-                    "mashup_measure": 63,
+                    "mashup_measure": [63],
                     "sample_song_section": "intro",
                     "sample_song_start": "0:00",
                     "sample_duration_seconds": 1
@@ -1234,7 +1234,7 @@
                 "2": {
                     "lyrics": "please don't stop the",
                     "mashup_time_seconds": null,
-                    "mashup_measure": 63,
+                    "mashup_measure": [63],
                     "sample_song_section": "intro",
                     "sample_song_start": "0:07",
                     "sample_duration_seconds": 1
@@ -1242,7 +1242,7 @@
                 "3": {
                     "lyrics": "please don't stop the",
                     "mashup_time_seconds": null,
-                    "mashup_measure": 64,
+                    "mashup_measure": [64],
                     "sample_song_section": "intro",
                     "sample_song_start": "0:15",
                     "sample_duration_seconds": 1
@@ -1250,7 +1250,7 @@
                 "4": {
                     "lyrics": "please don't stop the",
                     "mashup_time_seconds": null,
-                    "mashup_measure": 64,
+                    "mashup_measure": [64],
                     "sample_song_section": "intro",
                     "sample_song_start": "0:23",
                     "sample_duration_seconds": 1
@@ -1258,7 +1258,7 @@
                 "5": {
                     "lyrics": "please don't stop the",
                     "mashup_time_seconds": null,
-                    "mashup_measure": 64,
+                    "mashup_measure": [64],
                     "sample_song_section": "chorus1",
                     "sample_song_start": "1:31",
                     "sample_duration_seconds": 1
@@ -1266,7 +1266,7 @@
                 "6": {
                     "lyrics": "please don't stop the",
                     "mashup_time_seconds": null,
-                    "mashup_measure": 64,
+                    "mashup_measure": [64],
                     "sample_song_section": "chorus1",
                     "sample_song_start": "1:32",
                     "sample_duration_seconds": 1
@@ -1274,7 +1274,7 @@
                 "7": {
                     "lyrics": "please don't stop the",
                     "mashup_time_seconds": null,
-                    "mashup_measure": 65,
+                    "mashup_measure": [65],
                     "sample_song_section": "chorus1",
                     "sample_song_start": "1:47",
                     "sample_duration_seconds": 1
@@ -1282,7 +1282,7 @@
                 "8": {
                     "lyrics": "please don't stop the",
                     "mashup_time_seconds": null,
-                    "mashup_measure": 65,
+                    "mashup_measure": [65],
                     "sample_song_section": "chorus1",
                     "sample_song_start": "1:48",
                     "sample_duration_seconds": 1
@@ -1290,7 +1290,7 @@
                 "9": {
                     "lyrics": "please don't stop the",
                     "mashup_time_seconds": null,
-                    "mashup_measure": 65,
+                    "mashup_measure": [65],
                     "sample_song_section": "chorus1",
                     "sample_song_start": "1:49",
                     "sample_duration_seconds": 1
@@ -1298,7 +1298,7 @@
                 "10": {
                     "lyrics": "please don't stop the",
                     "mashup_time_seconds": null,
-                    "mashup_measure": 65,
+                    "mashup_measure": [65],
                     "sample_song_section": "chorus2",
                     "sample_song_start": "2:34",
                     "sample_duration_seconds": 1
@@ -1306,7 +1306,7 @@
                 "11": {
                     "lyrics": "please don't stop the",
                     "mashup_time_seconds": null,
-                    "mashup_measure": 66,
+                    "mashup_measure": [66],
                     "sample_song_section": "chorus2",
                     "sample_song_start": "2:35",
                     "sample_duration_seconds": 1
@@ -1314,7 +1314,7 @@
                 "12": {
                     "lyrics": "please don't stop the",
                     "mashup_time_seconds": null,
-                    "mashup_measure": 66,
+                    "mashup_measure": [66],
                     "sample_song_section": "chorus2",
                     "sample_song_start": "2:50",
                     "sample_duration_seconds": 1
@@ -1322,7 +1322,7 @@
                 "13": {
                     "lyrics": "please don't stop the",
                     "mashup_time_seconds": null,
-                    "mashup_measure": 66,
+                    "mashup_measure": [66],
                     "sample_song_section": "chorus2",
                     "sample_song_start": "2:51",
                     "sample_duration_seconds": 1
@@ -1330,15 +1330,15 @@
                 "14": {
                     "lyrics": "please don't stop the",
                     "mashup_time_seconds": null,
-                    "mashup_measure": 66,
-                    "sample_song_section": "chorus1",
+                    "mashup_measure": [66],
+                    "sample_song_section": "chorus2",
                     "sample_song_start": "2:52",
                     "sample_duration_seconds": 1
                 },
                 "15": {
                     "lyrics": "please don't stop the",
                     "mashup_time_seconds": null,
-                    "mashup_measure": 67,
+                    "mashup_measure": [67],
                     "sample_song_section": "bridge",
                     "sample_song_start": "3:08",
                     "sample_duration_seconds": 1
@@ -1346,7 +1346,7 @@
                 "16": {
                     "lyrics": "please don't stop the",
                     "mashup_time_seconds": null,
-                    "mashup_measure": 67,
+                    "mashup_measure": [67],
                     "sample_song_section": "bridge",
                     "sample_song_start": "3:15",
                     "sample_duration_seconds": 1
@@ -1354,7 +1354,7 @@
                 "17": {
                     "lyrics": "please don't stop the",
                     "mashup_time_seconds": null,
-                    "mashup_measure": 67,
+                    "mashup_measure": [67],
                     "sample_song_section": "chorus3",
                     "sample_song_start": "3:27",
                     "sample_duration_seconds": 1
@@ -1362,7 +1362,7 @@
                 "18": {
                     "lyrics": "please don't stop the",
                     "mashup_time_seconds": null,
-                    "mashup_measure": 67,
+                    "mashup_measure": [67],
                     "sample_song_section": "chorus3",
                     "sample_song_start": "3:28",
                     "sample_duration_seconds": 1
@@ -1370,7 +1370,7 @@
                 "19": {
                     "lyrics": "please don't stop the",
                     "mashup_time_seconds": null,
-                    "mashup_measure": 68,
+                    "mashup_measure": [68],
                     "sample_song_section": "chorus3",
                     "sample_song_start": "3:52",
                     "sample_duration_seconds": 1
@@ -1378,7 +1378,7 @@
                 "20": {
                     "lyrics": "please don't stop the",
                     "mashup_time_seconds": null,
-                    "mashup_measure": 68,
+                    "mashup_measure": [68],
                     "sample_song_section": "chorus3",
                     "sample_song_start": "3:53",
                     "sample_duration_seconds": 1
@@ -1386,7 +1386,7 @@
                 "21": {
                     "lyrics": "please don't stop the",
                     "mashup_time_seconds": null,
-                    "mashup_measure": 68,
+                    "mashup_measure": [68],
                     "sample_song_section": "chorus3",
                     "sample_song_start": "3:54",
                     "sample_duration_seconds": 1
@@ -1394,7 +1394,7 @@
                 "22": {
                     "lyrics": "please don't stop the",
                     "mashup_time_seconds": null,
-                    "mashup_measure": 68,
+                    "mashup_measure": [68],
                     "sample_song_section": "outro",
                     "sample_song_start": "4:02",
                     "sample_duration_seconds": 1
@@ -1402,7 +1402,7 @@
                 "23": {
                     "lyrics": "please don't stop the",
                     "mashup_time_seconds": null,
-                    "mashup_measure": 69,
+                    "mashup_measure": [69],
                     "sample_song_section": "outro",
                     "sample_song_start": "4:10",
                     "sample_duration_seconds": 1
@@ -1410,7 +1410,7 @@
                 "24": {
                     "lyrics": "please don't stop the",
                     "mashup_time_seconds": null,
-                    "mashup_measure": 69,
+                    "mashup_measure": [69],
                     "sample_song_section": "outro",
                     "sample_song_start": "4:18",
                     "sample_duration_seconds": 1
@@ -1418,7 +1418,7 @@
                 "25": {
                     "lyrics": "please don't stop the",
                     "mashup_time_seconds": null,
-                    "mashup_measure": 69,
+                    "mashup_measure": [69],
                     "sample_song_section": "overtime",
                     "sample_song_start": null,
                     "sample_duration_seconds": null
@@ -1426,7 +1426,7 @@
                 "26": {
                     "lyrics": "please don't stop the",
                     "mashup_time_seconds": null,
-                    "mashup_measure": 69,
+                    "mashup_measure": [69],
                     "sample_song_section": "overtime",
                     "sample_song_start": null,
                     "sample_duration_seconds": null
@@ -1434,7 +1434,7 @@
                 "27": {
                     "lyrics": "please don't stop the",
                     "mashup_time_seconds": null,
-                    "mashup_measure": 70,
+                    "mashup_measure": [70],
                     "sample_song_section": "overtime",
                     "sample_song_start": null,
                     "sample_duration_seconds": null
@@ -1442,7 +1442,7 @@
                 "28": {
                     "lyrics": "please don't stop the",
                     "mashup_time_seconds": null,
-                    "mashup_measure": 70,
+                    "mashup_measure": [70],
                     "sample_song_section": "overtime",
                     "sample_song_start": null,
                     "sample_duration_seconds": null
@@ -1450,7 +1450,7 @@
                 "29": {
                     "lyrics": "please don't stop the",
                     "mashup_time_seconds": null,
-                    "mashup_measure": 70,
+                    "mashup_measure": [70],
                     "sample_song_section": "overtime",
                     "sample_song_start": null,
                     "sample_duration_seconds": null
@@ -1458,7 +1458,7 @@
                 "30": {
                     "lyrics": "please don't stop the",
                     "mashup_time_seconds": null,
-                    "mashup_measure": 70,
+                    "mashup_measure": [70],
                     "sample_song_section": "overtime",
                     "sample_song_start": null,
                     "sample_duration_seconds": null
@@ -1486,7 +1486,7 @@
                 "1": {
                     "lyrics": "but it's over now",
                     "mashup_time_seconds": null,
-                    "mashup_measure": 70,
+                    "mashup_measure": [70],
                     "sample_song_section": "chorus1",
                     "sample_song_start": "1:17",
                     "sample_duration_seconds": 2
@@ -1494,7 +1494,7 @@
                 "2": {
                     "lyrics": "don't tell me you're sorry cause you're not",
                     "mashup_time_seconds": null,
-                    "mashup_measure": 72,
+                    "mashup_measure": [72],
                     "sample_song_section": "chorus2",
                     "sample_song_start": "1:51",
                     "sample_duration_seconds": 4

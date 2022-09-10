@@ -100,9 +100,17 @@ function createRawDataPopoverText(props, key){
 
 function createRawDataGradient(props, key) {
   let cssGradient = ""
+  let activeArr = []
 
   if (key === "overtime") {
-    cssGradient += "linear-gradient(to right, #ffcc80 0%, #ffcc80 100%)"
+    let sampleKeys = props.info.sections["overtime"]["sample_keys"]
+    sampleKeys.forEach(function (item, index) {
+      activeArr.push(props.info.samples[item]["mashup_measure"].includes(props.measure))
+    })
+    let active = activeArr.includes(true)
+    let gradientColor = active ? colors.rawDataHightlightColorActive : colors.rawDataHightlightColor
+
+    cssGradient += `linear-gradient(to right, ${gradientColor} 0%, ${gradientColor} 100%)`
   }
   else if (props.info.sections[key]["sample_keys"] !== undefined) {
     cssGradient = "linear-gradient(to right"
@@ -114,7 +122,9 @@ function createRawDataGradient(props, key) {
       let sampleEndPerceentage = Math.round(((sampleStartSeconds+props.info.samples[item]["sample_duration_seconds"])-sectionStartSeconds)/props.info.sections[key]["duration"]*100)
       let postSampleStartPercentage = (sampleEndPerceentage >= 100 ? sampleEndPerceentage : sampleEndPerceentage+1)
 
-      cssGradient += `, ${colors.stripdefaultColor} ${(preSampleStartPercentage)}%, ${colors.rawDataHightlightColor} ${sampleStartPercentage}%, ${colors.rawDataHightlightColor} ${sampleEndPerceentage}%, ${colors.stripdefaultColor} ${postSampleStartPercentage}%`
+      let active = props.info.samples[item]["mashup_measure"].includes(props.measure)
+      let gradientColor = active ? colors.rawDataHightlightColorActive : colors.rawDataHightlightColor
+      cssGradient += `, ${colors.stripdefaultColor} ${(preSampleStartPercentage)}%, ${gradientColor} ${sampleStartPercentage}%, ${gradientColor} ${sampleEndPerceentage}%, ${colors.stripdefaultColor} ${postSampleStartPercentage}%`
     });
     cssGradient += ")"
   }
@@ -147,8 +157,7 @@ function RawData(props){
 
         <Grid item xs={calcRawDataItemWidth(props, key, totalSeconds)} key={key}>
           <Item 
-            type="rawß"
-            // backgroundColor={colors.stripdefaultColor}
+            type="raw"
             popoverText={createRawDataPopoverText(props, key)}
             backgroundImage={createRawDataGradient(props, key)}
           />
@@ -160,15 +169,18 @@ function RawData(props){
 }
 
 function doesNormalizedDataSectionHaveSample(props, key) {
-  let m = ""
-  const findOne = (haystack, arr) => {
-    arr.some(v => (haystack.includes(v) ? m = v : null ))
-  }
-  findOne(Object.keys(props.info.sections), key)
-  if (m !== "" && props.info.sections[m]["sample_keys"] !== undefined) {
-    return [true, props.info.sections[m]["sample_keys"].length]
-  }
-  return [false, 0]
+  let m = []
+  let l = 0
+  const intersection = Object.keys(props.info.sections).filter(element => key.includes(element));
+
+  intersection.forEach( function (item, index) {
+    if (props.info.sections[item]["sample_keys"] !== undefined) {
+      m.push(true)
+      l = l + props.info.sections[item]["sample_keys"].length
+    }
+  })
+
+  return [m.includes(true), l]
 
 }
 
@@ -245,7 +257,7 @@ export default function SongBreakout(props) {
               borderLeft: colors.borderStyle
             }}
           >
-            <RawData info={props.info} totalDuration={props.info.total_duration}/>
+            <RawData info={props.info} totalDuration={props.info.total_duration} measure={props.measure}/>
           </Grid>
         </Stack>
         <OverlineText text={"raw data"}/>

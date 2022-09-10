@@ -6,6 +6,7 @@ import SongDataTable from "./SongDataTable";
 import DataVisSection from "./DataVisSection";
 import songData from '../data/songData.json';
 
+
 function MyParagraph(props) {
     return(
         <Typography variant="body1" sx={{"marginBottom":"15px", "lineHeight": '155%'}}>
@@ -172,14 +173,42 @@ function WovenTimeArticle() {
                 Data Visualization
             </MySectionTitle>
             <MyParagraph>
-                todo transition note, wanted to display this data in easier way, good data vis tries to do this
-                This data visualization syncs the data points to a visual of a sun at points of the day. 
+                The next part of this project transitions to using this data in a data visualization.
+                This data vis syncs the data points to a visual of a sun at points of the day. 
                 I thought it was a good unconscious relationship to a relative point in time, beginning, 
                 middle, or end of a cycle.
             </MyParagraph>
             <Aside>
-                note about seven sections, normalized data
-                put picture strips of sun, vocal and instrumental
+                <Typography variant="subtitle2" gutterBottom>
+                    These are the seven sections of the day used in the visual, left to right, 1 to 7.
+                    There are two images that are different colors. The first (more blue/white sun color) is used 
+                    for instrumental samplees, and the second (more orange sun color) is used for vocal samples.
+                </Typography>
+                <Typography variant="overline">
+                    instrumental sample image
+                </Typography>
+                <div 
+                    style={{
+                        height: '50px',
+                        backgroundImage:  "url('/all_sun_positions_instrumental.png')",
+                        backgroundSize: "100%",
+                        backgroundRepeat: "no-repeat",
+                        backgroundPosition: "center"
+                    }}
+                />
+                <Typography variant="overline">
+                    vocal sample image
+                </Typography>
+                <div 
+                    style={{
+                        height: '50px',
+                        backgroundImage:  "url('/all_sun_positions_vocal.png')",
+                        backgroundSize: "100%",
+                        backgroundRepeat: "no-repeat",
+                        backgroundPosition: "center"
+                    }}
+                />
+
             </Aside>
 
             <MyParagraph>
