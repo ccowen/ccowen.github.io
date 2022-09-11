@@ -25,7 +25,7 @@
                     "mashup_measure": [1],
                     "sample_song_section": "intro",
                     "sample_song_start": "0:00",
-                    "sample_duration_seconds": 3.8
+                    "sample_duration_seconds": 4
                 },
                 "2": {
                     "lyrics": "instrumental melody, whistle like",
@@ -91,17 +91,16 @@
             "artist": "Coldplay",
             "total_duration": "4:02",
             "type": "instrumental",
-            "active_mashup_measures": [6, 7, 8, 9, 10, 11, 12, 13, 14, 15, 16, 17, 18, 19, 20, 21, 22, 23, 24, 25, 26, 27, 28, 29, 30, 31, 32, 33, 34, 35, 36, 37, 38, 39, 40, 41, 42, 43, 44, 45, 46, 47, 48, 49, 50, 51, 52, 53, 54, 55, 56, 57, 58, 59, 60, 61, 62, 63, 64, 65, 66, 67, 68, 69, 70, 71, 72, 73, 74, 75, 76, 77, 78],
+            "active_mashup_measures": [5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15, 16, 17, 18, 19, 20, 21, 22, 23, 24, 25, 26, 27, 28, 29, 30, 31, 32, 33, 34, 35, 36, 37, 38, 39, 40, 41, 42, 43, 44, 45, 46, 47, 48, 49, 50, 51, 52, 53, 54, 55, 56, 57, 58, 59, 60, 61, 62, 63, 64, 65, 66, 67, 68, 69, 70, 71, 72, 73, 74, 75, 76, 77, 78],
 
             "sections": {
                 "intro": {"start": "0:00", "duration": 14, "sample_keys": ["1"]},
-                "verse1": {"start": "0:14", "duration": 56, "sample_keys": ["1"]},
-                "chorus1": {"start": "1:10", "duration": 41, "sample_keys": ["1"]},
-                "verse2": {"start": "1:51", "duration": 28, "sample_keys": ["1"]},
-                "chorus2": {"start": "2:19", "duration": 40, "sample_keys": ["1"]},
-                "chorus3": {"start": "2:59", "duration": 44, "sample_keys": ["1"]},
-                "outro": {"start": "3:43", "duration": 19, "sample_keys": ["1"]},
-                "overtime": {"sample_keys": ["1"]}
+                "verse1": {"start": "0:14", "duration": 56, "sample_keys": ["2"]},
+                "chorus1": {"start": "1:10", "duration": 41, "sample_keys": ["3"]},
+                "verse2": {"start": "1:51", "duration": 28, "sample_keys": ["4"]},
+                "chorus2": {"start": "2:19", "duration": 40, "sample_keys": ["5"]},
+                "chorus3": {"start": "2:59", "duration": 44, "sample_keys": ["6"]},
+                "outro": {"start": "3:43", "duration": 19, "sample_keys": ["7"]}
             },
 
 
@@ -109,10 +108,58 @@
                 "1": {
                     "lyrics": "instrumental, strings",
                     "mashup_time_seconds": null, 
-                    "mashup_measure": [6, 7, 8, 9, 10, 11, 12, 13, 14, 15, 16, 17, 18, 19, 20, 21, 22, 23, 24, 25, 26, 27, 28, 29, 30, 31, 32, 33, 34, 35, 36, 37, 38, 39, 40, 41, 42, 43, 44, 45, 46, 47, 48, 49, 50, 51, 52, 53, 54, 55, 56, 57, 58, 59, 60, 61, 62, 63, 64, 65, 66, 67, 68, 69, 70, 71, 72, 73, 74, 75, 76, 77, 78],
-                    "sample_song_section": ["intro", "verse1", "chorus1", "verse2", "chorus2", "chorus3", "overtime"],
+                    "mashup_measure": [5, 6, 7, 8],
+                    "sample_song_section": "intro",
                     "sample_song_start": "0:00",
-                    "sample_duration_seconds": 242
+                    "sample_duration_seconds": 14
+                },
+                "2": {
+                    "lyrics": "instrumental, strings",
+                    "mashup_time_seconds": null, 
+                    "mashup_measure": [9, 10, 11, 12, 13, 14, 15, 16, 17, 18, 19, 20, 21, 22, 23, 24],
+                    "sample_song_section": "verse1",
+                    "sample_song_start": "0:14",
+                    "sample_duration_seconds": 56
+                },
+                "3": {
+                    "lyrics": "instrumental, strings",
+                    "mashup_time_seconds": null, 
+                    "mashup_measure": [25, 26, 27, 28, 29, 30, 31, 32, 33, 34, 35, 36],
+                    "sample_song_section": "chorus1",
+                    "sample_song_start": "1:10",
+                    "sample_duration_seconds": 41
+                },
+                "4": {
+                    "lyrics": "instrumental, strings",
+                    "mashup_time_seconds": null, 
+                    "mashup_measure": [37, 38, 39, 40, 41, 42, 43, 44, 45, 46, 47, 48],
+                    "sample_song_section": "verse2",
+                    "sample_song_start": "1:51",
+                    "sample_duration_seconds": 28
+                },
+                "5": {
+                    "lyrics": "instrumental, strings",
+                    "mashup_time_seconds": null, 
+                    "mashup_measure": [49, 50, 51, 52, 53, 54, 55, 56, 57, 58, 59, 60],
+                    "sample_song_section": "chorus2",
+                    "sample_song_start": "2:19",
+                    "sample_duration_seconds": 40
+                },
+                "6": {
+                    "lyrics": "instrumental, strings",
+                    "mashup_time_seconds": null, 
+                    "mashup_measure": [61, 62, 63, 64, 65, 66, 67, 68, 69, 70, 71, 72],
+                    "sample_song_section": "chorus3",
+                    "sample_song_start": "2:59",
+                    "sample_duration_seconds": 44
+                },
+                "7": {
+                    "lyrics": "instrumental, strings",
+                    "mashup_time_seconds": null, 
+                    "mashup_measure": [73, 74, 75, 76, 77, 78],
+                    "sample_song_section": "outro",
+                    "sample_song_start": "3:43",
+                    "sample_duration_seconds": 19
                 }
             }
         },
