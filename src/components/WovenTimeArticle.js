@@ -132,7 +132,7 @@ function WovenTimeArticle() {
                 <SongDataTable songId='song13' columns={['lyrics', 'sample_song_start']}/>
             </Aside>
             <MyParagraph>
-                I then wanted to normalize start times across the songs, because 
+                I then wanted to transform start times across the songs, because 
                 across songs, a sample appearance at eg 0:25 would mean something 
                 different. These song tracks are generally 3/4 minutes, but vary in 
                 length. Using the proportion that it appeared could be a solution, 
@@ -151,18 +151,18 @@ function WovenTimeArticle() {
             </MyParagraph>
             <Aside>
                 <Typography variant="subtitle2" gutterBottom>
-                    'No Air' with normalized section data
+                    'No Air' with transformed section data
                 </Typography>
                 <SongDataTable songId='song3' columns={['lyrics', 'sample_song_start', 'sample_song_section']}/>
             </Aside>
             <Aside>
                 <Typography variant="subtitle2" gutterBottom>
-                    'Bleeding Love' with normalized section data
+                    'Bleeding Love' with transformed section data
                 </Typography>
                 <SongDataTable songId='song13' columns={['lyrics', 'sample_song_start', 'sample_song_section']}/>
             </Aside>
             <Aside>
-                <Typography variant="caption" gutterBottom>
+                <Typography variant="subtitle2" gutterBottom>
                     I chose a method with a goal of being objective, but definitely had discretion 
                     based on what I thought was important. This work is focused on the global position 
                     of the samples, or where they are in relation to the entire song. It also considers 
@@ -174,18 +174,20 @@ function WovenTimeArticle() {
             </MySectionTitle>
             <MyParagraph>
                 The next part of this project transitions to using this data in a data visualization.
-                This data vis syncs the data points to a visual of a sun at points of the day. 
+                This data vis syncs the data to a visual of a sun at points of the day. 
                 I thought it was a good unconscious relationship to a relative point in time, beginning, 
                 middle, or end of a cycle.
             </MyParagraph>
             <Aside>
                 <Typography variant="subtitle2" gutterBottom>
-                    These are the seven sections of the day used in the visual, left to right, 1 to 7.
-                    There are two images that are different colors. The first (more blue/white sun color) is used 
-                    for instrumental samplees, and the second (more orange sun color) is used for vocal samples.
+                    Pictured below, are the seven sections of the day used in the visual, left to right, 1 to 7.
+                </Typography>
+                <Typography variant="subtitle2" gutterBottom>
+                    There are two sun colors used. The first (more blue/white sun color) is used 
+                    for instrumental samples, and the second (more orange sun color) is used for vocal samples.
                 </Typography>
                 <Typography variant="overline">
-                    instrumental sample image
+                    instrumental sample images
                 </Typography>
                 <div 
                     style={{
@@ -197,7 +199,7 @@ function WovenTimeArticle() {
                     }}
                 />
                 <Typography variant="overline">
-                    vocal sample image
+                    vocal sample images
                 </Typography>
                 <div 
                     style={{
@@ -215,21 +217,38 @@ function WovenTimeArticle() {
                 With this framework, this data visualization is a video. The sun visuals are synced to the mashup audio.
                 It is named 'Woven Time', likening the composer's role to sewing time together.
             </MyParagraph>
+            <MyParagraph>
+                
+            </MyParagraph>
             <MySectionTitle>
                 Visual Representations for Sample Songs
             </MySectionTitle>
             <MyParagraph>
-                There are visual representations for each sample song, for example the picture below.
+                On this webpage, the video is linked to information about the sample songs.
+                Each song has a visual representations of the data, for example 
+                the picture below.
             </MyParagraph>
             <Aside>
+                <div 
+                    style={{
+                        height: '250px',
+                        maxWidth: '500px',
+                        backgroundImage:  "url('/song_breakout_mapping.png')",
+                        backgroundSize: "100%",
+                        backgroundRepeat: "no-repeat",
+                        backgroundPosition: "center"
+                    }}
+                />
                 <Typography variant="subtitle2">(A) song title</Typography>
                 <Typography variant="subtitle2">(B) song artist</Typography>
-                <Typography variant="subtitle2">(C1) song raw data horizontal linear track</Typography>
-                <Typography variant="subtitle2">(C2) song sections divided by black dashed lines </Typography>
-                <Typography variant="subtitle2">(C3) samples highlighted in purple</Typography>
-                <Typography variant="subtitle2">(D1) song sample data normalized in horizontal track</Typography>
-                <Typography variant="subtitle2">(D2) normalized data section (1 of 7) divided by black dashed lines</Typography>
-                <Typography variant="subtitle2">(D3) active sections show sun picture</Typography>
+                
+                <Typography variant="subtitle2">(C) song's sample data transformed, sections 1-7 on horizontal linear track</Typography>
+                <Typography variant="subtitle2"> -- sections (1 of 7) divided by black lines</Typography>
+                <Typography variant="subtitle2"> -- sections show sun picture if the mashup uses a sample from this song at that time of day</Typography>
+                
+                <Typography variant="subtitle2">(D) song's raw data, start to end on horizontal linear track</Typography>
+                <Typography variant="subtitle2"> -- song sections are divided by black lines </Typography>
+                <Typography variant="subtitle2"> -- samples are highlighted in purple and samples currently played in the video are green</Typography>
             </Aside>
 
         </ArticleTextWrapper>

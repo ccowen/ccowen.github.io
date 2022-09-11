@@ -42,7 +42,7 @@ function Item(props) {
         {...bindHover(popupState)}
         square={true}
         sx={{
-          height: (props.type==="normalized" ? "40px" : "20px"),
+          height: (props.type==="transformed" ? "40px" : "20px"),
           backgroundColor: props.backgroundColor,
           borderRight: colors.borderStyle,
           backgroundImage: (props.backgroundImage),
@@ -168,7 +168,7 @@ function RawData(props){
 
 }
 
-function doesNormalizedDataSectionHaveSample(props, key) {
+function doesTransformedDataSectionHaveSample(props, key) {
   let m = []
   let l = 0
   const intersection = Object.keys(props.info.sections).filter(element => key.includes(element));
@@ -184,7 +184,7 @@ function doesNormalizedDataSectionHaveSample(props, key) {
 
 }
 
-function NormalizedData(props) {
+function TransformedData(props) {
   
   function popOverTextWithSample(num_samples, section, index) {
     return `The ${num_samples} samples in the ${section} section are matched with this point in the day (${index}/7).    `
@@ -195,10 +195,10 @@ function NormalizedData(props) {
     Object.keys(songSectionMapping).map((key, index) => (
       <Grid item xs={1} key={key}>
         <Item 
-          type="normalized" 
-          backgroundColor={doesNormalizedDataSectionHaveSample(props, songSectionMapping[key])[0] ? 'black' : colors.stripdefaultColor}
-          backgroundImage={doesNormalizedDataSectionHaveSample(props, songSectionMapping[key])[0] ? `url('/sun_position${parseInt(key)}_for_${props.info.type}.jpg')` : null}
-          popoverText={doesNormalizedDataSectionHaveSample(props, songSectionMapping[key])[0] ? popOverTextWithSample(doesNormalizedDataSectionHaveSample(props, songSectionMapping[key])[1], songSectionMapping[key], index+1): popOverTextWithOutSample}
+          type="transformed" 
+          backgroundColor={doesTransformedDataSectionHaveSample(props, songSectionMapping[key])[0] ? 'black' : colors.stripdefaultColor}
+          backgroundImage={doesTransformedDataSectionHaveSample(props, songSectionMapping[key])[0] ? `url('/sun_position${parseInt(key)}_for_${props.info.type}.jpg')` : null}
+          popoverText={doesTransformedDataSectionHaveSample(props, songSectionMapping[key])[0] ? popOverTextWithSample(doesTransformedDataSectionHaveSample(props, songSectionMapping[key])[1], songSectionMapping[key], index+1): popOverTextWithOutSample}
         />
       </Grid>
     ))
@@ -241,10 +241,10 @@ export default function SongBreakout(props) {
               borderLeft: colors.borderStyle
             }}
           >
-            <NormalizedData info={props.info}/>
+            <TransformedData info={props.info}/>
           </Grid>
         </Stack>
-        <OverlineText text={"normalized data"}/>
+        <OverlineText text={"transformed data"}/>
 
         {/* // parent container for raw data */}
         <Stack direction="row">
