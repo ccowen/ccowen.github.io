@@ -64,7 +64,7 @@ function WovenTimeArticle() {
                 the tracks. What is our experience of time when we have experienced 
                 the source material in time previously? Could I quantify samples by time 
                 placement and what would that show? The direction of this visualization is 
-                focused on the global position of the samples, or like where they are in 
+                focused on the global position of the samples, or where they are in 
                 relation to the entire song. It could also be interesting to review this 
                 more locally, where they are in a phrase or song section.
             </MyParagraph>
@@ -201,7 +201,8 @@ function WovenTimeArticle() {
                 <Typography variant="overline">
                     instrumental sample images
                 </Typography>
-                <div 
+                <div
+                    title="Seven pictures of the white/blue sun, spaced at seven equal points of the day"
                     style={{
                         height: '50px',
                         backgroundImage:  "url('/all_sun_positions_instrumental.png')",
@@ -213,7 +214,8 @@ function WovenTimeArticle() {
                 <Typography variant="overline">
                     vocal sample images
                 </Typography>
-                <div 
+                <div
+                    title="Seven pictures of the orange/yellow sun, spaced at seven equal points of the day"
                     style={{
                         height: '50px',
                         backgroundImage:  "url('/all_sun_positions_vocal.png')",
@@ -253,7 +255,8 @@ function WovenTimeArticle() {
                 the picture below.
             </MyParagraph>
             <Aside>
-                <div 
+                <div
+                    title="'Disturbia' by Rihanna song breakout with labels"
                     style={{
                         height: '250px',
                         maxWidth: '500px',
@@ -315,7 +318,8 @@ function WovenTimeArticle() {
                 and unheard samples. I transcribed it as sheet music, and exported this as an audio file.
             </MyParagraph>
             <Aside>
-                <div 
+                <div
+                    title="transcription of the mashup from meeasures 32-36"
                     style={{
                         height: '375px',
                         maxWidth: '750px',
@@ -399,7 +403,7 @@ function WovenTimeArticle() {
             </MyParagraph>
             <MyParagraph>
                 The trailing 'tonight [tonight]' throughtout the middle of the song
-                feel grounding to me, a call to the present moment.
+                feels grounding to me, a call to the present moment.
             </MyParagraph>
             <MyParagraph>
                 I wanted to point these lyrics out because I'm curious about DJ Earworm's role 
