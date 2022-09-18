@@ -23,7 +23,7 @@
   "scripts": {
     "start": "react-scripts start",
     "build": "react-scripts build",
-    "deploy": "aws --profile s3 s3 sync build/ s3://www.caitlincowen",
+    "deploy": "npm run build && aws s3 sync build/ s3://www.caitlincowen.com",
     "test": "react-scripts test",
     "eject": "react-scripts eject"
   },
