@@ -8,6 +8,7 @@ import ReactPlayerDuration from './ReactPlayerDuration';
 import songData from '../data/songData.json';
 import colors from '../data/dataVisColors.js'
 import measureStartTimes from '../data/measureStartTimes.js'
+import notesByMeasureNumber from '../data/notesByMeasureNumber.js'
 
 class DataVisSection extends React.Component {
   constructor(props) {
@@ -37,7 +38,7 @@ class DataVisSection extends React.Component {
   handlePlayPause = () => {
     this.setState({ playing: !this.state.playing })
     if (!this.state.playing & this.state.url === null) {
-      this.load('https://www.youtube.com/watch?v=CWi9-mWdq3I')
+      this.load('https://www.youtube.com/watch?v=Ipgo7yn7g0s')
     }
   }
 
@@ -100,6 +101,7 @@ class DataVisSection extends React.Component {
   render() {
 
     const vals = songData['records']['sample_songs']
+    const measureNumber = this.calcMeasure(this.state.duration * this.state.played)
 
     return (
       <Grid 
@@ -131,11 +133,34 @@ class DataVisSection extends React.Component {
             onDuration={this.handleDuration}
           />
 
-          <Typography variant='caption' sx={{color: 'white'}}>
+          <Typography variant='caption' sx={{color: 'white'}} gutterBottom>
             click here first to start <Button sx={{ margin: '0px 5px', color: colors.rawDataHightlightColor}} onClick={this.handlePlayPause} variant="outlined">{this.state.playing ? 'Pause' : 'Play'}</Button>
             Playback time: <ReactPlayerDuration seconds={this.state.duration * this.state.played} />
-            , Measure number: {this.calcMeasure(this.state.duration * this.state.played)}
+            , Measure number: {measureNumber}
           </Typography>
+            
+          <div>
+            <Typography variant='caption' sx={{color: 'white'}} gutterBottom>
+            <span style={{ display: 'inline-block', margin: '5px 5px 0px 0px', width: '15px', height: '15px', backgroundColor: '#F9E3D5'}}/>
+            vocal samples
+          </Typography>
+          <Typography variant='caption' sx={{color: 'white'}} gutterBottom>
+            <span style={{ display: 'inline-block', margin: '5px 5px 0px 5px', width: '15px', height: '15px', backgroundColor: '#ECF3FE'}}/>
+            instrumental samples
+          </Typography>
+          </div>
+
+          <div>
+            {notesByMeasureNumber['records'].map((element,index) => (
+              (notesByMeasureNumber['active_measures'].includes(measureNumber) && 
+                  element['measures'].includes(measureNumber) ? 
+                  <Typography variant="subtitle2" sx={{color: 'white'}}>
+                    * {element['note']}
+                  </Typography> 
+                  : null )
+            ))}
+          </div>
+
               
         </Grid>
         <Grid item md={4} sm={2} xs={1} sx={{"height": '500px', overflowY: 'scroll'}}>
@@ -146,8 +171,8 @@ class DataVisSection extends React.Component {
                 <SongBreakout 
                   key={index} 
                   info={vals[key]} 
-                  in={vals[key]['active_mashup_measures'].includes(this.calcMeasure(this.state.duration * this.state.played))}
-                  measure={this.calcMeasure(this.state.duration * this.state.played)}
+                  in={vals[key]['active_mashup_measures'].includes(measureNumber)}
+                  measure={measureNumber}
                 /> 
             ))
           }
