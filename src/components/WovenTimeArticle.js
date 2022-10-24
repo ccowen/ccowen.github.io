@@ -40,11 +40,10 @@ function WovenTimeArticle() {
             <MyParagraph>
                 Our experience of time is simplest described like this- we move forward, and 
                 measure periods by units like seconds, minutes, hours, etc. But I don't really 
-                think that's all it is to us. I guess that's how I eventually got here, and 
-                why the project evolved into this.
+                think that's all it is to us.
             </MyParagraph>
             <MyParagraph>
-                Time is also very not simple. As an experience, not all [hours/minutes] feel 
+                Time is also very not simple. As an experience, not all hours or minutes feel 
                 like they are the same length. And when we reminisce about the past or flash 
                 to an imagined future, it's like we are transporting ourselves to a different 
                 moment. To me in some way, our brains experience that again.
@@ -53,7 +52,7 @@ function WovenTimeArticle() {
                 I do not mean to say that I do not live in a world where I gauge time linearly; 
                 I do prepare an hour ahead of time to get ready to catch a bus to work and I do
                 set my lights to turn on when it gets dark outside. What I want to do here is
-                to look at these meanings simultaneously.
+                to look at these meanings -the simple and not simple- simultaneously.
             </MyParagraph>
             <MyParagraph>
                 That's where I ended up in this project, exploring this question of a variable
@@ -72,10 +71,10 @@ function WovenTimeArticle() {
             </MyParagraph>
             <MyParagraph>
                 A listener may relate to the source material emotionally, socially, 
-                or structurally. So I think there are many interesting ways to 
+                or structurally, so I think there are many interesting ways to 
                 look at this question. This project's direction 
-                goes specifically into structural references. I do not think it is most 
-                important; I went this way because it was the thought I wanted to pursue.
+                goes specifically into structural references, not because I think that is most 
+                important because it was the thought I wanted to pursue.
             </MyParagraph>
             <MyParagraph>
                 I choose to look at this question for this mashup by the time position of 
@@ -83,8 +82,8 @@ function WovenTimeArticle() {
                 the source material in time previously? Could I quantify samples by time 
                 placement and what would that show? The direction of this visualization is 
                 focused on the global position of the samples, or where they are in 
-                relation to the entire song. It could also be interesting to review this 
-                more locally, where they are in a phrase or song section.
+                relation to the entire song. However, it would also be interesting to focus 
+                more locally, on where the samples are relative to a phrase or song section.
             </MyParagraph>
             <MySectionTitle>
                 Method
@@ -97,10 +96,10 @@ function WovenTimeArticle() {
                 who streamed the songs.
             </MyParagraph>
             <MyParagraph>
-                I collected data based on placement to connect the use of the 
+                I collected data on placement to connect the use of the 
                 sample in the mashup to the sample from the original song. This was based 
                 on my ordered experience of listening to song tracks 
-                repeatedly, and then later the mashup when released.
+                repeatedly, and then later to the mashup.
             </MyParagraph>
             <MyParagraph>
                 Song tracks are set to play for a period of time. The track begins, 
@@ -130,14 +129,14 @@ function WovenTimeArticle() {
                 <SongDataTable songId='song3' columns={['lyrics']}/>
             </Aside>
             <MyParagraph>
-                I then reviewed where the samples were in the original song. This isn't 
-                always a one-to-one match. For example, if a sample appears in a chorus, it will 
+                I reviewed where the samples appeared in the original song. This wasn't 
+                always a one-to-one match. For example, if a sample appeared in a chorus, it would 
                 repeat again (all of these songs have choruses, a pop song section).
-                At this point I had some choices in how I collected the data. How would 
-                I discern from where a sample appeared in the source song? I decided that 
+                I therefore had some choices in how I collected the data. How would 
+                I discern where a sample appeared in the source song? I decided that 
                 order was important, because the experience of time is, as I understand, 
-                unstoppably moving forwards. In the order that the samples appeared in the 
-                mashup, I looked for them in that order in the source song. 
+                unstoppably moving forwards, so I decided to look for the samples in the source song 
+                in the same order that they appeeared in the mashup. 
             </MyParagraph>
             <Aside>
                 <Typography variant="subtitle2" gutterBottom>
@@ -157,15 +156,19 @@ function WovenTimeArticle() {
                 <SongDataTable songId='song13' columns={['lyrics', 'sample_song_start']}/>
             </Aside>
             <MyParagraph>
-                I then wanted to transform start times across the songs, because 
-                across songs, a sample appearance at eg 0:25 would mean something 
-                different. These song tracks are generally 3/4 minutes, but vary in 
-                length. Using the proportion that it appeared could be a solution, 
+                I wanted to transform start times across the songs, 
+                because a sample appearance at 0:25 would mean something 
+                different depending on the length of the song (which typically ranged from 3 to 4 minutes).
+            </MyParagraph>
+            <MyParagraph>
+                Using a proportion appeared to be a solution, 
                 though it would be more precise than I wanted. As a percentage, values 
-                would range from 1-100. Rounding and grouping could be done from here, 
-                but I was not confident that its meaning made sense across songs; the 
-                songs had another indicator of its points of time. The songs consisted 
-                of similar sections, and this was a journey familiar to pop music listeners.
+                would range from 1-100. Rounding and grouping could be done, 
+                but I was not confident that the meaning would make sense across songs.
+            </MyParagraph>
+            <MyParagraph>
+                Instead, I looked at the songs' other indicators of points of time. The songs consisted 
+                of similar sections, a journey familiar to pop music listeners.
             </MyParagraph>
             <MyParagraph>
                 These pop songs flow through a pattern of pop song sections. They feature 
@@ -196,9 +199,9 @@ function WovenTimeArticle() {
                 Data Visualization
             </MySectionTitle>
             <MyParagraph>
-                The next part of this project transitions to using this data in a data visualization.
-                This data vis syncs the data to a visual of a sun at points of the day. 
-                I thought it was a good unconscious relationship to a relative point in time, beginning, 
+                The next part of this project transitioned to a data visualization.
+                This data vis syncs the data to a visual of the sun at different points of the day. 
+                I thought it was a good unconscious relationship to a relative point in time&mdash;the beginning, 
                 middle, or end of a cycle.
             </MyParagraph>
             <Aside>
@@ -208,14 +211,14 @@ function WovenTimeArticle() {
                     sun positions.
                 </Typography>
             </Aside>
+            <MyParagraph>
+                Pictured below, are the seven sections of the day used in the visual, left to right, 1 to 7.
+            </MyParagraph>
+            <MyParagraph>
+                There are two sun colors used. The first (more blue/white sun color) is used 
+                for instrumental samples, and the second (more orange sun color) is used for vocal samples.
+            </MyParagraph>
             <Aside>
-                <Typography variant="subtitle2" gutterBottom>
-                    Pictured below, are the seven sections of the day used in the visual, left to right, 1 to 7.
-                </Typography>
-                <Typography variant="subtitle2" gutterBottom>
-                    There are two sun colors used. The first (more blue/white sun color) is used 
-                    for instrumental samples, and the second (more orange sun color) is used for vocal samples.
-                </Typography>
                 <Typography variant="overline">
                     instrumental sample images
                 </Typography>
@@ -255,7 +258,7 @@ function WovenTimeArticle() {
                 <DataTable data={songSectionMapping} />
             </Aside>
             <MyParagraph>
-                With this framework, this data visualization is a video. The sun visuals are synced to the mashup audio.
+                With this framework, this data visualization becomes a video. The sun visuals are synced to the mashup audio.
                 It is named 'Woven Time', likening the composer's role to sewing time together.
             </MyParagraph>
             <Aside>
