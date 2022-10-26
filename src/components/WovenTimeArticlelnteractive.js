@@ -68,7 +68,7 @@ function WovenTimeArticleInteractive() {
                 melodic relationship between the unheard extended samples and the heard samples.
             </MyParagraph>
             <MyParagraph>
-                I hypothesized about this from my experience; though a sample ends, I had thoughts 
+                I hypothesized about this from my experience: though a sample ends, I found myself thinking 
                 about the next phrase from the original song. 
             </MyParagraph>
             <Aside>
@@ -78,8 +78,8 @@ function WovenTimeArticleInteractive() {
                 <DataTableExtendedSamples data={lyricsExtendedm31to36}/>
             </Aside>
             <MyParagraph>
-                To observe this musically, I created a version of this section, with heard 
-                and unheard samples. I transcribed it as sheet music, and exported this as an audio file.
+                To observe this musically, I created a version of this section with both the heard 
+                and unheard samples. I transcribed it as sheet music and exported it as an audio file.
             </MyParagraph>
             <Aside>
                 <div
@@ -148,9 +148,8 @@ function WovenTimeArticleInteractive() {
                 beginnings and endings at the start and end of the track.
             </MyParagraph>
             <MyParagraph>
-                The video opens with a flower blooming and ends with digital clock 
-                counting down a remaining few seconds to 0:00- a flower blooming 
-                referencing a beginning or start, and the ending timer signifying an end.
+                The video opens with a flower blooming, a reference to a beginning or start, and ends with a digital clock 
+                counting down a few seconds to 0:00, signifying an end.
             </MyParagraph>
             <MyParagraph>
                 The repetition of 'please don't stop the' rebels against the upcoming 
@@ -160,14 +159,15 @@ function WovenTimeArticleInteractive() {
                 from One Republic sings 'it's too late'. 
             </MyParagraph>
             <MyParagraph>
-                The energetic rebellion against the ending heightens a transition when 
-                we transition to the end. This end has suddenly lost its energy 
-                and to quote 'it's over now' and 'it's too late'. It's also interesting
+                The energetic rebellion against the ending heightens the 
+                transition to the end. This end has suddenly lost its energy- 
+                to quote, 'it's over now' and 'it's too late'. It's also interesting
                 that this rebellious sample uses the most 'overtime'.
             </MyParagraph>
             <MyParagraph>
-                The trailing 'tonight [tonight]' throughtout the middle of the song
-                feels grounding to me, a call to the present moment.
+                The trailing 'tonight [tonight]' through the middle of the mashup 
+                feels grounding to me, a call to the present moment, while at the 
+                same time an ironic jolt in time.
             </MyParagraph>
             <MyParagraph>
                 I wanted to point these lyrics out because I'm curious about DJ Earworm's role 
