@@ -1,6 +1,6 @@
 import { TableContainer, Table, TableHead, TableRow, TableCell, TableBody } from "@mui/material";
 
-import songData from '../data/songData.json';
+import songData from '../../../data/pages/woven-time/songData';
 
 function SongDataTable(props) {
 

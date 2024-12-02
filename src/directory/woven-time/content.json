@@ -1,0 +1,44 @@
+{ "content": [
+    {
+        "type": "text",
+        "header": null,
+        "content": [
+            "Our experience of time is simplest described like this- we move forward, and measure periods by units like seconds, minutes, hours, etc. But I don't really think that's all it is to us.",
+            "Time is also very not simple. As an experience, not all hours or minutes feel like they are the same length. And when we reminisce about the past or flash to an imagined future, it's like we are transporting ourselves to a different moment. To me in some way, our brains experience that again.",
+            "I do not mean to say that I do not live in a world where I gauge time linearly; I do prepare an hour ahead of time to get ready to catch a bus to work and I doset my lights to turn on when it gets dark outside. What I want to do here is to look at these meanings -the simple and not simple- simultaneously.",
+            "That's where I ended up in this project, exploring this question of a variable time in a human experience. This is about an audio mashup and I hope that the data visualization itself is bound to the experience of a variable time."
+        ]
+    },
+    {
+        "type": "text",
+        "header": "Overview",
+        "content": [
+            "This project explores our experience listening to an audio mashup. Mashups bring material together from different sources, and in this example, intended for an audience familiar with the source material. How do we process the pieces of this material brought together in a new form?",
+            "A listener may relate to the source material emotionally, socially, or structurally, so I think there are many interesting ways to look at this question. This project's direction goes specifically into structural references, not because I think that is most important because it was the thought I wanted to pursue.",
+            "I choose to look at this question for this mashup by the time position of the tracks. What is our experience of time when we have experienced the source material in time previously? Could I quantify samples by time placement and what would that show? The direction of this visualization is focused on the global position of the samples, or where they are in relation to the entire song. However, it would also be interesting to focus more locally, on where the samples are relative to a phrase or song section."
+        ]
+    },
+    {
+        "type": "text",
+        "header": "Method",
+        "content": [
+            "In this exercise, I looked at 'The United State of Pop 2008', a mashup by DJ  Earworm that samples the top 25 songs in the United States in 2008.  The source material is chosen by popularity in a region, so familiarity  with the sourced songs is probably intended for the millions of people who streamed the songs.",
+            "I collected data on placement to connect the use of the  sample in the mashup to the sample from the original song. This was based  on my ordered experience of listening to song tracks  repeatedly, and then later to the mashup.",
+            "Song tracks are set to play for a period of time. The track begins,  plays, and ends; this process can repeat in exactly the same order. I 'could'  have formed some kind of memory of these songs over the course of the year,  because I listened to the radio in the United States and heard the chart-topping songs many times.  With this theory, I wanted to quantify then visualize how a mashup draws on  existing experiences to create a new experience from references. Specifically  based on ordered, time references from the original song tracks."
+        ]
+    },
+    {
+        "type": "text",
+        "header": "Data Collection",
+        "content": [
+            "First I notated the segments of the mashup to gather each samples information, eg the song source, lyrics, and stop/start points. Then for each song source, I noted the number of samples and the order they were used in the mashup. I added this info in an Excel document manually. I used ELAN to store precise start and stop times, which so far has been used as a reference and not programatically."
+        ]
+    },
+    {
+        "type": "",
+        "header": "",
+        "content": [
+        ]
+    }
+
+]}

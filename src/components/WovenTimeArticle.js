@@ -2,11 +2,11 @@ import { Typography } from "@mui/material";
 
 import ArticleTextWrapper from "./ArticleTextWrapper";
 import Aside from "./Aside";
-import SongDataTable from "./SongDataTable";
+import SongDataTable from "./pages/woven-time/SongDataTable";
 import DataTable from "./DataTable";
-import songSectionMapping from '../data/songSectionMapping.json';
+import songSectionMapping from '../data/pages/woven-time/songSectionMapping.json';
 import YoutubeEmbed from "./YoutubeEmbed";
-import WovenTimeArticleInteractive from "./WovenTimeArticlelnteractive";
+import WovenTimeArticleInteractive from "./pages/woven-time/WovenTimeArticlelnteractive";
 
 
 function MyParagraph(props) {

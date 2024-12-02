@@ -1,0 +1,21 @@
+
+{ "content": [
+
+    {
+        "type": "text",
+        "header": "Problem",
+        "content": [
+            "My publication 'Woven Time' is published on Nightingale (here) and near the very bottom includes a button, with text 'Interactive Section', that points to my portfolio site. My site features the same article and in addition an interactive data visualization.",
+            "I was super excited to get this published, and focused on getting the content up on the deadline. After publishing, I am now fearing that this navigation between sites is awkward. I personally really want viewers to see the interactive section on my portfolio site. I think it is a great way of comprehending the data and is hopefully just a cool data visualization.",
+            "However, I worry that it is not clear that there is new content on my portfolio site because it is within the same content the user was just viewing.",
+            "I would like to change the navigation by modifying my portfolio site since I have editing access to this. My constraint is to keep the same link that is used in the published article."
+        ]
+    },
+    {
+        "type": "text",
+        "header": null,
+        "content": [
+        ]
+    }
+
+]}

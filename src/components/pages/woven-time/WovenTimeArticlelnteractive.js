@@ -1,15 +1,13 @@
 import { Typography } from "@mui/material";
 
-import ArticleTextWrapper from "./ArticleTextWrapper";
-import Aside from "./Aside";
-import SongDataTable from "./SongDataTable";
-import DataTable from "./DataTable";
-import DataTableExtendedSamples from "./DataTableExtendedSamples";
+import ArticleTextWrapper from "../../ArticleTextWrapper";
+import Aside from "../../Aside";
+
+import DataTableExtendedSamples from "../../DataTableExtendedSamples";
 import DataVisSection from "./DataVisSection";
-import songData from '../data/songData.json';
-import songSectionMapping from '../data/songSectionMapping.json';
-import lyricsExtendedm31to36 from '../data/lyricsExtendedm31to36.js'
-import YoutubeEmbed from "./YoutubeEmbed";
+import songData from '../../../data/pages/woven-time/songData.json';
+import lyricsExtendedm31to36 from '../../../data/pages/woven-time/lyricsExtendedm31to36.js'
+
 
 function MyParagraph(props) {
     return(

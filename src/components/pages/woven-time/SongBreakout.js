@@ -6,8 +6,8 @@ import { Stack, Typography, Fade } from '@mui/material';
 import Popper from '@material-ui/core/Popper'
 
 import {usePopupState,bindHover,bindPopper} from 'material-ui-popup-state/hooks'
-import songSectionMapping from '../data/songSectionMapping.json';
-import colors from '../data/dataVisColors.js'
+import songSectionMapping from '../../../data/pages/woven-time/songSectionMapping.json';
+import colors from '../../../data/pages/woven-time/dataVisColors.js'
 
 
 function OverlineText(props) {

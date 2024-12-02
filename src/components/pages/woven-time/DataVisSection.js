@@ -5,10 +5,10 @@ import ReactPlayer from 'react-player/youtube'
 
 import SongBreakout from './SongBreakout';
 import ReactPlayerDuration from './ReactPlayerDuration';
-import songData from '../data/songData.json';
-import colors from '../data/dataVisColors.js'
-import measureStartTimes from '../data/measureStartTimes.js'
-import notesByMeasureNumber from '../data/notesByMeasureNumber.js'
+import songData from '../../../data/pages/woven-time/songData.json';
+import colors from '../../../data/pages/woven-time/dataVisColors.js'
+import measureStartTimes from '../../../data/pages/woven-time/measureStartTimes.js'
+import notesByMeasureNumber from '../../../data/notesByMeasureNumber.js'
 
 class DataVisSection extends React.Component {
   constructor(props) {
