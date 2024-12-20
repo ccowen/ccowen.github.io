@@ -2,9 +2,11 @@ import { Typography, IconButton } from "@mui/material";
 import LinkedInIcon from '@mui/icons-material/LinkedIn';
 import GitHubIcon from '@mui/icons-material/GitHub';
 import EmailIcon from '@mui/icons-material/Email';
+import Grid from '@mui/material/Grid2';
 
 import ArticleTextWrapper from "../ArticleTextWrapper";
 import Aside from "../Aside";
+import MyLogoHeader from "../MyLogoHeader";
 
 
 function MyParagraph(props) {
@@ -27,8 +29,32 @@ function MySectionTitle(props) {
 function HomePage() {
 
   return (
-    <div>
-        <ArticleTextWrapper>
+    <>
+        <Grid container spacing={0}>
+            <Grid 
+                size={8}
+                sx={{ backgroundColor: '#B3CAF2',height: '100vh'}}
+            >
+                <MyLogoHeader/>
+                <Grid container direction={"column"} sx={{ alignItems: 'center', justifyContent: "center" }} >
+                    <Grid item>
+                        <Typography variant="body">
+                            test test test
+                        </Typography>
+                    </Grid>
+                </Grid>
+
+            </Grid>
+            <Grid
+                size={4}
+                sx={{ 
+                    backgroundColor: '#FCFCFC',
+                  }}
+            >
+            </Grid>
+        </Grid>
+    </>
+        /* <ArticleTextWrapper>
 
             <MySectionTitle style={{marginBottom: '20px'}}>
                 Caitlin Cowen
@@ -50,13 +76,11 @@ function HomePage() {
                 <IconButton onClick={() => window.open('https://github.com/ccowen')}>
                     <GitHubIcon fontSize="large"/>
                 </IconButton>
-            </Aside>
+            </Aside> 
 
-        </ArticleTextWrapper>
+        </ArticleTextWrapper>*/
 
-
-    </div>
-  );
+  )
 }
 
 export default HomePage;

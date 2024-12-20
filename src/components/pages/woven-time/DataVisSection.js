@@ -110,6 +110,7 @@ class DataVisSection extends React.Component {
         columns={{ xs: 1, sm: 4, md: 7 }}
         sx={{
           backgroundColor: "#1c1c1f",
+          marginBottom: "24px"
         }}
       >
         <Grid item md={3} sm={2} xs={1} sx={{"height": '500px'}}>
