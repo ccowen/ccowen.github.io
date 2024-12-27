@@ -4,26 +4,7 @@ import GitHubIcon from '@mui/icons-material/GitHub';
 import EmailIcon from '@mui/icons-material/Email';
 import Grid from '@mui/material/Grid2';
 
-import ArticleTextWrapper from "../ArticleTextWrapper";
-import Aside from "../Aside";
 import MyLogoHeader from "../MyLogoHeader";
-
-
-function MyParagraph(props) {
-    return(
-        <Typography variant="body1" sx={{"marginBottom":"15px", "lineHeight": '155%'}}>
-            {props.children}
-        </Typography>
-    )
-}
-
-function MySectionTitle(props) {
-    return(
-        <Typography variant="h5" gutterBottom style={props.style}>
-            {props.children}
-        </Typography>
-    )
-}
 
 
 function HomePage() {
@@ -33,10 +14,10 @@ function HomePage() {
         <Grid container spacing={0}>
             <Grid 
                 size={8}
-                sx={{ backgroundColor: '#B3CAF2',height: '100vh'}}
+                sx={{ backgroundColor: '#B3CAF2', height: '100vh'}}
             >
                 <MyLogoHeader/>
-                <Grid container direction={"column"} sx={{ alignItems: 'center', justifyContent: "center" }} >
+                <Grid container direction={"column"} sx={{ alignItems: 'center', justifyContent: "space-evenly" }} >
                     <Grid item>
                         <Typography variant="body">
                             test test test
