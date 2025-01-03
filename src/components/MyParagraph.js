@@ -13,6 +13,7 @@ function MyParagraph({header, content, style}) {
     let variant = "body1"
     let sx={"marginBottom":"15px", "lineHeight": '155%'}
 
+    // change text style for text in my aside
     if (style == "aside_subtitle") {
         variant = "subtitle2"
         sx={}
