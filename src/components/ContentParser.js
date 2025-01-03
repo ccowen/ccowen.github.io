@@ -8,7 +8,7 @@ function ContentParser({contents}) {
   
     {contents.map((item, i) => (
       renderedContent.push(
-        (item.type == "text" || item.type == "aside_subtitle" ?
+        (item.type.includes("text") || item.type == "aside_subtitle" ?
             <MyParagraph key={i} header={item.header} content={item.content} style={item.type}/>
           : item.type == "aside" ?
             <MyAside key={i} content={item.content}/>

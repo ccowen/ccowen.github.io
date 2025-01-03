@@ -1,22 +1,12 @@
 { "content": [
     {
-        "type": "text",
+        "type": "text_with_link",
         "header": null,
         "content": [
-            "I am happy to say that this article was published in Nightengale Magazine. It can be accessed online at the below link."
+            "I am happy to say that this article was published in Nightengale Magazine. It can be accessed online at this link, https://nightingaledvs.com/woven-time/"
         ]
     },
-    {
-        "type": "component",
-        "header": null,
-        "content": [
-            "MyLink",
-            {
-                "href": "https://nightingaledvs.com/woven-time/",
-                "text": "https://nightingaledvs.com/woven-time/"
-            }
-        ]
-    },
+
     {
         "type": "text",
         "header": null,
