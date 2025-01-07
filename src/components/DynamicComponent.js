@@ -1,13 +1,16 @@
-import { Link } from '@mui/material';
 
 import YoutubeEmbed from './YoutubeEmbed';
 import DataVisSection from './pages/woven-time/DataVisSection';
 import ExtendedSampleSoundCloud from './pages/woven-time/ExtendedSampleSoundCloud';
+import MyPlatformHandles from './MyPlatformHandles';
+import MyContentWidget from './MyContentWidget';
 
 const components = {
   'YoutubeEmbed': YoutubeEmbed,
   'DataVisSection': DataVisSection,
-  'ExtendedSampleSoundCloud': ExtendedSampleSoundCloud
+  'ExtendedSampleSoundCloud': ExtendedSampleSoundCloud,
+  'MyPlatformHandles': MyPlatformHandles,
+  'MyContentWidget': MyContentWidget
 };
 
 const DynamicComponent = ({ componentName, ...props }) => {
