@@ -1,0 +1,51 @@
+{ "content": [
+    {
+        "type": "text",
+        "header": "header text or just null",
+        "content": [
+            "line 1",
+            "line 2, etc as needed"
+        ]
+    },
+    {
+        "type": "component",
+        "header": null,
+        "content":["name of component, modify DynamicComponent file to include"]
+    },
+    {
+        "type": "aside",
+        "header": null,
+        "content": [
+            {
+                "type": "aside_subtitle",
+                "header": null,
+                "content": [
+                    "line 1"
+                ]
+            },
+            {
+                "type": "image",
+                "header": null,
+                "content": {
+                    "title":"tittle line",
+                    "style": {
+                        "height": "375px",
+                        "maxWidth": "750px",
+                        "backgroundImage":  "url('/image.png')",
+                        "backgroundSize": "100%",
+                        "backgroundRepeat": "no-repeat",
+                        "backgroundPosition": "center",
+                        "marginBottom": "4px"
+                    }
+                }
+            },
+            {
+                "type": "component",
+                "header": null,
+                "content": [
+                    "name of component, modify DynamicComponent file to include"
+                ]
+            }
+        ]
+    }
+]}

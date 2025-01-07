@@ -1,0 +1,15 @@
+{ "content": [
+    {
+        "type": "text",
+        "header": null,
+        "content": [
+            "This doesn't look like a valid link",
+            "But here is somee other content you can go to"
+        ]
+    },
+    {
+        "type": "component",
+        "header": null,
+        "content":["MyContentWidget"]
+    }
+]}

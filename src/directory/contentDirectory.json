@@ -1,0 +1,32 @@
+{
+    "content-directory": {
+        "woven-time": {
+            "page-title": "Thoughts on our experience of time in a mashup, 'Woven Time'",
+            "subtitle": null,
+            "author": "Caitlin Cowen",
+            "date": "August 2022",
+            "article-tags": ["publication"]
+        },
+        "about-me": {
+            "page-title": "About me",
+            "subtitle": null,
+            "author": "Caitlin Cowen",
+            "date": "December 2024",
+            "article-tags": []
+        },
+        "site-navigation-woven-time": {
+            "page-title": "Case Study: Site Navigation of 'Woven Time' Publication to 'Woven Time' expanded version on my website",
+            "subtitle": null,
+            "author": "Caitlin Cowen",
+            "date": "January 2025",
+            "article-tags": ["case study"]
+        },
+        "page-not-found": {
+            "page-title": "Oops! Page not found",
+            "subtitle": null,
+            "author": null,
+            "date": null,
+            "article-tags": []
+        }
+    }
+}

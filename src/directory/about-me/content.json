@@ -1,0 +1,22 @@
+{ "content": [
+    {
+        "type": "text",
+        "header": "Hi, thanks for checking out my website!",
+        "content": [
+            "As stated on my home page, I'm a creative, detail-oriented professional with a unique blend of education and experience in data engineering, design, and music theory. I have experience transforming complex data into engaging, user-friendly data visualizations to improve user experiences and drive busineess insights.",
+            "My interdisciplinary background is valuable to me as a unique perspective in my projects. Looking back at my time as an undergraduate, I analyzed music notation and envisioned another method. Now I see thtis coming full circle in a data visualization career as my 'first' data vis project."
+        ]
+    },
+    {
+        "type": "text",
+        "header": "Connect with me",
+        "content": [
+            "On a more formal note, find me on LinkedIn or Github:"
+        ]
+    },
+    {
+        "type": "component",
+        "header": null,
+        "content":["MyPlatformHandles"]
+    }
+]}
