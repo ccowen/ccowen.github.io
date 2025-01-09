@@ -22,7 +22,7 @@ function HomePage() {
                         height: '100%',
                     }}
                 >
-                    <MyLogoHeader/>
+                    <MyLogoHeader colorOverride="transparent"/>
                     <Grid container sx={{ alignItems: 'center', flex: 1 }} >
                         <HomeLeftPanel/>
                     </Grid>

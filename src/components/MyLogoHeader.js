@@ -1,8 +1,8 @@
 import { AppBar } from "@mui/material";
 
-function MyLogoHeader() {
+function MyLogoHeader({colorOverride}) {
     return(
-      <AppBar position="sticky" color="transparent">
+      <AppBar position="sticky"  {... colorOverride ? {color: colorOverride} : {}}>
          <a 
             href="/"
             style={{

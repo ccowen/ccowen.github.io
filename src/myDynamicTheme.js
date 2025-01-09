@@ -69,6 +69,12 @@ function mydynamictheme(mode) {
       MuiAppBar: {
         styleOverrides: {
           // Name of the slot
+          colorPrimary: (({ theme }) => ({
+            backgroundColor: 'transparent',
+            [theme.breakpoints.down('lg')]: {
+              backgroundColor: myColors.whiteGray,
+            },
+          })),
           root: {
             // Some CSS
             boxShadow: 'none'
@@ -95,7 +101,7 @@ function mydynamictheme(mode) {
           }
         }
       }
-    },
+    }
   })
 
   return theme
