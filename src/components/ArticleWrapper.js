@@ -1,8 +1,9 @@
-import { Grid } from "@mui/material";
+import { Grid, Typography } from "@mui/material";
 
 import MyTextHeader from "./MyArticleHeader";
 import MyLogoHeader from "./MyLogoHeader";
 import ContentParser from "./ContentParser";
+import MyContentWidget from "./MyContentWidget";
 
 function ArticleWrapper({headers, contents}) {
   
@@ -14,6 +15,10 @@ function ArticleWrapper({headers, contents}) {
         <Grid item xs={8} m={6} lg={6}>
           <MyTextHeader>{headers}</MyTextHeader>
           <ContentParser contents={contents} />
+          <Typography variant="h5" gutterBottom sx={{marginTop: "24px"}}>
+            Other content
+          </Typography>
+          <MyContentWidget/>
         </Grid>
       </Grid>
     </>
