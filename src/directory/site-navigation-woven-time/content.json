@@ -7,14 +7,44 @@
         "content": [
             "My publication 'Woven Time' is published on Nightingale Magazine online and near the very bottom includes a button, with text 'Interactive Section', that points to my portfolio site. My site previously featured the same article and in addition an interactive data visualization.",
             "I was super excited to get this published, and focused on getting the content up on the deadline. After publishing, I am now fearing that this navigation between sites is awkward. I personally really want viewers to see the interactive section on my portfolio site. I think it is a great way of comprehending the data and is hopefully just a cool data visualization.",
-            "However, I worry that it is not clear that there is new content on my portfolio site because it is within the same content the user was just viewing.",
-            "I would like to change the navigation by modifying my portfolio site. My constraint is to keep the same link that is used in the published article, but otherwise I am free to make changes."
+            "However, I worry that it is not clear that there is new content on my portfolio site, because it is within the same content the user was just viewing. I would like to change the navigation by modifying my portfolio site. My constraint is to keep the same link that is used in the published article, but otherwise I am free to make changes."
+        ]
+    },
+    {
+        "type": "aside",
+        "header": null,
+        "content": [
+            {
+                "type": "aside_subtitle",
+                "header": null,
+                "content": [
+                    "Diagram of changes",
+                    "In v2 on my websiie, the article content (highlighted in green), is not repeated."
+                ]
+            },
+            {
+                "type": "image",
+                "header": null,
+                "content": {
+                    "title":"",
+                    "style": {
+                        "maxWidth": "100%",
+                        "height": "800px",
+                        "backgroundImage":  "url('/site-navigation-woven-time-diagram.png')",
+                        "backgroundSize": "auto 100%",
+                        "backgroundRepeat": "no-repeat",
+                        "backgroundPosition": "center",
+                        "marginBottom": "4px"
+                    }
+                }
+            }
         ]
     },
     {
         "type": "text",
-        "header": null,
+        "header": "Conclusion",
         "content": [
+            "Wiithout user tracking or analytics, I cannot quantify improvement baseed on this change. I hope that it follows a more fluid pattern and that writing about it, highlights attention to detail and iteratng to create better solutions."
         ]
     }
 
