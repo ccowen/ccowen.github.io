@@ -1,6 +1,7 @@
 import MyAside from "./MyAside";
 import MyParagraph from "./MyParagraph";
 import DynamicComponent from "./DynamicComponent";
+import { Grid2 } from "@mui/material";
 
 /* function parsing each item in content, rendering by type */
 function ContentParser({contents}) {

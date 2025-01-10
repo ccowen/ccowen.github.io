@@ -16,7 +16,7 @@ function ArticleWrapper({headers, contents}) {
           <MyTextHeader>{headers}</MyTextHeader>
           <ContentParser contents={contents} />
           <Typography variant="h5" gutterBottom sx={{marginTop: "24px"}}>
-            Other content
+            Thanks for reading! If you want more ...
           </Typography>
           <MyContentWidget/>
         </Grid>
