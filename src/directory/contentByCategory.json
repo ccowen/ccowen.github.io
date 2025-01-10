@@ -1,4 +1,5 @@
 { "content": {
-    "case study": ["site-navigation-woven-time"],
-    "publication": ["woven-time"]
+    "case study": ["vendor-scorecard", "vendor-scorecard-success-report"],
+    "publication": ["woven-time", "music-notation"],
+    "extra": ["site-navigation-woven-time"]
 }}

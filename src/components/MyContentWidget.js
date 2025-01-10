@@ -1,14 +1,21 @@
+import {useState} from 'react'
 import { Box, Typography, Button, Stack } from "@mui/material";
 import { ThemeProvider } from '@mui/material/styles';
 
 import contentByCategory from "./../directory/contentByCategory.json"
+import contentDirectory from "./../directory/contentDirectory.json"
 import MyArticleCard from "./MyArticleCard";
 import theme from "../myAppDarkTheme";
 import myColors from "../myColors";
 
 
 function MyContentWidget() {
-  
+    const [ selectedCategory, setselectedCategory ] = useState('case study')
+
+    function handleCategoryButtonClick(key) {
+        setselectedCategory(key)
+    }
+
     return (
         <ThemeProvider theme={theme}>
             <Box sx={{backgroundColor: myColors.purpleBlack, padding: "16px"}}>
@@ -18,15 +25,22 @@ function MyContentWidget() {
                 <Stack direction="row" spacing={1} sx={{paddingBottom: "16px"}}>
 
                     {Object.keys(contentByCategory["content"]).map((key, index) => (
-                        <Button variant="contained" disableElevation key={index} size="small">
+                        <Button 
+                            variant= {(key === selectedCategory ? "contained" : "outlined" )}
+                            disableElevation 
+                            key={index} 
+                            size="small"
+                            onClick={() => handleCategoryButtonClick(key)}
+                        >
                             {key}
                         </Button>
                     ))}
                 </Stack>
-                <Stack direction="column" spacing={1}>
 
-                    <MyArticleCard title="Case Study: Site Navigation of ‘Woven Time’ Publication to ‘Woven Time’ expanded version on my website"/>
-                    <MyArticleCard title="Case Study: Site Navigation of ‘Woven Time’ Publication to ‘Woven Time’ expanded version on my website"/>
+                <Stack direction="column" spacing={1}>
+                    {contentByCategory["content"][selectedCategory].map((item, i) => (
+                        <MyArticleCard cardContent={contentDirectory["content-directory"][item]} />
+                    ))}
 
                 </Stack>
             </Box>

@@ -5,28 +5,56 @@
             "subtitle": null,
             "author": "Caitlin Cowen",
             "date": "August 2022",
-            "article-tags": ["publication"]
+            "article-tags": ["publication"],
+            "thumbnail-image": ""
         },
         "about-me": {
             "page-title": "About me",
             "subtitle": null,
             "author": "Caitlin Cowen",
             "date": "December 2024",
-            "article-tags": []
+            "article-tags": [],
+            "thumbnail-image": ""
         },
         "site-navigation-woven-time": {
-            "page-title": "Case Study: Site Navigation of 'Woven Time' Publication to 'Woven Time' expanded version on my website",
+            "page-title": "Site Navigation of 'Woven Time' Publication to 'Woven Time' expanded version on my website",
             "subtitle": null,
             "author": "Caitlin Cowen",
             "date": "January 2025",
-            "article-tags": ["case study"]
+            "article-tags": ["extra"],
+            "thumbnail-image": "site-navigation-woven-time-thumbnail.png"
         },
         "page-not-found": {
             "page-title": "Oops! Page not found",
             "subtitle": null,
             "author": null,
             "date": null,
-            "article-tags": []
+            "article-tags": [],
+            "thumbnail-image": ""
+        },
+        "vendor-scorecard": {
+            "page-title": "Designing a Vendor Scorecard to evaluate performance",
+            "subtitle": null,
+            "author": "Caitlin Cowen",
+            "date": "March 2024 - August 2024",
+            "article-tags": ["case study"],
+            "thumbnail-image": ""
+        },
+        "vendor-scorecard-success-report": {
+            "page-title": "Data Visualizations to evaluate Success of Scorecard Initiatives",
+            "subtitle": null,
+            "author": "Caitlin Cowen",
+            "date": "January 2025",
+            "article-tags": ["case study"],
+            "thumbnail-image": ""
+        },
+        "music-notation": {
+            "page-title": "Interpreting Audible Intervals into Visual Learning Tools for Cognitive Brain Training and Musucal Advancement",
+            "subtitle": null,
+            "author": "Caitlin Cowen",
+            "date": "October 2014",
+            "article-tags": ["publication"],
+            "thumbnail-image": ""
         }
     }
 }
