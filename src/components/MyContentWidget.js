@@ -23,7 +23,6 @@ function MyContentWidget() {
                     My Work
                 </Typography>
                 <Stack direction="row" spacing={1} sx={{paddingBottom: "16px"}}>
-
                     {Object.keys(contentByCategory["content"]).map((key, index) => (
                         <Button 
                             variant= {(key === selectedCategory ? "contained" : "outlined" )}
@@ -36,12 +35,10 @@ function MyContentWidget() {
                         </Button>
                     ))}
                 </Stack>
-
                 <Stack direction="column" spacing={1}>
                     {contentByCategory["content"][selectedCategory].map((item, i) => (
-                        <MyArticleCard cardContent={contentDirectory["content-directory"][item]} />
+                        <MyArticleCard route={item} cardContent={contentDirectory["content-directory"][item]} />
                     ))}
-
                 </Stack>
             </Box>
         </ThemeProvider>
