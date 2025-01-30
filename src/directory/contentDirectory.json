@@ -1,18 +1,18 @@
 {
     "content-directory": {
-        "woven-time": {
+        "woven-time/interactive": {
             "page-title": "Thoughts on our experience of time in a mashup, 'Woven Time'",
             "subtitle": null,
             "author": "Caitlin Cowen",
             "date": "August 2022",
             "article-tags": ["publication"],
-            "thumbnail-image": ""
+            "thumbnail-image": "woven-time-thumbnail.jpg"
         },
         "about-me": {
             "page-title": "About me",
             "subtitle": null,
-            "author": "Caitlin Cowen",
-            "date": "December 2024",
+            "author": null,
+            "date": null,
             "article-tags": [],
             "thumbnail-image": ""
         },
@@ -33,28 +33,28 @@
             "thumbnail-image": ""
         },
         "vendor-scorecard": {
-            "page-title": "Designing a Vendor Scorecard to evaluate performance",
+            "page-title": "Designing a vendor scorecard to communicate performance and encourage improvement",
             "subtitle": null,
             "author": "Caitlin Cowen",
             "date": "March 2024 - August 2024",
             "article-tags": ["case study"],
-            "thumbnail-image": ""
+            "thumbnail-image": "scorecard_thumbnail.png"
         },
-        "vendor-scorecard-success-report": {
-            "page-title": "Data Visualizations to evaluate Success of Scorecard Initiatives",
+        "vendor-scorecard-success": {
+            "page-title": "Data Visualizations to evaluate success of scorecard initiatives",
             "subtitle": null,
             "author": "Caitlin Cowen",
             "date": "January 2025",
             "article-tags": ["case study"],
-            "thumbnail-image": ""
+            "thumbnail-image": "scorecard_key_metrics_overview_thumbnail.png"
         },
-        "music-notation": {
-            "page-title": "Interpreting Audible Intervals into Visual Learning Tools for Cognitive Brain Training and Musucal Advancement",
+        "western-music-notation": {
+            "page-title": "Interpreting Audible Intervals into Visual Learning Tools for Cognitive Brain Training and Musical Advancement",
             "subtitle": null,
             "author": "Caitlin Cowen",
             "date": "October 2014",
             "article-tags": ["publication"],
-            "thumbnail-image": ""
+            "thumbnail-image": "western_music_notations_comparision_thumbnail.png"
         }
     }
 }

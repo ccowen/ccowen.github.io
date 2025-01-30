@@ -2,6 +2,7 @@ import { Typography, Box, Link } from "@mui/material";
 import Grid from '@mui/material/Grid2';
 
 import MyPlatformHandles from "../../MyPlatformHandles";
+import colors from '../../../data/pages/woven-time/dataVisColors.js'
 
 function HomeLeftPanel() {
   
@@ -23,7 +24,7 @@ function HomeLeftPanel() {
         </Typography>
         <Typography variant="h5" gutterBottom>
             {"Click "}
-            <Link href="/about-me">
+            <Link href="/about-me" sx={{backgroundColor: `#ffef8650`}}>
                 here
             </Link>
              {" for a little more about me. On a more formal note, find me on LinkedIn or Github:"}

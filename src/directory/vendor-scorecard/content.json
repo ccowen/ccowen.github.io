@@ -1,0 +1,190 @@
+{ "content": [
+    {
+        "type": "text",
+        "header": "Overview",
+        "content": [
+            "This vendor scorecard was envisioned to clearly communicate a process of evaluating vendor performance so that workorder assignment was understood on the basis of performance, and importantly to assist with vendor coaching to encourage performance improvement. The scorecard 'gamified' a system of performance evaluation that would not be well understood on a technical code level by vendors or vendor managers.",
+            "I considered and worked towards ease of use in a clear visualization, and iterated on user feedback to further improve on a clear message. I lead technical implentation with cross team collaboration."
+        ]
+    },
+    {
+        "type": "text",
+        "header": "Technical Implementation",
+        "content": [
+            "A Power BI report can be embedded with row-level security within a secure app portal. The request for a scorecard came from operations; I lead this implementaion and devised this solution based on team structure, security, and error handling. I followed existing style guides for the app platform, and developed mockups in Figma. I continued to iterate on mockups with stakeholders from opeerations to UX."
+        ]
+    },
+    {
+        "type": "text",
+        "header": "Performance Indicators, Badges",
+        "content": [
+            "An important aspect of the 'gamified' system were the performance indicators, badges of three categories- gold, silver, bronze- and an entry category, trial. These categories would be the main takeaway of performance in a given service area. I thought critically about how badges would be presented.",
+            "The design of the badge of course would reflect the metallic, award like essence of gold, silver, and bronze categories. However, the badges in the scorecard can change on a monthly basis, unlike a gold, silver, or bronze metal that could be taken home and stored indefinitely. So the badge on the scorecard combines an indicator marker with a ribbon and its metallic color. An indicator marker visually communicates the dynamic nature of the scoring system. In general, indicator markers are commonly used as stickers on documents or visuals as a temporary callout, so the thinking is that they are not seen as static.",
+            "The trial badge is blue with a search, magnifying glass as a stepping stone to the active badging categories. All of the badges can be used sideways in use cases, like within a table, which I did employ. The badge has the potential to be used in a custom visual if the use case arose."
+        ]
+    },
+    {
+        "type": "aside",
+        "header": null,
+        "content": [
+            {
+                "type": "aside_subtitle",
+                "header": null,
+                "content": [
+                    "I collaborated with a designer on my vision for badges."
+                ]
+            },
+            {
+                "type": "image",
+                "header": null,
+                "content": {
+                    "title":"image with all badges",
+                    "style": {
+                        "height": "375px",
+                        "backgroundImage":  "url('/scorecard_badges.png')",
+                        "backgroundSize": "100%",
+                        "backgroundRepeat": "no-repeat",
+                        "backgroundPosition": "center",
+                        "marginBottom": "4px"
+                    }
+                }
+            }
+        ]
+    },
+    {
+        "type": "text",
+        "header": "Samples",
+        "content": []
+    },
+    {
+        "type": "aside",
+        "header": null,
+        "content": [
+            {
+                "type": "aside_subtitle",
+                "header": null,
+                "content": [
+                    "sample images, header with badges remains at the top when changing tabs"
+                ]
+            },
+            {
+                "type": "aside_subtitle",
+                "header": null,
+                "content": [
+                    "A earned badge tab displays performancee stats at the time when the badge was generated."
+                ]
+            },
+            {
+                "type": "image",
+                "header": null,
+                "content": {
+                    "title":"image of scorecard earned badge tab",
+                    "style": {
+                        "height": "375px",
+                        "backgroundImage":  "url('/scorecard_earned_badge_tab.png')",
+                        "backgroundSize": "100%",
+                        "backgroundRepeat": "no-repeat",
+                        "backgroundPosition": "center",
+                        "marginBottom": "24px"
+                    }
+                }
+            },
+            {
+                "type": "aside_subtitle",
+                "header": null,
+                "content": [
+                    "A live tab displays current performancee stats at service areas."
+                ]
+            },
+            {
+                "type": "image",
+                "header": null,
+                "content": {
+                    "title":"image of scorecard live tab",
+                    "style": {
+                        "height": "375px",
+                        "backgroundImage":  "url('/scorecard_live_tab.png')",
+                        "backgroundSize": "100%",
+                        "backgroundRepeat": "no-repeat",
+                        "backgroundPosition": "center",
+                        "marginBottom": "24px"
+                    }
+                }
+            },
+            {
+                "type": "aside_subtitle",
+                "header": null,
+                "content": [
+                    "A badge threseholds tab displays performance calculation information."
+                ]
+            },
+            {
+                "type": "image",
+                "header": null,
+                "content": {
+                    "title":"image of scorecard badge threseholds tab",
+                    "style": {
+                        "height": "375px",
+                        "backgroundImage":  "url('/scorecard_badge_threseholds.png')",
+                        "backgroundSize": "100%",
+                        "backgroundRepeat": "no-repeat",
+                        "backgroundPosition": "center",
+                        "marginBottom": "24px"
+                    }
+                }
+            },
+            {
+                "type": "aside_subtitle",
+                "header": null,
+                "content": [
+                    "A service category estimates tab displays performance stat estimates at a more granular level to expose more specific performance highlights or risk areas."
+                ]
+            },
+            {
+                "type": "image",
+                "header": null,
+                "content": {
+                    "title":"image of scorecard service category estimates tab",
+                    "style": {
+                        "height": "375px",
+                        "backgroundImage":  "url('/scorecard_service_category_estimates.png')",
+                        "backgroundSize": "100%",
+                        "backgroundRepeat": "no-repeat",
+                        "backgroundPosition": "center",
+                        "marginBottom": "24px"
+                    }
+                }
+            },
+            {
+                "type": "aside_subtitle",
+                "header": null,
+                "content": [
+                    "A historical tab displays performance stats within a previous time period."
+                ]
+            },
+            {
+                "type": "image",
+                "header": null,
+                "content": {
+                    "title":"image of scorecard historical tab",
+                    "style": {
+                        "height": "375px",
+                        "backgroundImage":  "url('/scorecard_historical_tab.png')",
+                        "backgroundSize": "100%",
+                        "backgroundRepeat": "no-repeat",
+                        "backgroundPosition": "center",
+                        "marginBottom": "4px"
+                    }
+                }
+            }
+        ]
+    },
+    {
+        "type": "text",
+        "header": "User Feedback",
+        "content": [
+            "I wanted to highlight a change from user feedback. The headers remained the same throughout the following descriptions. Initially the first tab was named 'Live Tab' and focused on live scores in one metro; the second tab was named 'Deep Dive', and displayed live scores from all service areas. Users found it confusing that the scores displayed did not necceesary reflect their badge because badges were earned monthly.",
+            "I loved resoving this and felt it was such an improvement. The first tab was renamed- 'Earned Badge Tab'- and reflected scores from the curent earned badge. The second tab was renamed- 'Live Tab'- and reflected live scores in all service areas."
+        ]
+    }
+]}

@@ -1,5 +1,5 @@
 { "content": {
-    "case study": ["vendor-scorecard", "vendor-scorecard-success-report"],
-    "publication": ["woven-time", "music-notation"],
+    "case study": ["vendor-scorecard", "vendor-scorecard-success"],
+    "publication": ["woven-time/interactive", "western-music-notation"],
     "extra": ["site-navigation-woven-time"]
 }}

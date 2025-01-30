@@ -16,7 +16,7 @@ function MyParagraph({header, content, style}) {
     // change text style for text in my aside
     if (style == "aside_subtitle") {
         variant = "subtitle2"
-        sx={}
+        sx={"marginBottom":"8px"}
     }
 
     return (

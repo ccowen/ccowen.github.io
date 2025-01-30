@@ -1,4 +1,5 @@
 import {useState} from 'react'
+import { useLocation } from 'react-router-dom';
 import { Box, Typography, Button, Stack } from "@mui/material";
 import { ThemeProvider } from '@mui/material/styles';
 
@@ -11,6 +12,7 @@ import myColors from "../myColors";
 
 function MyContentWidget() {
     const [ selectedCategory, setselectedCategory ] = useState('case study')
+    let location = useLocation();
 
     function handleCategoryButtonClick(key) {
         setselectedCategory(key)
@@ -37,7 +39,13 @@ function MyContentWidget() {
                 </Stack>
                 <Stack direction="column" spacing={1}>
                     {contentByCategory["content"][selectedCategory].map((item, i) => (
-                        <MyArticleCard route={item} cardContent={contentDirectory["content-directory"][item]} />
+                        ( location.pathname !== `/${item}` ?
+                            <MyArticleCard 
+                                route={item} 
+                                cardContent={contentDirectory["content-directory"][item]} 
+                                key={i}
+                            />
+                        : null)                        
                     ))}
                 </Stack>
             </Box>
