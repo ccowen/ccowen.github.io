@@ -11,7 +11,7 @@ function MySectionTitle(props) {
 function MyParagraph({header, content, style}) {
 
     let variant = "body1"
-    let sx={"marginBottom":"15px", "lineHeight": '155%'}
+    let sx={"marginBottom":"20px", "lineHeight": '155%'}
 
     // change text style for text in my aside
     if (style == "aside_subtitle") {
