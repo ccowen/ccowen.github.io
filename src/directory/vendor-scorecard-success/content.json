@@ -3,8 +3,8 @@
         "type": "text",
         "header": "Measuring a scorecard initiative impact",
         "content": [
-            "After a product is launched, it is really affirming if you can see measureable impact. I met with a team to pick key metrics to evaluate our performance. I spent significant time calculating results and iterating with our team about data gaps or process changes that affected data qualitty.",
-            "I performed calculations in Power BI with the intent to move the story to a more carefully crafted and visually appealing pdf. I started creating the pdf in Figma wiht the option to move to Adobe InDesign if the project grew large for ease of use."
+            "After a product is launched, it is really affirming if you can see measurable impact. I met with a team to pick key metrics to evaluate our performance. I spent significant time calculating results and iterating with our team about data gaps or process changes that affected data quality.",
+            "I performed calculations in Power BI with the intent to move the story to a more carefully crafted and visually appealing pdf. I started creating the pdf in Figma with the option to move to Adobe InDesign if the project grew large for ease of use."
         ]
     },
     {
@@ -38,7 +38,7 @@
                 "type": "aside_subtitle",
                 "header": null,
                 "content": [
-                    "I decided to create this graphic to narrate the story. I knew we had a cycle and wrote down key terms to find a good fit. In my first draft, I was more heavy on the technical side, including a technical term on the scorecard phase. I adjusted with this feedback and found it was a better fit. Adding an enttry and exit way was also a stakeholder request."
+                    "I decided to create this graphic to narrate the story. I knew we had a cycle and wrote down key terms to find a good fit. In my first draft, I was more heavy on the technical side, including a technical term on the scorecard phase. I adjusted with this feedback and found it was a better fit. Adding an entry and exit way was also a stakeholder request."
                 ]
             }
         ]
@@ -51,7 +51,7 @@
                 "type": "aside_subtitle",
                 "header": null,
                 "content": [
-                    "I created an overview of our key metrics page to read main takeways before diving into more details."
+                    "I created an overview of our key metrics page to read main takeaways before diving into more details."
                 ]
             },
             {
@@ -74,7 +74,7 @@
                 "type": "aside_subtitle",
                 "header": null,
                 "content": [
-                    "In the left two columns, I wanted to unify the direction of the metrics for an easy read. I mean because we would like to drive some metrics down and others up. But if you are not familiar with the metric definition, you would not know what a positive change is. So first on the left, to handle this, I included significant improvement and percent improvement. Then continueing to read from left tto right, each metric is defined, and the raw numbers used in the improvement calculation are displayed."
+                    "In the left two columns, I wanted to unify the direction of the metrics for an easy read. I mean because we would like to drive some metrics down and others up. But if you are not familiar with the metric definition, you would not know what a positive change is. So first on the left, to handle this, I included significant improvement and percent improvement. Then continuing to read from left to right, each metric is defined, and the raw numbers used in the improvement calculation are displayed."
                 ]
             }
         ]

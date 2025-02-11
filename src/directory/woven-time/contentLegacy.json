@@ -392,7 +392,7 @@
                 "type": "aside_subtitle",
                 "header": null,
                 "content": [
-                    "Below are audio exports of my trancription, at two different speeds."
+                    "Below are audio exports of my transcription, at two different speeds."
                 ]
             },
             {
@@ -420,7 +420,7 @@
         "type": "text",
         "header": "Thanks for reading!",
         "content": [
-            "This is a passion projeect of mine, an expereimental data visualization.",
+            "This is a passion project of mine, an experimental data visualization.",
             "Hope you enjoyed"
         ]
     }

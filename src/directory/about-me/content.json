@@ -3,30 +3,30 @@
         "type": "text",
         "header": "Hi, thanks for checking out my website!",
         "content": [
-            "Sorry to repeat myself a bit from my homrpage, I'm a creative, detail-oriented professional with a unique blend of education and experience in data engineering, design, and music theory. I have experience transforming complex data into engaging, user-friendly data visualizations to improve user experiences and drive busineess insights.",
-            "My interdisciplinary background is valuable to me as a unique perspective in my projects. Looking back at my time as an college undergraduate, I analyzed music notation and envisioned another method. Now I see this project coming full circle in a data visualization career as my 'first' data vis project."
+            "Sorry to repeat myself a bit from my homepage, I'm a creative, detail-oriented professional with a unique blend of education and experience in data engineering, design, and music theory. I have experience transforming complex data into engaging, user-friendly data visualizations to improve user experiences and drive business insights.",
+            "My interdisciplinary background is valuable to me as a unique perspective in my projects. Looking back at my time as a college undergraduate, I analyzed music notation and envisioned another method. Now I see this project coming full circle in a data visualization career as my 'first' data vis project."
         ]
     },
     {
         "type": "text",
         "header": "Notes on creating my website",
         "content": [
-            "I started by creating a mockup for my website. It was not pixel perfect, since I was handing it off to myself. I coded my website with React and it is hosted within an s3 bucket. I then sought feedback from peers before implementation and made some great adjustments. My approach is very compact considering how quickly recruiiters, hiring managers, etc. might go through your website. My approach displays a simple structure, a non-scrolling (unless you are on a phone) homepage with a widgeet to my projects as subpages. I hope that encourages a viewer to read through more content, though a maximalist approach is also fun and can be an oppurtunity for style and playfulness."
+            "I started by creating a mockup for my website. It was not pixel perfect, since I was handing it off to myself. I coded my website with React and it is hosted within an s3 bucket. I then sought feedback from peers before implementation and made some great adjustments. My approach is very compact considering how quickly recruiters, hiring managers, etc. might go through your website. My approach displays a simple structure, a non-scrolling (unless you are on a phone) homepage with a widget to my projects as subpages. I hope that encourages a viewer to read through more content, though a maximalist approach is also fun and can be an opportunity for style and playfulness."
         ]
     },
     {
         "type": "text",
         "header": "What I've been working on",
         "content": [
-            "The case studies on my website are business oriented. I worked with BI software but in a very customized way, maybe so much so 'it' (the product) could have been easier to implement in another fashion. Though I reeally enjoyed the products I made, overall knowing there could be other options, BI tools probably serve a different purpose from what I prefer to work on. The case studies are great examples of clean design, collaboration, and problem solving that could have a business impact.",
-            "I included two publications here. My 'Woven Time' publication is data art and outlines a detailed data collection and methods process with a unique visualizattion. Itt is an extra fun one, and I hope it shows my creativity and ability to create unique solutions. My music notation publication is a nice throwback to a project I would love to return to. I closely examined music notation as a infographic and collected data on user feedback."
+            "The case studies on my website are business oriented. I worked with BI software but in a very customized way, maybe so much so 'it' (the product) could have been easier to implement in another fashion. Though I really enjoyed the products I made, overall knowing there could be other options, BI tools probably serve a different purpose from what I prefer to work on. The case studies are great examples of clean design, collaboration, and problem solving that could have a business impact.",
+            "I included two publications here. My 'Woven Time' publication is data art and outlines a detailed data collection and methods process with a unique visualization. It is an extra fun one, and I hope it shows my creativity and ability to create unique solutions. My music notation publication is a nice throwback to a project I would love to return to. I closely examined music notation as a infographic and collected data on user feedback."
         ]
     },
     {
         "type": "text",
         "header": "On the side",
         "content": [
-            "While working as a software engineer or data engiineer, I have kept my creative interests alive. I particpated in mentereship programs as a mentee with AIGA. I am a member of AIGA Chicago, and the Data Visualization Society. I am also working on courses with the Interactive Design Foundation. Data visualization is an interesting cross between technical and design skills. I am unsure exactly what balance of skills will suit me, but I do hope I have the resources to continue to find my fit.",
+            "While working as a software engineer or data engineer, I have kept my creative interests alive. I participated in mentorship programs as a mentee with AIGA. I am a member of AIGA Chicago, and the Data Visualization Society. I am also working on courses with the Interactive Design Foundation. Data visualization is an interesting cross between technical and design skills. I am unsure exactly what balance of skills will suit me, but I do hope I have the resources to continue to find my fit.",
             "For fun, I enjoy getting into a great show or book. Very recently, I am playing chess; I would like to start painting or creating more."
         ]
     },

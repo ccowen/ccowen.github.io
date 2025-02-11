@@ -20,7 +20,7 @@ function HomeLeftPanel() {
             <Box fontWeight='700' component="span" display='inline'>
                 {" data visualizations "}
             </Box>
-            to improve user experiences and drive busineess insights.
+            to improve user experiences and drive business insights.
         </Typography>
         <Typography variant="h5" gutterBottom>
             {"Click "}

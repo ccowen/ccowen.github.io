@@ -19,7 +19,7 @@
                 "header": null,
                 "content": [
                     "Diagram of changes",
-                    "In v2 on my websiie, the article content (highlighted in green), is not repeated."
+                    "In v2 on my website, the article content (highlighted in green), is not repeated."
                 ]
             },
             {
@@ -44,7 +44,7 @@
         "type": "text",
         "header": "Conclusion",
         "content": [
-            "Wiithout user tracking or analytics, I cannot quantify improvement baseed on this change. I hope that it follows a more fluid pattern and that writing about it, highlights attention to detail and iteratng to create better solutions."
+            "Without user tracking or analytics, I cannot quantify improvement based on this change. I hope that it follows a more fluid pattern and that writing about it, highlights attention to detail and iterating to create better solutions."
         ]
     }
 
