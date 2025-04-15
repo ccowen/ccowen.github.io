@@ -2,6 +2,7 @@ import MyAside from "./MyAside";
 import MyParagraph from "./MyParagraph";
 import DynamicComponent from "./DynamicComponent";
 import { Grid2 } from "@mui/material";
+import MyImage from "./MyImage";
 
 /* function parsing each item in content, rendering by type */
 function ContentParser({contents}) {
@@ -17,6 +18,8 @@ function ContentParser({contents}) {
             <DynamicComponent key={i} componentName={item.content[0]} {...item.content[1]}/>
           : item.type == "image" ?
             <div key={i} {...item.content} />
+          : item.type == "image2" ?
+            <MyImage images={item.content}/>
           : null
         )
       ))
