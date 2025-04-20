@@ -1,157 +1,52 @@
 { "content": [
     {
-        "type": "text",
+        "type": "text_list",
         "header": "Overview",
         "content": [
-            "At one point this paper or the reference was available online, but I can summarize it here since I have copies. This project is a nice throwback that I would love to return to. Now that I have coding skills, this project could grow much further.",
-            "I'm including an excerpt in the last section of this page here, the excerpt does get a little wordy. Alot can be gleamed just from the graphics themselves with the summary section."
+            "This study was <b>published in NCUR 2014</b>, National Conference of Undergraduate Research.",
+            "Created and tested visual learning tools for cognitive brain training and musical advancement",
+            "<b>Highlights my attention to detail in evaluating a data graphic</b>, music notation"
         ]
     },
     {
-        "type": "text",
-        "header": "Summary",
+        "type": "text_list",
+        "header": "Thesis Summary",
         "content": [
-            "Western music notation is easy to follow generally, time reads from left to right and pitch up and down. Rising pitches climb and falling pitches lower. However there is a vertical discrepancy, the same amount of space can represent a whole note or a half note. This is because an equal amount of vertical space is given to the Western major scale consisting of whole and half notes.",
-            "I proposed that this is a problem for learning ear training, and performed an test as an experiment. The experiment yielded significant results, and as I stated would love to see more someday."
+            "Western music notation is generally intuitive, time reads left to right, and pitch up and down.",
+            "<b>However, vertical spacing in Western music notation is inconsistent</b>, same amount of vertical space can represent whole or half notes",
+            "Equal vertical space is given to major scale steps regardless of interval size."
         ]
     },
     {
-        "type": "text",
-        "header": "Testing user recognition",
-        "content": [
-            "I ran a test with a group of students with known levels of musical background. This did yeild good results. I am only including an excerpt of the test and results for brevity."
-        ]
-    },
-    {
-        "type": "aside",
+        "type": "image2",
         "header": null,
-        "content": [
-            {
-                "type": "aside_subtitle",
-                "header": null,
-                "content": [
-                    "excerpt from experiment"
-                ]
-            },
-            {
-                "type": "image",
-                "header": null,
-                "content": {
-                    "title":"excerpt from experiment",
-                    "style": {
-                        "height": "926px",
-                        "maxWidth": "750px",
-                        "backgroundImage":  "url('/westtern_music_notations_comparision.png')",
-                        "backgroundSize": "100%",
-                        "backgroundRepeat": "no-repeat",
-                        "backgroundPosition": "center",
-                        "marginBottom": "4px"
-                    }
-                }
-            },
-            {
-                "type": "aside_subtitle",
-                "header": null,
-                "content": [
-                    "experiment with significant results, Traditional Notation (TN), Circle Notation (CN)"
-                ]
-            },
-            {
-                "type": "image",
-                "header": null,
-                "content": {
-                    "title":"excerpt from experiment",
-                    "style": {
-                        "height": "325px",
-                        "maxWidth": "750px",
-                        "backgroundImage":  "url('/western-music-notaion-figure7.png')",
-                        "backgroundSize": "100%",
-                        "backgroundRepeat": "no-repeat",
-                        "backgroundPosition": "center",
-                        "marginBottom": "4px"
-                    }
-                }
-            }
-        ]
+        "content": [ "/western-music-notaion-figure4.png"]
     },
     {
-        "type": "text",
-        "header": "Excerpt, Analysis of Music Notation",
-        "content": [
-            "Music notations are data graphics by comparison to the following definition:",
-            "“Data graphics visually display measured quantities by means of the combined use of points, lines, a coordinate system, numbers, symbols, words, shading, and color.” [Tufte, Edward R. The Visual Display of Quantitative Information]",
-            "Sounds, particularly musical, are measured quantities that in traditional Western music notation are represented with symbols on lines roughly representing a graph or coordinate system. This notation represents two dimensions: pitch and time.8 Thus according to definition, music notation may be considered a data graphic. The y-axis records pitch height, which can be modified by additional symbols. The y-axis consists of any number of five-lined groups, called staffs. Two lines create three possible resting places for symbols on three pitches. There are two lines, but three spaces; visually 1+1=3.9 A five-lined staff creates eleven possible resting places for symbols on eleven pitches, and can be temporarily extended with ledger lines. The x-axis is the marker of time, whose scale is controlled by symbols. The x-axis serves as a reminder of the passing of time, but does not constrain notes to equal scaling in time markers called measures.",
-            "If music notation can be considered a data graphic, then it can be compared to the following principles for data graphics, numbered for reference.",
-            "“Excellence in statistical graphics consists of complex ideas communicated with clarity, precision, and efficiency. Graphical displays should: [1] show the data [2] induce the viewer to think about the substance rather than about methodology, graphic design, the technology of graphic production, or something else [3] avoid distorting what the data have to say [4] present many numbers in a small space [5] make large data sets coherent [6] encourage the eye to compare different pieces of data [7] reveal the data at several levels of detail, from a broad overview to the fine structure [8] serve a reasonably clear purpose: description, exploration, tabulation, or decoration [9] be closely integrated with the statistical and verbal descriptions of a data set. Graphics reveal data.” [Tufte, Edward R. The Visual Display of Quantitative Information]",
-            "Principles 1,2, 4, 6, 8, and 9 are exceptionally employed by traditional Western music notation. Perhaps the notation’s greatest strength follows principle 6’s instructions. The eye can easily compare the pieces of data representing pitch height, which as a group of vertical changes represent the contour of a song, Familiar melodies can be easily identified by similar contours, ‘the up and down pattern of pitch changes’.11 The ease of audibly recognizing similar contours matches the simplicity of its visual representation in traditional Western music notation. Contour is so easily grasped by listeners that it can be given another dimension in word painting. Predictable examples of word painting are words ascending and descending associated with musical scales played up and down.12 A visual parallel to word painting is evident in Figure 2. The rising notes represent the action of a rising soul into heaven, directly comparable to the pictured ascending notes into the clouds. The link between physical space and musical pitch is undeniable in traditional Western music notation, and an asset to the system as a data graphic.",
-            "However traditional Western music notation may not fulfill principle 3 that in turn leads principles 5 and 7 astray. In comparison, Figure 3 is one of the greatest statistical graphics in history. It is a visual record of the French army’s invasion into Russia, recording the army’s population and path. Here every 10,000 men is represented with a millimeter of space on the colored path. It is an exceptional example for principle 3; the space equally represents a quantity of data, 10,000 men. If Figure 3’s scale changed on Wednesdays to 5,000 men per millimeter of space, an accurate interpreter must have previous knowledge of the scale change and a list of Wednesday’s dates for this year. The average reader may not be capable of accessing the information of this hypothetical, skewed graph. This is similar to traditional Western music notation, in which each ledger line represents one step of the major scale. The space equally represents a quantity of data, a step in the major scale. However that is the misrepresentation in question as the steps of the Western major scale are not equal. In fact unequal step scales, like the major scale, have a processing advantage as compared to equal-step scales.15 The Western major, or Ionian, scale’s pattern consists of whole (W) and half (H) steps; its pattern is W-W-H-W-W-W-H.16 A half step is naturally half of a whole step. Therefore most ledger lines represent whole steps while select few represent half. Traditional Western music notation is comparable to the hypothetical description of Figure 3 when its scale changed from 10,000 men to 5,000 on Wednesdays. In the hypothetical example and in traditional Western music notation, an accurate interpreter has previous knowledge of the scale change and a directory of where the changes occur. The average reader may not access the information of the hypothetical, skewed graph or traditional Western music notation.",
-            "If indeed principle 3 is violated in traditional Western music notation, principles 5 and 7 are affected. Principle 7 is partially followed. From a broad overview similar contours can be associated, but the fine structure, the differences of pitches by a semitone, may be skewed. Principle 5 is also partially followed; large data sets are logically connected, but sometimes disconnected though only by a semitone.",
-            "For example, the same vertical distance can be visually represented for half and whole steps. In musical terms, Mi to fa (E-F) is a half step; ti to do (B-C) is a half step. Everything else (do to re [C-D], re to mi [D-E], fa to so [F-G], so to la [G-A], la to ti [A-B]) is a whole step. See Figure 4. Without previous musical training, a reader could not determine which intervals are half steps; the data graphic alone does not visually indicate these variations. For instance different fourths and thirds can be seen as the same, but heard differently. In Figure 4 an augmented fourth, also known as the Devil’s interval or tritone, is certainly not the same as perfect fourth, though at times they are visually represented with the same space. Also in Figure 4 a minor third and major third are not the same though they appear to be."
-        ]
-    },
-    {
-        "type": "aside",
+        "type": "image2",
         "header": null,
+        "content": [ "/western-music-notaion-figure5.png"]
+    },
+    {
+        "type": "text_list",
+        "header": "Hypothesis, Experiment, and Results",
         "content": [
-            {
-                "type": "aside_subtitle",
-                "header": null,
-                "content": [
-                    "Figure 4: Examples of data misrepresentation"
-                ]
-            },
-            {
-                "type": "image",
-                "header": null,
-                "content": {
-                    "title":"Examples of data misrepresentation",
-                    "style": {
-                        "height": "175px",
-                        "maxWidth": "750px",
-                        "backgroundImage":  "url('/western-music-notaion-figure4.png')",
-                        "backgroundSize": "100%",
-                        "backgroundRepeat": "no-repeat",
-                        "backgroundPosition": "center",
-                        "marginBottom": "4px"
-                    }
-                }
-            }
+            "<b>Proposed this inconsistency creates problems for ear training</b>, because the notation requires a high degree of familiarty with the major scale",
+            "Created hypothetical alternative notation system, Circle Notation (CN), to address the issue noted for Western music notation",
+            "Conducted an experiment with students with known levels of musical backgrounds",
+            "Test consisted of <b>visual and audio questions</b>.",
+            "Test <b>yielded significant results for students with novice or intermediate experience</b>, see exerpt question below with Traditional Notation (TN), Circle Notation (CN), also see results below"
         ]
     },
     {
-        "type": "text",
+        "type": "image2",
         "header": null,
-        "content": [
-            "Musicians have allowed this system to work by memorizing the Ionian, major scale while recognizing accidentals to be the irregularities. With the use of key signatures these scales can be transposed without a visible change; every Ionian, major scale with a key signature lacks accidentals. Figure 5 depicts a major scale in different key signatures. Put your hand over the key signatures. Notice how the sequence of circles does not appear to change by use of the key signature."
-        ]
+        "content": [ "/westtern_music_notations_comparision.png"]
     },
     {
-        "type": "aside",
+        "type": "image2",
         "header": null,
-        "content": [
-            {
-                "type": "aside_subtitle",
-                "header": null,
-                "content": [
-                    "Figure 5: Three major scales in different keys"
-                ]
-            },
-            {
-                "type": "image",
-                "header": null,
-                "content": {
-                    "title":"Three major scales in different keys",
-                    "style": {
-                        "height": "175px",
-                        "maxWidth": "750px",
-                        "backgroundImage":  "url('/western-music-notaion-figure5.png')",
-                        "backgroundSize": "100%",
-                        "backgroundRepeat": "no-repeat",
-                        "backgroundPosition": "center",
-                        "marginBottom": "4px"
-                    }
-                }
-            }
-        ]
+        "content": [ "/western-music-notaion-figure7.png"]
     }
+   
 ]}
