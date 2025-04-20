@@ -4,12 +4,12 @@
         "header": null,
         "content":[
             "Full methodology for the data visualization is available at the publication link",
-            "Excited to say and thank you DVS, article published in Nightingale Magazine, <b>full methodology available online</b> at <link>https://nightingaledvs.com/woven-time/</link>"
+            "<b>Excited to say and thank you DVS, article published in Nightingale Magazine</b>, to dig further, the full methodology available online at <link>https://nightingaledvs.com/woven-time/</link>"
         ]
     },
     {
         "type": "text_list",
-        "header": "Interactive section of 'Woven Time'",
+        "header": "***Interactive section of 'Woven Time'***",
         "content": [
             "This <b> interactive data visualization is unique to this page</b>, as well as a couple of extra notes.",
             "The information about a song is <b>synced to show when it appears in the video</b>, by measure number (a musical notation).",
