@@ -1,82 +1,30 @@
 { "content": [
     {
-        "type": "text",
+        "type": "text_list",
         "header": "Measuring a scorecard initiative impact",
         "content": [
-            "After a product is launched, it is really affirming if you can see measurable impact. I met with a team to pick key metrics to evaluate our performance. I spent significant time calculating results and iterating with our team about data gaps or process changes that affected data quality.",
-            "I performed calculations in Power BI with the intent to move the story to a more carefully crafted and visually appealing pdf. I started creating the pdf in Figma with the option to move to Adobe InDesign if the project grew large for ease of use."
+            "Led an evaluation of performance <b>to assess measurable impact after launching scorecard product</b>",
+            "Collaborated with operations team and data scientists to identify key metrics and review data gaps, thank you to all!",
+            "Created a <b>scorecard lifecycle graphic to illustrate the product's cyclic nature and guide the impact narrative</b>"
         ]
     },
     {
-        "type": "aside",
+        "type": "image2",
         "header": null,
+        "content": [ "/scorecard_lifecycle.png"]
+    },
+    {
+        "type": "text_list",
+        "header": "Overview Stats Presentation",
         "content": [
-            {
-                "type": "aside_subtitle",
-                "header": null,
-                "content": [
-                    "I created this 'Scorecard Lifecycle' page as a process overview graphic to emphasize the cyclic nature of the product and serve as a guide in the story of the product's impact."
-                ]
-            },
-            {
-                "type": "image",
-                "header": null,
-                "content": {
-                    "title":"Scorecard lifecycle graphic",
-                    "style": {
-                        "height": "575px",
-                        "maxWidth": "750px",
-                        "backgroundImage":  "url('/scorecard_lifecycle.png'",
-                        "backgroundSize": "59%",
-                        "backgroundRepeat": "no-repeat",
-                        "backgroundPosition": "center",
-                        "marginBottom": "4px"
-                    }
-                }
-            },
-            {
-                "type": "aside_subtitle",
-                "header": null,
-                "content": [
-                    "I decided to create this graphic to narrate the story. I knew we had a cycle and wrote down key terms to find a good fit. In my first draft, I was more heavy on the technical side, including a technical term on the scorecard phase. I adjusted with this feedback and found it was a better fit. Adding an entry and exit way was also a stakeholder request."
-                ]
-            }
+            "Created an overview page with main takeaways to precede detailed metric analysis",
+            "Structured metric display with <b>clear definitions, and moving from left to right, starts with most generic to more specific</b>",
+            "Developed user-friendly metric presentation by standardizing improvement direction (showing 'significant improvement' and 'percent improvement')"
         ]
     },
     {
-        "type": "aside",
+        "type": "image2",
         "header": null,
-        "content": [
-            {
-                "type": "aside_subtitle",
-                "header": null,
-                "content": [
-                    "I created an overview of our key metrics page to read main takeaways before diving into more details."
-                ]
-            },
-            {
-                "type": "image",
-                "header": null,
-                "content": {
-                    "title":"Overview Page of Key Metrics",
-                    "style": {
-                        "height": "575px",
-                        "maxWidth": "750px",
-                        "backgroundImage":  "url('/scorecard_key_metrics_overview.png')",
-                        "backgroundSize": "59%",
-                        "backgroundRepeat": "no-repeat",
-                        "backgroundPosition": "center",
-                        "marginBottom": "4px"
-                    }
-                }
-            },
-            {
-                "type": "aside_subtitle",
-                "header": null,
-                "content": [
-                    "In the left two columns, I wanted to unify the direction of the metrics for an easy read. I mean because we would like to drive some metrics down and others up. But if you are not familiar with the metric definition, you would not know what a positive change is. So first on the left, to handle this, I included significant improvement and percent improvement. Then continuing to read from left to right, each metric is defined, and the raw numbers used in the improvement calculation are displayed."
-                ]
-            }
-        ]
+        "content": [ "/scorecard_key_metrics_overview.png"]
     }
 ]}
