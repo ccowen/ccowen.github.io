@@ -1,0 +1,113 @@
+{ "content": [
+    {
+        "type": "text",
+        "header": "Overview",
+        "content": [
+            "I participated in a Future Friday series hosted by the Data Visualization Society, and this is my project from that study.",
+            "It was so valuable to be part of a community of data visualizers, and I learned so much from the experience."
+        ]
+    },
+    {
+        "type": "text",
+        "header": "My Visualization",
+        "content": [
+            "I think the most striking theme when reviewing data from the Global Footprint Network is that our Earth continually renews its biocapacity.",
+            "This might seem a little <b>basic</b>, but when I first skimmed the dataset, I thought that it was analyzing when our eco footprint would totally exceed all of our resources. I initially forgot that many of our resources <b>renew</b>.",
+            "For my analysis, I am representing 100% biocapacity as this pomegranate tree with 15 pomegranates."
+        ]
+    },
+    {
+        "type": "image2",
+        "header": null,
+        "content": [ "/ff_pomegranate_tree_15.png"]
+    },
+    {
+        "type": "text",
+        "header": "",
+        "content": [
+            "Let’s say in January a country starts with 15 pomegranates, how many pomegranates will that country use in that year according to their eco footprint and biocapacity?"
+        ]
+    },
+    {
+        "type": "image2",
+        "header": null,
+        "content": [ "/ff_example_capacity.png"]
+    },
+    {
+        "type": "text",
+        "header": "",
+        "content": [
+            "Let’s look at two countries with important similarities and differences, Canada and the United States.",
+            "As an individual country, Canada's biocapacity is greater than its eco footprint. Canada individually has 14 'pomegranates' in reserve at the end of year."
+        ]
+    },
+    {
+        "type": "image2",
+        "header": null,
+        "content": [ "/ff_canada_individual_capacity.png"]
+    },
+    {
+        "type": "text",
+        "header": "",
+        "content": [
+            "As an individual country, the United States' biocapacity is less than its eco footprint. The country individually runs out of 'pomegranates' before the end of year based on its own biocapacity minus eco footprint."
+        ]
+    },
+    {
+        "type": "image2",
+        "header": null,
+        "content": [ "/ff_us_individual_capacity.png"]
+    },
+    {
+        "type": "text",
+        "header": "",
+        "content": [
+            "Well, Canada seems to be doing pretty great. What if everyone in the world lived like people in Canada? Meaning everyone in the world had the same eco footprint as Canadians."
+        ]
+    },
+    {
+        "type": "image2",
+        "header": null,
+        "content": [ "/ff_globally_live_like_canadians.png"]
+    },
+    {
+        "type": "text",
+        "header": "",
+        "content": [
+            "Hmm this doesn’t seem to work as a goal. We would not want to globally exhaust our biocapacity by March",
+            "How does this compare to the United States?"
+        ]
+    },
+    {
+        "type": "image2",
+        "header": null,
+        "content": [ "/ff_globally_live_like_americans.png"]
+    },
+    {
+        "type": "text",
+        "header": "",
+        "content": [
+            "How can this be? As an individual country, Canada has a reserve of 'pomegranates' while the US has a deficit of 'pomegranates', but if everyone in the world lived as those in either country, the resulting date that 'pomegranates' run out is essentially the same?",
+            "Let's take a look at the breakdown of numbers for both countries."
+        ]
+    },
+    {
+        "type": "image2",
+        "header": null,
+        "content": [ "/ff_table.png"]
+    },
+    {
+        "type": "text",
+        "header": null,
+        "content": [
+            "The total ecological footprint for each country is about the same, 7.4 global hectares per person (gha/person) in Canada and 7.5 gha/person in the US.",
+            "Canada's total biocapacity is much greater, with  14.2 gha/person and the US with 3.7 gha/person. Canada's high biocapacity is largely credited to its forest land.",
+            "Individually as a country, Canada ends up with reserves because its own biocapacity is 191% of its own eco footprint. To compare, the biocapacity of the United States meets 49% of its own eco footprint.",
+            "But if everyone in the world replicates Canada's eco footprint, we do not end up with a reserve and it is the same as if everyone in the world lived as an American. That is because both countries essentially have the same eco footprint per person.",
+            "<b>We do not want to just live as Canadians do, we also want to have biocapacity for support.</b>",
+            "Canada’s ratio of biocapacity to eco footprint could be a model for other countries, but really a high bar. Just getting to a 1:1 ratio would be a huge change for many countries and would make a difference. And a big thank you to those countries like Canada with biocapacities that greatly exceed their footprint because they may help us all.",
+            "I think <b>balance is key</b> to understanding this dataset and how to find a model."
+        ]
+    }
+
+]}

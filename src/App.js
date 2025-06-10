@@ -15,6 +15,7 @@ import VendorScorecard from './components/pages/VendorScorecard';
 import PageNotFound from './components/pages/PageNotFound';
 import VendorScorecardSuccess from './components/pages/VendorScorecardSuccess';
 import MusicNotation from './components/pages/MusicNotation';
+import FutureFridayMay2025 from './components/pages/FutureFridayMay2025';
 
 function App() {
 
