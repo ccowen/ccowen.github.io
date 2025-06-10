@@ -16,7 +16,7 @@ function MyLogoHeader({colorOverride}) {
                style={{
                   height: '75px',
                   width: '291px',
-                  backgroundImage:  "url('/portfolio-header.png')",
+                  backgroundImage:  `url('${process.env.PUBLIC_URL}/portfolio-header.png')`,
                   backgroundSize: "100%",
                   backgroundRepeat: "no-repeat",
                   backgroundPosition: "center",
