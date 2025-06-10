@@ -1,9 +1,9 @@
-import * as React from 'react';
+import React, { useState } from 'react';
 import Box from '@mui/material/Box';
 import Paper from '@mui/material/Paper';
 import Grid from '@mui/material/Grid';
 import { Stack, Typography, Fade } from '@mui/material';
-import Popper from '@material-ui/core/Popper'
+import Popper from '@mui/material/Popper'
 
 import {usePopupState,bindHover,bindPopper} from 'material-ui-popup-state/hooks'
 import songSectionMapping from '../../../data/pages/woven-time/songSectionMapping.json';
@@ -55,21 +55,25 @@ function Item(props) {
           },
         }}
       />
-      <Popper {...bindPopper(popupState)} transition placement='top-start'>
-        <Paper 
-          sx={{
-            maxWidth: '200px',
-            padding: "10px"
-          }}
-        >
-          <Typography 
-            variant="caption" 
-            display="block" 
-            sx={{whiteSpace: 'pre-line'}}
-          >
-            <span style={{"backgroundColor": "rgba(0, 128, 0, .3)"}}>{props.popoverText}</span>
-          </Typography>
-        </Paper>
+       <Popper {...bindPopper(popupState)} transition placement='top-start'>
+        {({ TransitionProps }) => (
+          <Fade {...TransitionProps} timeout={350}>
+            <Paper 
+              sx={{
+                maxWidth: '200px',
+                padding: "10px"
+              }}
+            >
+              <Typography 
+                variant="caption" 
+                display="block" 
+                sx={{whiteSpace: 'pre-line'}}
+              >
+                <span style={{"backgroundColor": "rgba(0, 128, 0, .3)"}}>{props.popoverText}</span>
+              </Typography>
+            </Paper>
+          </Fade>
+        )}
       </Popper>
     </div>
   )
