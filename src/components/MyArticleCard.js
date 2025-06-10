@@ -15,7 +15,7 @@ function MyArticleCard({route, cardContent}) {
             </CardActionArea>
             <Box sx={{ height: 151 }} >
                 <div
-                    title="Caitlin Cowen portfolio header"
+                    title="project thumbnail"
                     style={{
                         height: '151px',
                         width: '151px',
