@@ -23,15 +23,16 @@ function App() {
       <Router>
         <Box>
           <Routes>
-            <Route exact path="/" element={<HomePage/>} />
-            <Route exact path="/about-me" element={<AboutPage/>} />
+            <Route path="/" element={<HomePage/>} />
+            <Route path="/about-me" element={<AboutPage/>} />
 
-            <Route exact path="/woven-time/interactive" element={<WovenTimeArticle/>} />
-            <Route exact path="/vendor-scorecard" element={<VendorScorecard/>} />
-            <Route exact path="/vendor-scorecard-success" element={<VendorScorecardSuccess/>} />
-            <Route exact path="/western-music-notation" element={<MusicNotation/>} />
+            <Route path="/woven-time/interactive" element={<WovenTimeArticle/>} />
+            <Route path="/vendor-scorecard" element={<VendorScorecard/>} />
+            <Route path="/vendor-scorecard-success" element={<VendorScorecardSuccess/>} />
+            <Route path="/western-music-notation" element={<MusicNotation/>} />
+            <Route path="/future-friday-may-2025" element={<FutureFridayMay2025/>} />
 
-            <Route exact path="/site-navigation-woven-time" element={<SiteNavigationWovenTime/>} />
+            <Route path="/site-navigation-woven-time" element={<SiteNavigationWovenTime/>} />
             <Route path="*" element={<PageNotFound />}/>
           </Routes>
         </Box>
