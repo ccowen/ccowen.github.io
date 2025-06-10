@@ -1,5 +1,5 @@
 import React, { Component } from 'react';
-import { hot } from 'react-hot-loader'
+// import { hot } from 'react-hot-loader'
 import { Grid, Typography, Button, Collapse } from '@mui/material';
 import ReactPlayer from 'react-player/youtube'
 
@@ -187,4 +187,4 @@ class DataVisSection extends React.Component {
 
 }
 
-export default hot(module)(DataVisSection);
+export default DataVisSection;
