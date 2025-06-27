@@ -1,40 +1,67 @@
 { "content": [
     {
         "type": "text",
-        "header": "Hi, thanks for checking out my website!",
+        "header": "Hi!",
         "content": [
-            "Sorry to repeat myself a bit from my homepage, I'm a creative, detail-oriented professional with a unique blend of education and experience in data engineering, design, and music theory. I have experience transforming complex data into engaging, user-friendly data visualizations to improve user experiences and drive business insights.",
+            "I'm a <b>Senior Data Visualization Engineer</b>; I transform complex data into compelling visual stories that can improve understanding or drive business impact.",
+            "I have over seven years of experience in Data Analytics and have experience in multiple engineering roles. I progressed to Senior Data Visualization Engineer, collaborating cross-functionally to <b>embed reporting in client-facing applications</b> and designing reports for internal use to aid business decisions.",
             "My interdisciplinary background is valuable to me as a unique perspective in my projects. Looking back at my time as a college undergraduate, I analyzed music notation and envisioned another method. Now I see this project coming full circle in a data visualization career as my 'first' data vis project."
         ]
     },
     {
         "type": "text",
-        "header": "Notes on creating my website",
+        "header": "Where Technical Meets Creative",
         "content": [
-            "I started by creating a mockup for my website. It was not pixel perfect, since I was handing it off to myself. I coded my website with React and it is hosted within an s3 bucket. I then sought feedback from peers before implementation and made some great adjustments. My approach is very compact considering how quickly recruiters, hiring managers, etc. might go through your website. My approach displays a simple structure, a non-scrolling (unless you are on a phone) homepage with a widget to my projects as subpages. I hope that encourages a viewer to read through more content, though a maximalist approach is also fun and can be an opportunity for style and playfulness."
+            "My interdisciplinary background spans <b>data engineering, design, and music theory—a combination that gives me a unique perspective on how information can be structured, analyzed, and communicated</b>. (I hold an MA in Music Theory & Cognition) This foundation taught me to see patterns, understand user experience, and think systematically about complex problems.",
+            "What started as <b>analyzing music notation as an undergraduate—essentially my first data visualization project</b>—has come full circle into a career where I blend technical expertise with creative problem-solving.", 
+            "I have built and maintained data pipelines, managed reporting (BI) systems supporting many users, and developed custom visualizations for the web or with dashboarding tools that can make data accessible to non-technical stakeholders."
+        ]
+    },
+    {
+        "type": "text_list",
+        "header": "Professional Impact",
+        "content": [
+            "<b>Vendor Scorecard Development</b>: Designed and embedded external vendor scorecards in client applications, creating clear performance metrics and accountability",
+            "<b>Business Impact</b>: Generated project savings within the first half year of external reporting",
+            "<b>BI Management</b>: Manage business intelligence systems supporting 70+ users across multiple departments",
+            "<b>Data Pipeline Engineering</b>: Build and maintain automated data pipelines using Python, AWS services, and DBT for ETL processes",
+            "<b>Cross-functional Collaboration</b>: Work closely with data scientists, account managers, and stakeholders to translate business needs into technical solutions",
+            "<b>Internal Mapping Tools</b>: Developed React components and implemented style guides for asset mapping software",
+            "<b>Process Automation</b>: Created applications to automate PowerPoint slide generation and PDF creation, reducing manual work for non-technical teams",
+            "<b>Data Quality Management</b>: Maintained legacy SQL ELT processes while transitioning to modern DBT workflows",
+            "<b>User-Centered Design</b>: Focus on solutions that genuinely improve workflows and user experiences"
         ]
     },
     {
         "type": "text",
-        "header": "What I've been working on",
+        "header": "What's next?",
         "content": [
-            "The case studies on my website are business oriented. I worked with BI software but in a very customized way, maybe so much so 'it' (the product) could have been easier to implement in another fashion. Though I really enjoyed the products I made, overall knowing there could be other options, BI tools probably serve a different purpose from what I prefer to work on. The case studies are great examples of clean design, collaboration, and problem solving that could have a business impact.",
-            "I included two publications here. My 'Woven Time' publication is data art and outlines a detailed data collection and methods process with a unique visualization. It is an extra fun one, and I hope it shows my creativity and ability to create unique solutions. My music notation publication is a nice throwback to a project I would love to return to. I closely examined music notation as a infographic and collected data on user feedback."
+            "<b>Data visualization sits at this fascinating intersection of technical and design skills</b>, and I'm still exploring what balance will suit me best. What I know for certain is that I love solving complex problems, making data accessible, and creating solutions that have real impact.",
+            "My interests include:"
+
         ]
     },
     {
-        "type": "text",
-        "header": "On the side",
+        "type": "text_list",
         "content": [
-            "While working as a software engineer or data engineer, I have kept my creative interests alive. I participated in mentorship programs as a mentee with AIGA. I am a member of AIGA Chicago, and the Data Visualization Society. I am also working on courses with the Interactive Design Foundation. Data visualization is an interesting cross between technical and design skills. I am unsure exactly what balance of skills will suit me, but I do hope I have the resources to continue to find my fit.",
-            "For fun, I enjoy getting into a great show or book. Very recently, I am playing chess; I would like to start painting or creating more."
+            "<b>Problem-Solving</b>: Automating tedious processes and designing intuitive interfaces",
+            "<b>Storytelling</b>: Finding new ways to tell compelling stories with data",
+            "<b>Innovation</b>: Combining analytical rigor with creative thinking to develop unique solutions",
+            "<b>Impact</b>: Creating work that measurably improves business outcomes and user experiences"
+        ]
+    },
+        {
+        "type": "text",
+        "content": [
+
+            "When I'm not working, you'll find me reading, watching great shows, at yoga, or learning chess. I'm also hoping to get back into painting—because sometimes the unexpected solutions come when you step away from the screen and work with your hands."
         ]
     },
     {
         "type": "text",
         "header": "Connect with me",
         "content": [
-            "On a more formal note, find me on LinkedIn or Github:"
+            "Connect with me on LinkedIn or Github:"
         ]
     },
     {
