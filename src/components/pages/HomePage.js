@@ -1,52 +1,40 @@
-import { Stack } from "@mui/material";
-import Grid from '@mui/material/Grid2';
+import { Stack, Collapse, Box } from "@mui/material";
+import { useAppContext } from "../../contexts/AppContext";
 import MyLogoHeader from "../MyLogoHeader";
 import HomeLeftPanel from "./home/HomeLeftPanel";
 import MyContentWidget from "./../MyContentWidget"
 import myColors from "../../myColors";
 
 function HomePage() {
+    const { isContentExpanded } = useAppContext();
 
-  return (
-    <>
-        <Grid container spacing={0}>
-            <Grid 
-                size={{lg:7, md:5, sm:12 }}
-                sx={{ backgroundColor: myColors.primary.light, minHeight: '100vh'}}
-            >
-                <Stack
-                    direction={'column'}
-                    sx={{
-                        alignItems: 'center',
-                        justifyContent: 'space-evenly',
-                        height: '100%',
-                    }}
-                >
-                    <MyLogoHeader colorOverride="transparent"/>
-                    <Grid container sx={{ alignItems: 'center', flex: 1 }} >
+    return (
+        <>
+            <MyLogoHeader colorOverride="transparent"/>
+            
+            <Box sx={{ display: 'flex', minHeight: '100vh', overflow: 'hidden', backgroundColor: myColors.whiteGray }}>
+                {/* Collapsible Left Panel */}
+                <Collapse orientation="horizontal" in={!isContentExpanded} timeout={500} unmountOnExit>
+                    <Stack direction={'column'} sx={{ alignItems: 'center', justifyContent: 'space-evenly', height: '100%' }}>
                         <HomeLeftPanel/>
-                    </Grid>
-                </Stack>
+                    </Stack>
+                </Collapse>
 
-            </Grid>
-            <Grid size={{lg:5, md:7, sm:12 }} sx={{ backgroundColor: myColors.whiteGray }}>
-                <Stack
-                    direction={'column'}
-                    sx={{
-                        alignItems: 'center',
-                        justifyContent: 'space-evenly',
-                        height: '100%'
-                    }}
-                >
-                    <Grid sx={{margin: '64px'}}>
-                        <MyContentWidget/>
-                    </Grid>
-                </Stack>
-            </Grid>
-        </Grid>
-    </>
-
-  )
+                {/* Content Panel - Always visible */}
+                <Box sx={{
+                    flex: 1, 
+                    backgroundColor: myColors.whiteGray, 
+                    minHeight: '100vh - 203px',
+                    display: 'flex',
+                    alignItems: 'center',     // Centers vertically
+                    justifyContent: 'center', // Centers horizontally
+                    padding: '64px'           // Replaces the margin from inner Box
+                }}>
+                    <MyContentWidget/>
+                </Box>
+            </Box>
+        </>
+    );
 }
 
 export default HomePage;

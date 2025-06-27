@@ -1,13 +1,5 @@
 {
     "content-directory": {
-        "woven-time/interactive": {
-            "page-title": "Thoughts on our experience of time in a mashup, 'Woven Time'",
-            "subtitle": null,
-            "author": "Caitlin Cowen",
-            "date": "August 2022",
-            "article-tags": ["publication"],
-            "thumbnail-image": "woven-time-thumbnail.jpg"
-        },
         "about-me": {
             "page-title": "About me",
             "subtitle": null,
@@ -37,7 +29,7 @@
             "subtitle": null,
             "author": "Caitlin Cowen",
             "date": "March 2024 - August 2024",
-            "article-tags": ["case study"],
+            "article-tags": ["external reporting", "cross team leadership"],
             "thumbnail-image": "scorecard_thumbnail.png"
         },
         "vendor-scorecard-success": {
@@ -45,19 +37,27 @@
             "subtitle": null,
             "author": "Caitlin Cowen",
             "date": "January 2025",
-            "article-tags": ["case study"],
+            "article-tags": ["success evaluation", "custom data viz"],
             "thumbnail-image": "scorecard_key_metrics_overview_thumbnail.png"
+        },
+                 "woven-time/interactive": {
+            "page-title": "Thoughts on our experience of time in a mashup, 'Woven Time'",
+            "subtitle": null,
+            "author": "Caitlin Cowen",
+            "date": "August 2022",
+            "article-tags": ["publication", "custom data viz"],
+            "thumbnail-image": "woven-time-thumbnail.jpg"
         },
         "western-music-notation": {
             "page-title": "Interpreting Audible Intervals into Visual Learning Tools for Cognitive Brain Training and Musical Advancement",
             "subtitle": null,
             "author": "Caitlin Cowen",
             "date": "October 2014",
-            "article-tags": ["publication"],
+            "article-tags": ["publication", "study", "custom data viz"],
             "thumbnail-image": "western_music_notations_comparision_thumbnail.png"
         },
         "future-friday-may-2025": {
-            "page-title": "Future Friday May 2025, Global Footprint Network Expolration",
+            "page-title": "Future Friday May 2025, Global Footprint Network Exploration",
             "subtitle": null,
             "author": "Caitlin Cowen",
             "date": "May 2025",

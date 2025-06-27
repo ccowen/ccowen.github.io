@@ -74,6 +74,9 @@ function mydynamictheme(mode) {
             [theme.breakpoints.down('lg')]: {
               backgroundColor: myColors.whiteGray,
             },
+            [theme.breakpoints.up('lg')]: {
+              backgroundColor: 'transparent',
+            },
           })),
           root: {
             // Some CSS
@@ -100,7 +103,24 @@ function mydynamictheme(mode) {
             backgroundColor: mode === 'light' ? myColors.whiteGray : myColors.purple
           }
         }
-      }
+      },
+      MuiButton: {
+        styleOverrides: {
+          root: {
+            fontFamily: font.headings,
+            fontWeight: 700,
+            fontStyle: 'normal',
+            textTransform: 'uppercase',
+            margin: '4px 12px 16px 0px',
+          },
+          textPrimary: {
+            color: mode === 'light' ? myColors.primary.main : myColors.whiteGray
+          },
+          textSecondary: {
+            color: mode === 'light' ? myColors.primary.light : myColors.dark.light
+          }
+        }
+      },
     }
   })
 

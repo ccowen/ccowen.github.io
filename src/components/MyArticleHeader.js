@@ -31,7 +31,7 @@ function MyArticleHeader(props) {
   
   return (
     <>
-      <Typography variant="h4" gutterBottom>
+      <Typography variant="h4" gutterBottom sx={{marginTop: "24px"}}>
         {props.children["page-title"]}
       </Typography>
       <Typography variant="subtitle1" gutterBottom>

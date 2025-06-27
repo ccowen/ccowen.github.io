@@ -3,13 +3,14 @@ import Grid from '@mui/material/Grid2';
 
 import MyPlatformHandles from "../../MyPlatformHandles";
 import colors from '../../../data/pages/woven-time/dataVisColors.js'
+import theme from "../../../myAppDarkTheme.js";
 
 function HomeLeftPanel() {
   
   return (
-    <Grid sx={{margin: '64px'}}>
-        <Typography variant="h3" gutterBottom>
-            Hi! I'm Caitlin Cowen
+    <Grid sx={{margin: '100px 64px 0px 64px', maxHeight: '100vh', overflow: 'hidden', maxWidth: '700px',}}>
+        <Typography variant="h5" gutterBottom>
+            Hi!
         </Typography>
         <Typography variant="body1" gutterBottom>
             I'm a creative, detail-oriented professional with a unique blend of education and experience in 
@@ -23,11 +24,10 @@ function HomeLeftPanel() {
             to improve user experiences and drive business insights.
         </Typography>
         <Typography variant="h5" gutterBottom>
-            {"Click "}
-            <Link href="/about-me" sx={{backgroundColor: `#ffef8650`}}>
-                here
+            <Link href="/about-me">
+                About Me
             </Link>
-             {" for a little more about me. On a more formal note, find me on LinkedIn or Github:"}
+             {" or connect with me on LinkedIn or Github:"}
         </Typography>
         <MyPlatformHandles/>
     </Grid>

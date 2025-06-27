@@ -6,7 +6,13 @@ import GitHubIcon from '@mui/icons-material/GitHub';
 function MyPlatformHandles() {
   
     return (
-        <Stack direction="row" spacing={2}>
+        <Stack 
+            direction="row" 
+            spacing={2}
+            sx={{ 
+                display: { xs: 'none', md: 'flex' } // Hide on small screens, show on medium+
+            }}
+        >
             <Button variant="outlined" startIcon={<LinkedInIcon />} onClick={() => window.open('https://www.linkedin.com/in/caitlin-cowen/')}>
                 LinkedIn
             </Button>
@@ -15,6 +21,6 @@ function MyPlatformHandles() {
             </Button>
         </Stack>
     );
-  }
+}
 
 export default MyPlatformHandles;

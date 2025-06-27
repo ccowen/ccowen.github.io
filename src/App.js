@@ -7,6 +7,7 @@ import { Box } from '@mui/material';
 import theme from './myAppTheme';
 import './App.css';
 
+import { AppProvider } from './contexts/AppContext';
 import HomePage from './components/pages/HomePage';
 import AboutPage from './components/pages/AboutPage';
 import WovenTimeArticle from './components/pages/WovenTimeArticle';
@@ -22,6 +23,7 @@ function App() {
   return (
     <ThemeProvider theme={theme}>
       <Router>
+        <AppProvider>
         <Box>
           <Routes>
             <Route path="/" element={<HomePage/>} />
@@ -37,6 +39,7 @@ function App() {
             <Route path="*" element={<PageNotFound />}/>
           </Routes>
         </Box>
+        </AppProvider>
       </Router>
     </ThemeProvider>
   );
