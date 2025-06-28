@@ -24,3 +24,5 @@ yarn-error.log*
 
 Pipfile
 Pipfile.lock
+
+.env

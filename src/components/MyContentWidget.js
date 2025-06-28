@@ -42,11 +42,11 @@ function MyContentWidget() {
                 const rowsPerPage = Math.floor(availableHeight / cardHeight) || 1;
                 
                 // Debug logging
-                console.log('Container width:', containerWidth);
-                console.log('Available height:', availableHeight);
-                console.log('Cards per row:', calculatedCardsPerRow);
-                console.log('Rows per page:', rowsPerPage);
-                console.log('Cards per page:', calculatedCardsPerRow * rowsPerPage);
+                // console.log('Container width:', containerWidth);
+                // console.log('Available height:', availableHeight);
+                // console.log('Cards per row:', calculatedCardsPerRow);
+                // console.log('Rows per page:', rowsPerPage);
+                // console.log('Cards per page:', calculatedCardsPerRow * rowsPerPage);
                 
                 // Total cards = cards per row × rows per page
                 const newCardsPerPage = Math.max(1, calculatedCardsPerRow * rowsPerPage); // Minimum 1 card
@@ -111,8 +111,10 @@ function MyContentWidget() {
 
     // Don't show navigation if all cards fit on one page
     const showNavigation = totalPages > 1;
-    console.log("In render - cardsPerRow:", cardsPerRow);
-    console.log("In render - gridSize:", gridSize);
+    
+    // Debug logging
+    // console.log("In render - cardsPerRow:", cardsPerRow);
+    // console.log("In render - gridSize:", gridSize);
 
     return (
         <ThemeProvider theme={theme}>

@@ -12,6 +12,8 @@ jobs:
           node-version: '18'
       - run: yarn install
       - run: CI=false yarn build
+      - env:
+          REACT_APP_GA_TRACKING_ID: ${{ secrets.REACT_APP_GA_TRACKING_ID }}
       - uses: peaceiris/actions-gh-pages@v3
         with:
           github_token: ${{ secrets.GITHUB_TOKEN }}
