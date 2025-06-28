@@ -20,6 +20,24 @@ import FutureFridayMay2025 from './components/pages/FutureFridayMay2025';
 
 function App() {
 
+  useEffect(() => {
+    // Only load analytics in production
+    if (process.env.NODE_ENV === 'production' && process.env.REACT_APP_GA_TRACKING_ID) {
+      // Load gtag script
+      const script = document.createElement('script');
+      script.async = true;
+      script.src = `https://www.googletagmanager.com/gtag/js?id=${process.env.REACT_APP_GA_TRACKING_ID}`;
+      document.head.appendChild(script);
+
+      // Initialize gtag
+      window.dataLayer = window.dataLayer || [];
+      function gtag() { window.dataLayer.push(arguments); }
+      window.gtag = gtag;
+      gtag('js', new Date());
+      gtag('config', process.env.REACT_APP_GA_TRACKING_ID);
+    }
+  }, []);
+
   return (
     <ThemeProvider theme={theme}>
       <Router>
