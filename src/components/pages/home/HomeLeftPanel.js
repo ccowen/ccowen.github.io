@@ -8,7 +8,7 @@ import theme from "../../../myAppDarkTheme.js";
 function HomeLeftPanel() {
   
   return (
-    <Grid sx={{margin: '100px 64px 0px 64px', maxHeight: '100vh', overflow: 'hidden', maxWidth: '700px',}}>
+    <Grid>
         <Typography variant="h5" gutterBottom>
             Hi!
         </Typography>

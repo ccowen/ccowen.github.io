@@ -121,6 +121,14 @@ function mydynamictheme(mode) {
           }
         }
       },
+      MuiMenuItem: {
+        styleOverrides: {
+          root: ({ theme }) => ({
+            ...theme.typography.button, // Copy all button typography
+            textTransform: 'uppercase', // Ensure uppercase
+          })
+        }
+      }
     }
   })
 

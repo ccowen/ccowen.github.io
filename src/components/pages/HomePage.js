@@ -1,5 +1,7 @@
-import { Stack, Collapse, Box } from "@mui/material";
+import { Stack, Collapse, Box, useMediaQuery } from "@mui/material";
+import { useTheme } from '@mui/material/styles';
 import { useAppContext } from "../../contexts/AppContext";
+
 import MyLogoHeader from "../MyLogoHeader";
 import HomeLeftPanel from "./home/HomeLeftPanel";
 import MyContentWidget from "./../MyContentWidget"
@@ -7,17 +9,31 @@ import myColors from "../../myColors";
 
 function HomePage() {
     const { isContentExpanded } = useAppContext();
+    const theme = useTheme();
+    const isMobile = useMediaQuery(theme.breakpoints.down('md'));
+
+    // Debug logging
+    console.log('isMobile:', isMobile, 'window width:', window.innerWidth);
+
 
     return (
         <>
-            <MyLogoHeader colorOverride="transparent"/>
+            <MyLogoHeader colorOverride={myColors.whiteGray}/>
             
-            <Box sx={{ display: 'flex', minHeight: '100vh', overflow: 'hidden', backgroundColor: myColors.whiteGray }}>
+            <Box sx={{ display: 'flex', flexDirection: isMobile ? 'column' : 'row', minHeight: '100vh', overflow: 'hidden', backgroundColor: myColors.whiteGray }}>
                 {/* Collapsible Left Panel */}
-                <Collapse orientation="horizontal" in={!isContentExpanded} timeout={500} unmountOnExit>
-                    <Stack direction={'column'} sx={{ alignItems: 'center', justifyContent: 'space-evenly', height: '100%' }}>
+                <Collapse orientation={isMobile ? "vertical" : "horizontal"} in={!isContentExpanded} timeout={500} unmountOnExit>
+                    <Box sx={{ 
+                        display: 'flex',
+                        flexDirection: 'column',
+                        alignItems: 'center', 
+                        justifyContent: 'space-evenly', 
+                        height: '100%' ,
+                        padding: isMobile ? '20px' : '64px',
+                        paddingTop: isMobile ? '40px' : '0px'
+                    }}>
                         <HomeLeftPanel/>
-                    </Stack>
+                    </Box>
                 </Collapse>
 
                 {/* Content Panel - Always visible */}
@@ -28,7 +44,8 @@ function HomePage() {
                     display: 'flex',
                     alignItems: 'center',     // Centers vertically
                     justifyContent: 'center', // Centers horizontally
-                    padding: '64px'           // Replaces the margin from inner Box
+                    padding: isMobile ? '20px' : '64px',
+                    paddingTop: '64px'
                 }}>
                     <MyContentWidget/>
                 </Box>
