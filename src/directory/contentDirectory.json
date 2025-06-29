@@ -3,9 +3,9 @@
         "about-me": {
             "page-title": "About me",
             "subtitle": null,
-            "author": null,
+            "author": "Caitlin Cowen",
             "date": null,
-            "article-tags": [],
+            "article-tags": ["Open to Work", "Open to Collaboration", "Open to Freelance"],
             "thumbnail-image": ""
         },
         "site-navigation-woven-time": {
@@ -40,7 +40,7 @@
             "article-tags": ["success evaluation", "custom data viz"],
             "thumbnail-image": "scorecard_key_metrics_overview_thumbnail.png"
         },
-                 "woven-time/interactive": {
+            "woven-time/interactive": {
             "page-title": "Thoughts on our experience of time in a mashup, 'Woven Time'",
             "subtitle": null,
             "author": "Caitlin Cowen",
