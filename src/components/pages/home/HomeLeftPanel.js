@@ -2,8 +2,6 @@ import { Typography, Box, Link } from "@mui/material";
 import Grid from '@mui/material/Grid2';
 
 import MyPlatformHandles from "../../MyPlatformHandles";
-import colors from '../../../data/pages/woven-time/dataVisColors.js'
-import theme from "../../../myAppDarkTheme.js";
 
 function HomeLeftPanel() {
   

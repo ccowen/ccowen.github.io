@@ -1,4 +1,4 @@
-import { Stack, Collapse, Box, useMediaQuery } from "@mui/material";
+import { Collapse, Box, useMediaQuery } from "@mui/material";
 import { useTheme } from '@mui/material/styles';
 import { useAppContext } from "../../contexts/AppContext";
 
@@ -11,10 +11,6 @@ function HomePage() {
     const { isContentExpanded } = useAppContext();
     const theme = useTheme();
     const isMobile = useMediaQuery(theme.breakpoints.down('md'));
-
-    // Debug logging
-    console.log('isMobile:', isMobile, 'window width:', window.innerWidth);
-
 
     return (
         <>
