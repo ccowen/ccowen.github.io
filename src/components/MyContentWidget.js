@@ -23,7 +23,7 @@ function MyContentWidget() {
     const containerRef = useRef(null);
 
     const content = contentDirectory["content-directory"]
-    const skipPages = ["about-me", "page-not-found", "future-friday-may-2025", "site-navigation-woven-time"]
+    const skipPages = ["about-me", "page-not-found", "site-navigation-woven-time"]
 
     // Filter content and convert to array
     const filteredContent = Object.keys(content)

@@ -16,7 +16,7 @@ import VendorScorecard from './components/pages/VendorScorecard';
 import PageNotFound from './components/pages/PageNotFound';
 import VendorScorecardSuccess from './components/pages/VendorScorecardSuccess';
 import MusicNotation from './components/pages/MusicNotation';
-import FutureFridayMay2025 from './components/pages/FutureFridayMay2025';
+import GlobalFootprintNetworkUnitedStatesAndCanada from './components/pages/GlobalFootprintNetworkUnitedStatesAndCanada';
 
 function App() {
 
@@ -51,7 +51,7 @@ function App() {
             <Route path="/vendor-scorecard" element={<VendorScorecard/>} />
             <Route path="/vendor-scorecard-success" element={<VendorScorecardSuccess/>} />
             <Route path="/western-music-notation" element={<MusicNotation/>} />
-            <Route path="/future-friday-may-2025" element={<FutureFridayMay2025/>} />
+            <Route path="/global-footprint-network-united-states-and-canada" element={<GlobalFootprintNetworkUnitedStatesAndCanada/>} />
 
             <Route path="/site-navigation-woven-time" element={<SiteNavigationWovenTime/>} />
             <Route path="*" element={<PageNotFound />}/>

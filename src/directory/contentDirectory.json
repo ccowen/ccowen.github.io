@@ -48,20 +48,20 @@
             "article-tags": ["publication", "custom data viz"],
             "thumbnail-image": "woven-time-thumbnail.jpg"
         },
+        "global-footprint-network-united-states-and-canada": {
+            "page-title": "Comparing ecological footprint and biocapacity data in the United States and Canada",
+            "subtitle": null,
+            "author": "Caitlin Cowen",
+            "date": "May 2025",
+            "article-tags": ["custom data viz", "storytelling", "data visualization society"],
+            "thumbnail-image": "ff_pomegranate_tree_thumbnail.png"
+        },
         "western-music-notation": {
             "page-title": "Interpreting Audible Intervals into Visual Learning Tools for Cognitive Brain Training and Musical Advancement",
             "subtitle": null,
             "author": "Caitlin Cowen",
             "date": "October 2014",
             "article-tags": ["publication", "study", "custom data viz"],
-            "thumbnail-image": "western_music_notations_comparision_thumbnail.png"
-        },
-        "future-friday-may-2025": {
-            "page-title": "Future Friday May 2025, Global Footprint Network Exploration",
-            "subtitle": null,
-            "author": "Caitlin Cowen",
-            "date": "May 2025",
-            "article-tags": ["extra"],
             "thumbnail-image": "western_music_notations_comparision_thumbnail.png"
         }
     }

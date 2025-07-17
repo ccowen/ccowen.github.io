@@ -1,0 +1,124 @@
+{ "content": [
+    {
+        "type": "text",
+        "header": "Renewable Resources",
+        "content": [
+            "I think the most striking theme when reviewing data from the Global Footprint Network is that our Earth continually renews its biocapacity.",
+            "This might seem a little <b>basic</b>, but when I first skimmed the dataset, I thought thi dataset would analyze when our eco footprint would totally exceed all of our resources. I initially forgot that many of our resources <b>renew</b>.",
+            "For my analysis, I created a metaphor to visually represent the impact of this data. I am representing 100% biocapacity as this pomegranate tree with 15 pomegranates."
+        ]
+    },
+    {
+        "type": "image2",
+        "header": null,
+        "content": [ "/ff_pomegranate_tree_15.png"],
+        "maxWidth": 300
+
+    },
+    {
+        "type": "text",
+        "header": "",
+        "content": [
+            "Let's say in January a country starts with 15 pomegranates representing their own biocapaciy, how many pomegranates will that country use in that year according to their eco footprint and biocapacity?",
+            "Let's look at two countries with important similarities and differences, Canada and the United States. Similiarly, they are both high income countries in North America. Also, their ecological footprint is nearly identical. However, they differ in their biocapacity. Canada has a much higher biocapacity per person than the United States.",
+            "As an individual country, does Canada's own biocapacity support its eco footprint? Translating this to the pomegranate tree metaphor, Canada uses 8 of its 15 pomegranates and generates 15 fruit that are left in reserve."
+        ]
+    },
+    {
+        "type": "image2",
+        "header": null,
+        "content": [ "/ff_canada_individual_capacity.png"]
+    },
+    {
+        "type": "text",
+        "header": "",
+        "content": [
+            "We can also predict Canada's reserve level after 2 years, assuming the country continues to use the same amount of pomegranates each year."
+        ]
+    },
+    {
+        "type": "image2",
+        "header": null,
+        "content": [ "/ff_canada_individual_capacity_two_years.png"]
+    },
+    {
+        "type": "text",
+        "header": "",
+        "content": [
+            "As an individual country, does the United States' own biocapacity support its eco footprint? Translating this to the pomegranate tree metaphor, the United States uses 15 of its existing 15 pomegranates and uses the 15 fruit that are generated. No fruit are left in reserve."
+        ]
+    },
+    {
+        "type": "image2",
+        "header": null,
+        "content": [ "/ff_us_individual_capacity.png"]
+    },
+    {
+        "type": "text",
+        "header": "",
+        "content": [
+            "We can also predict the United States' reserve level after 2 years, assuming the country continues to use the same amount of pomegranates each year."
+        ]
+    },
+    {
+        "type": "image2",
+        "header": null,
+        "content": [ "/ff_us_individual_capacity_two_years.png"]
+    },
+    {
+        "type": "text",
+        "header": "",
+        "content": [
+            "Canada seems to be doing pretty great. Can they be a model for everyone? What if everyone in the world lived like people in Canada? Meaning everyone in the world had the same eco footprint as Canadians."
+        ]
+    },
+    {
+        "type": "image2",
+        "header": null,
+        "content": [ "/ff_globally_live_like_canadians.png"]
+    },
+    {
+        "type": "text",
+        "header": "",
+        "content": [
+            "Hmm this doesn't seem to work as a goal. Resources are exhausted by March 14 and this is not ideal.",
+            "How does this compare to the United States?"
+        ]
+    },
+    {
+        "type": "image2",
+        "header": null,
+        "content": [ "/ff_globally_live_like_americans.png"]
+    },
+    {
+        "type": "text",
+        "header": "",
+        "content": [
+            "The result is the same, and resources are exhausted by March 14. How can this be? As an individual country, Canada has a reserve of 'pomegranates' while the US has a deficit of 'pomegranates'. However, if everyone in the world lived as those in either country, the resulting date that 'pomegranates' run out is the same.",
+            "Let's take a look at the breakdown of numbers for both countries."
+        ]
+    },
+    {
+        "type": "image2",
+        "header": null,
+        "content": [ "/ff_table.png"]
+    },
+    {
+        "type": "text",
+        "header": null,
+        "content": [
+            "If everyone in the world replicates Canada's eco footprint, we do not end up with a reserve and it is the same as if everyone in the world lived as an American. That is because both countries essentially have the same eco footprint per person.",
+            "If we want to be more sustainable and find a model in a sustainable country, this analysis supports reflecting the eco footprint with the ratio to biocapacity. This analysis also zooms into sustainability at an individual country level, opening questions into accountability and trade.",
+            "This is an interesting analysis and part of a larger story. The Global Footprint Network has a lot of data that can be used to tell more stories about sustainability and our relationship with our planet."
+        ]
+    },
+    {
+        "type": "text",
+        "header": "Contributions",
+        "content": [
+            "I participated in a Future Friday series hosted by the Data Visualization Society, and this is my project from those sessions.",
+            "It was so valuable to be part of a community of data visualizers, and I learned so much from the experience. <b>Thank you</b> to the group and the organizers for the opportunity!"
+        ]
+    }
+
+]}

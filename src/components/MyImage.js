@@ -1,12 +1,12 @@
-import { Box, Card, CardMedia, Typography } from '@mui/material';
+import { Box, Card, CardMedia } from '@mui/material';
 
-function MyImage({ images }) {
+function MyImage({ images, maxWidth = 600 }) {
   return ( 
     <>
       {images.map((item, i) => {
         return (
           <Box key={i} sx={{}}>
-            <Card sx={{ maxWidth: 600, mx: 'auto' }}>
+            <Card sx={{ maxWidth: maxWidth, mx: 'auto' }}>
               <CardMedia
                 component="img"
                 image={item}
