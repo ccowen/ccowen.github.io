@@ -1,60 +1,104 @@
-import { Card, CardContent, Typography, Box, CardActionArea, Chip } from "@mui/material";
+import { Card, CardContent, Typography, Box, CardActionArea, Chip, CardMedia } from "@mui/material";
 
-function MyArticleCard({route, cardContent}) {
-    const card_max_height = 150;
 
-    return(
-        <Card sx={{display: 'flex', height: card_max_height}}>
-            <CardActionArea href={`/${route}`} sx={{minWidth: '182px'}}>
-                <CardContent 
-                    sx={{
-                        height: card_max_height,
-                        overflow: 'hidden',
-                        display: 'flex',
-                        flexDirection: 'column',
-                        padding: 2
-                    }}
-                >
+function MyArticleCard({ route, cardContent }) {
+    const imageHeight = 200;
+
+    return (
+        <>
+        <Card 
+            sx={{ 
+                height: '100%',
+                display: 'flex',
+                flexDirection: 'column',
+                transition: 'all 0.3s',
+                '&:hover': {
+                    boxShadow: 6,
+                    transform: 'translateY(-4px)'
+                }
+            }}
+        >
+            <CardActionArea 
+                href={`/${route}`}
+                sx={{ 
+                    height: '100%',
+                    display: 'flex',
+                    flexDirection: 'column',
+                    alignItems: 'stretch',
+                    justifyContent: 'flex-start'
+                }}
+            >
+                {/* Image */}
+                {cardContent["thumbnail-image"] ? (
+                    <CardMedia
+                        component="img"
+                        height={imageHeight}
+                        image={`/${cardContent["thumbnail-image"]}`}
+                        alt={cardContent["page-title"]}
+                        sx={{ objectFit: 'cover' }}
+                    />
+                ) : (
+                    <Box 
+                        sx={{ 
+                            height: imageHeight, 
+                            bgcolor: 'primary.light',
+                            opacity: 0.3 
+                        }} 
+                    />
+                )}
+
+                {/* Content */}
+                <CardContent sx={{ flexGrow: 1, display: 'flex', flexDirection: 'column' }}>
+                    {/* Title */}
                     <Typography 
-                        variant="subtitle2" 
+                        variant="body1" 
+                        color="text.secondary"
                         sx={{
+                            mb: 2,
+                            fontStyle: 'italic',
                             display: '-webkit-box',
-                            WebkitLineClamp: 4, // Limits to 4 lines max
+                            WebkitLineClamp: 3,
                             WebkitBoxOrient: 'vertical',
                             overflow: 'hidden',
                             textOverflow: 'ellipsis',
-                            lineHeight: 1.2,
-                            marginBottom: 1
+                            lineHeight: 1.4,
+                            flexGrow: 1
                         }}
                     >
                         {cardContent["page-title"]}
                     </Typography>
-                    <Box sx={{ 
-                        display: 'flex', 
-                        flexWrap: 'wrap', 
-                        gap: 0.5,
-                        overflow: 'hidden',
-                    }}>
-                        {cardContent["article-tags"].map(function(item, i){
-                            return <Chip label={item} key={i} color="secondary" size="small" sx={{ marginBottom: .5 }}/>
-                        })}
+
+                    {/* Date */}
+                    {cardContent["date"] && (
+                        <Typography 
+                            variant="caption" 
+                            color="text.secondary" 
+                            sx={{ display: 'block', mb: 2 }}
+                        >
+                            {cardContent["date"]}
+                        </Typography>
+                    )}
+
+                    {/* Tags */}
+                    <Box sx={{ display: 'flex', gap: 1, flexWrap: 'wrap' }}>
+                        {cardContent["article-tags"].map((tag, i) => (
+                            <Chip 
+                                key={i}
+                                label={tag.toUpperCase()} 
+                                size="medium" 
+                                color="secondary"
+                                sx={{ 
+                                    fontWeight: 'bold',
+                                    marginBottom: "4px"
+                                }} 
+                            />
+                            // <Chip label={item} key={i} color="secondary" size="small" sx={{ marginBottom: .5 }}/
+                        ))}
                     </Box>
                 </CardContent>
             </CardActionArea>
-            <Box sx={{ height: card_max_height, width: card_max_height, flexShrink: 0 }} >
-                <div
-                    title="project thumbnail"
-                    style={{
-                        height: `${card_max_height}px`,
-                        width: `${card_max_height}px`,
-                        backgroundImage: `url('/${cardContent["thumbnail-image"]}')`,
-                        backgroundSize: "100% 100%",
-                        backgroundRepeat: "no-repeat",
-                        backgroundPosition: "center",
-                    }}
-                />
-            </Box>
         </Card>
+        </>
     );
 }
 

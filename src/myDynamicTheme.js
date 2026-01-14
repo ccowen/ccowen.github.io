@@ -3,8 +3,8 @@ import { createTheme } from '@mui/material/styles';
 import myColors from './myColors';
 
 const font = {
-    headings: "'gesta', 'Ubuntu', sans-serif",
-    body: "'ivyora-display', serif"
+    headings: "'ivyora-display', serif",
+    body: "'gesta', 'Ubuntu', sans-serif"
 }
 
 function mydynamictheme(mode) {
@@ -27,23 +27,31 @@ function mydynamictheme(mode) {
     }
     ,
     typography: {
+      'h2': {
+        fontFamily: font.body,
+        fontWeight: 600,
+        fontStyle: 'normal',
+        color: mode === 'light' ? myColors.primary.main : myColors.whiteGray
+      },
       'h3': {
         fontFamily: font.headings,
-        fontWeight: 500,
+        fontWeight: 600,
         fontStyle: 'normal',
         color: mode === 'light' ? myColors.primary.main : myColors.whiteGray
       },
       'h4': {
         fontFamily: font.headings,
-        fontWeight: 500,
+        fontWeight: 600,
         fontStyle: 'normal',
         color: mode === 'light' ? myColors.primary.main : myColors.whiteGray
       },
       'h5': {
         fontFamily: font.headings,
-        fontWeight: 500,
+        fontWeight: 600,
         fontStyle: 'normal',
-        color: mode === 'light' ? myColors.primary.main : myColors.whiteGray
+        color: mode === 'light' ? myColors.primary.main : myColors.whiteGray,
+        fontSize: '1.7rem'
+
       },
       // TODO light italic
       'subtitle1': {
@@ -58,7 +66,8 @@ function mydynamictheme(mode) {
       },
       'body1': {
         fontFamily: font.body,
-        color: mode === 'light' ? myColors.purpleBlack : myColors.whiteGray
+        color: mode === 'light' ? myColors.purpleBlack : myColors.whiteGray,
+        fontSize: '1.3rem'
       },
       'body2': {
         fontFamily: font.body
@@ -88,7 +97,7 @@ function mydynamictheme(mode) {
         styleOverrides: {
           // Name of the slot
           root: {
-            fontFamily: font.headings,
+            fontFamily: font.body,
             fontWeight: 700,
             fontStyle: 'normal',
             textTransform: 'uppercase',
@@ -107,7 +116,7 @@ function mydynamictheme(mode) {
       MuiButton: {
         styleOverrides: {
           root: {
-            fontFamily: font.headings,
+            fontFamily: font.body,
             fontWeight: 700,
             fontStyle: 'normal',
             textTransform: 'uppercase',

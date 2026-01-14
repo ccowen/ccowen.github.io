@@ -4,6 +4,7 @@ import MyArticleHeader from "./MyArticleHeader";
 import MyLogoHeader from "./MyLogoHeader";
 import ContentParser from "./ContentParser";
 import MyContentWidget from "./MyContentWidget";
+import MyFooter from "./MyFooter";
 
 function ArticleWrapper({headers, contents}) {
   
@@ -16,11 +17,12 @@ function ArticleWrapper({headers, contents}) {
           <MyArticleHeader>{headers}</MyArticleHeader>
           <ContentParser contents={contents} />
           <Typography variant="h5" gutterBottom sx={{marginTop: "24px"}}>
-            Thanks for reading! If you want more ...
+            Thanks for reading! You can read more of my featured work ...
           </Typography>
           <MyContentWidget/>
         </Grid>
       </Grid>
+      <MyFooter />
     </>
   );
 }

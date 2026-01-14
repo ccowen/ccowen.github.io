@@ -1,0 +1,31 @@
+/* Masonry grid container */
+.my-masonry-grid {
+  display: flex;
+  margin-left: -32px; /* gutter size offset */
+  width: auto;
+}
+
+.my-masonry-grid_column {
+  padding-left: 32px; /* gutter size */
+  background-clip: padding-box;
+}
+
+/* Style your items */
+.masonry-item {
+  margin-bottom: 32px;
+}
+
+/* Responsive adjustments */
+@media (max-width: 700px) {
+  .my-masonry-grid {
+    margin-left: -16px; /* smaller gutter on mobile */
+  }
+  
+  .my-masonry-grid_column {
+    padding-left: 16px;
+  }
+  
+  .masonry-item {
+    margin-bottom: 16px;
+  }
+}

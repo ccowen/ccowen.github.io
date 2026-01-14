@@ -3,25 +3,36 @@ import { Menu as MenuIcon } from '@mui/icons-material';
 import { useTheme } from '@mui/material/styles';
 import { useState } from 'react';
 import { useNavigate } from 'react-router-dom';
-import { useAppContext } from "../contexts/AppContext";
 
 import myColors from "../myColors";
 
 function MyLogoHeader({colorOverride}) {
     const navigate = useNavigate();
-    const { setIsContentExpanded } = useAppContext();
     const theme = useTheme();
     const isMobile = useMediaQuery(theme.breakpoints.down('md'));
     const [anchorEl, setAnchorEl] = useState(null);
 
     const handleMyWorkClick = () => {
-        setIsContentExpanded(true);
-        navigate('/');
-        setAnchorEl(null); // Close menu if open
+        // If already on homepage, just scroll
+        if (window.location.pathname === '/') {
+            const element = document.getElementById('my-work');
+            if (element) {
+                element.scrollIntoView({ behavior: 'smooth' });
+            }
+        } else {
+            // If on another page, navigate to home then scroll
+            navigate('/');
+            setTimeout(() => {
+                const element = document.getElementById('my-work');
+                if (element) {
+                    element.scrollIntoView({ behavior: 'smooth' });
+                }
+            }, 100);
+        }
+        setAnchorEl(null);
     };
 
     const handleHomeClick = () => {
-        setIsContentExpanded(false);
         navigate('/');
         setAnchorEl(null); // Close menu if open
     };
@@ -40,7 +51,10 @@ function MyLogoHeader({colorOverride}) {
     };
 
     return(
-        <AppBar position="fixed" style={colorOverride ? { backgroundColor: colorOverride } : {}}>
+        <AppBar 
+            position="fixed" 
+            style={colorOverride ? { backgroundColor: colorOverride } : {}}
+        >
             <Toolbar>
                 {/* Logo - responsive sizing */}
                 <div onClick={handleHomeClick} style={{

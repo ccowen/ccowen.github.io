@@ -6,7 +6,7 @@ import { ThemeProvider, useTheme } from '@mui/material/styles';
 import Grid from '@mui/material/Grid2';
 
 import contentDirectory from "./../directory/contentDirectory.json"
-import MyArticleCard from "./MyArticleCard";
+import MyArticleCardHorizontal from "./MyArticleCardHorizontal";
 import theme from "../myAppDarkTheme";
 import myColors from "../myColors";
 import { useAppContext } from "../contexts/AppContext";
@@ -183,7 +183,7 @@ function MyContentWidget() {
                                 size={gridSize} // Will be 12 on mobile, 6 on desktop
                                 key={item.key}
                             >
-                                <MyArticleCard 
+                                <MyArticleCardHorizontal 
                                     route={item.key} 
                                     cardContent={content[item.key]} 
                                 />

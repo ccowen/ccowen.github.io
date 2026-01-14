@@ -29,16 +29,16 @@
             "subtitle": null,
             "author": "Caitlin Cowen",
             "date": "March 2024 - August 2024",
-            "article-tags": ["external reporting", "cross team leadership"],
-            "thumbnail-image": "scorecard_thumbnail.png"
+            "article-tags": ["reporting", "cross team leadership", "Power BI"],
+            "thumbnail-image": "scorecard_earned_badge_tab.png"
         },
         "vendor-scorecard-success": {
             "page-title": "Data Visualizations to evaluate success of scorecard initiatives",
             "subtitle": null,
             "author": "Caitlin Cowen",
             "date": "January 2025",
-            "article-tags": ["success evaluation", "custom data viz"],
-            "thumbnail-image": "scorecard_key_metrics_overview_thumbnail.png"
+            "article-tags": ["reporting", "cross team leadership", "custom data viz"],
+            "thumbnail-image": "scorecard_key_metrics_overview.png"
         },
             "woven-time/interactive": {
             "page-title": "Thoughts on our experience of time in a mashup, 'Woven Time'",
@@ -53,16 +53,16 @@
             "subtitle": null,
             "author": "Caitlin Cowen",
             "date": "May 2025",
-            "article-tags": ["custom data viz", "storytelling", "data visualization society"],
-            "thumbnail-image": "ff_pomegranate_tree_thumbnail.png"
+            "article-tags": ["custom data viz", "storytelling"],
+            "thumbnail-image": "ff_canada_individual_capacity.png"
         },
         "western-music-notation": {
             "page-title": "Interpreting Audible Intervals into Visual Learning Tools for Cognitive Brain Training and Musical Advancement",
             "subtitle": null,
             "author": "Caitlin Cowen",
             "date": "October 2014",
-            "article-tags": ["publication", "study", "custom data viz"],
-            "thumbnail-image": "western_music_notations_comparision_thumbnail.png"
+            "article-tags": ["publication", "custom data viz"],
+            "thumbnail-image": "westtern_music_notations_comparision.png"
         }
     }
 }
