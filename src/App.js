@@ -17,6 +17,7 @@ import PageNotFound from './components/pages/PageNotFound';
 import VendorScorecardSuccess from './components/pages/VendorScorecardSuccess';
 import MusicNotation from './components/pages/MusicNotation';
 import GlobalFootprintNetworkUnitedStatesAndCanada from './components/pages/GlobalFootprintNetworkUnitedStatesAndCanada';
+import PetalProgress from './components/pages/PetalProgress';
 
 function App() {
 
@@ -54,6 +55,7 @@ function App() {
             <Route path="/global-footprint-network-united-states-and-canada" element={<GlobalFootprintNetworkUnitedStatesAndCanada/>} />
 
             <Route path="/site-navigation-woven-time" element={<SiteNavigationWovenTime/>} />
+            <Route path="/petal-progress" element={<PetalProgress/>} />
             <Route path="*" element={<PageNotFound />}/>
           </Routes>
         </Box>

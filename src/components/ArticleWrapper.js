@@ -16,7 +16,7 @@ function ArticleWrapper({headers, contents}) {
         <Grid item xs={8} m={6} lg={6}>
           <MyArticleHeader>{headers}</MyArticleHeader>
           <ContentParser contents={contents} />
-          <Typography variant="h5" gutterBottom sx={{marginTop: "24px"}}>
+          <Typography variant="h5" gutterBottom sx={{marginTop: "48px"}}>
             Thanks for reading! You can read more of my featured work ...
           </Typography>
           <MyContentWidget/>

@@ -1,0 +1,33 @@
+{
+    "content": [
+        {
+            "type": "text_list",
+            "header": "Overview",
+            "content": [
+                "Designed and developed a habit-tracking application featuring mandala-inspired visualizations that grow with user progress, transforming routine data into meaningful visual patterns",
+                "<b>Envision this design integrated into existing systems like gym or yoga studio apps where user data is already collected, reducing onboarding friction</b>, keeping user engagement challenges in mind",
+                "Without an institutional buyer, would enhance standalone version with features to improve user buy-in",
+                "<b>Created full technical implementation from initial mandala design to data architecture to interactive frontend</b>, leveraging AWS Lambda for backend processing and custom javascript for dynamic, SVG-based visualizations"
+            ]
+        },
+        {
+            "type": "image2",
+            "header": null,
+            "content": [ "/main-image-orange-castle.png"]
+        },
+        {
+            "type": "image2",
+            "header": null,
+            "content": [ "/mandala-visual-legend.png"]
+        },
+        {
+            "type": "text_list",
+            "header": "Mandala Visualization Design",
+            "content": [
+                "Creates a visual growth metaphor—each completed habit adds a \"petal\" to the mandala, that reflect consistency over time",
+                "Draws on the meditative quality of mandalas to connect to mindful reflection on progress",
+                "Supports many options for personalization, including color schemes, and visualization shapes"
+            ]
+        }
+    ]
+}

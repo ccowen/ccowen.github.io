@@ -48,7 +48,7 @@ function MyArticleCardHorizontal({route, cardContent}) {
                         height: `${card_max_height}px`,
                         width: `${card_max_height}px`,
                         backgroundImage: `url('/${cardContent["thumbnail-image"]}')`,
-                        backgroundSize: "100% 100%",
+                        backgroundSize: "100%",
                         backgroundRepeat: "no-repeat",
                         backgroundPosition: "center",
                     }}

@@ -32,6 +32,14 @@
             "article-tags": ["reporting", "cross team leadership", "Power BI"],
             "thumbnail-image": "scorecard_earned_badge_tab.png"
         },
+        "petal-progress": {
+            "page-title": "Petal Progress: A Mandala-Inspired Habit Tracker",
+            "subtitle": null,
+            "author": "Caitlin Cowen",
+            "date": "August 2025 - present",
+            "article-tags": ["custom data viz", "storytelling"],
+            "thumbnail-image": "main-image-orange-castle.png"
+        },
         "vendor-scorecard-success": {
             "page-title": "Data Visualizations to evaluate success of scorecard initiatives",
             "subtitle": null,
