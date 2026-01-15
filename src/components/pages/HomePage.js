@@ -47,12 +47,12 @@ function HomePage() {
 
     return (
         <>
-            <MyLogoHeader />
+            <MyLogoHeader colorOverride={`linear-gradient(135deg, #f3e0ff 0%, ${myColors.primary.light} 100%)`} />
             
             <Box sx={{ backgroundColor: myColors.whiteGray }}>
                 {/* Hero MySectionWrapper */}
                 <MySectionWrapper 
-                    py={isMobile ? 6 : 16}  
+                    py={isMobile ? 12 : 16}  
                     sx={{ 
                         background: `linear-gradient(135deg, #f3e0ff 0%, ${myColors.primary.light} 100%)`
                     }}
@@ -215,7 +215,7 @@ function HomePage() {
                                 </Box>
                                 <Box 
                                     sx={{ 
-                                        height: 400, 
+                                        width: '100%', 
                                         bgcolor: 'grey.200',
                                         background: 'linear-gradient(135deg, #e3f2fd 0%, #f3e5f5 100%)',
                                         borderRadius: 2,

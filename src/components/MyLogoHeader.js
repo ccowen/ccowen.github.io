@@ -52,8 +52,8 @@ function MyLogoHeader({colorOverride}) {
 
     return(
         <AppBar 
-            position="fixed" 
-            style={colorOverride ? { backgroundColor: colorOverride } : {}}
+            position="fixed"
+            style={colorOverride ? { background: colorOverride, boxShadow: '0 4px 6px rgba(0, 0, 0, 0.1)' } : {}}
         >
             <Toolbar>
                 {/* Logo - responsive sizing */}
