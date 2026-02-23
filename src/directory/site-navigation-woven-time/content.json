@@ -12,6 +12,7 @@
     {
         "type": "image2",
         "header": null,
-        "content": [ "/site-navigation-woven-time-diagram.png"]
+        "content": [ "/site-navigation-woven-time-diagram.png"],
+        "alt": ["Diagram showing site navigation changes between the portfolio site and the published Woven Time article"]
     }
 ]}

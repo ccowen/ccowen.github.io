@@ -1,33 +1,138 @@
 {
-    "content": [
-        {
-            "type": "text_list",
-            "header": "Overview",
-            "content": [
-                "Designed and developed a habit-tracking application featuring mandala-inspired visualizations that grow with user progress, transforming routine data into meaningful visual patterns",
-                "<b>Envision this design integrated into existing systems like gym or yoga studio apps where user data is already collected, reducing onboarding friction</b>, keeping user engagement challenges in mind",
-                "Without an institutional buyer, would enhance standalone version with features to improve user buy-in",
-                "<b>Created full technical implementation from initial mandala design to data architecture to interactive frontend</b>, leveraging AWS Lambda for backend processing and custom javascript for dynamic, SVG-based visualizations"
-            ]
-        },
-        {
-            "type": "image2",
-            "header": null,
-            "content": [ "/main-image-orange-castle.png"]
-        },
-        {
-            "type": "image2",
-            "header": null,
-            "content": [ "/mandala-visual-legend.png"]
-        },
-        {
-            "type": "text_list",
-            "header": "Mandala Visualization Design",
-            "content": [
-                "Creates a visual growth metaphor, each completed habit adds a \"petal\" to the mandala, that reflect consistency over time",
-                "Draws on the meditative quality of mandalas to connect to mindful reflection on progress",
-                "Supports many options for personalization, including color schemes, and visualization shapes"
-            ]
-        }
-    ]
+  "content": [
+    {
+      "type": "text_list",
+      "header": "Overview",
+      "content": [
+        "I am <b>designing and building PetalProgress</b>: a habit-tracking app built around mandala visualization, where each check-in adds to the mandala design.",
+        "The project started from a specific observation: <b>most habit apps are designed for the version of the user who doesn't need them</b>, built for perfect days, with mechanics that punish the reality of being human.",
+        "PetalProgress is an attempt to build something different. This case study is about the decisions that shaped it, and the research and reasoning behind each one."
+      ]
+    },
+    {
+      "type": "text_list",
+      "header": "Why Habit Apps Fail",
+      "content": [
+        "I researched why existing habit apps produce poor outcomes. The data is striking: <b>research suggests up to 90% of users abandon habit-tracking apps within 30 days</b>.",
+        "Across app store reviews, Reddit communities, and published studies, five pain points emerged consistently. Each one is a design problem, not a user motivation problem.",
+        "A Cohorty analysis of 6,000+ users found that <b>heavily gamified apps retain only 23% of users at 90 days, compared to 53% for simple check-in apps</b>. More telling: gamified app users who stopped using the app maintained their habits only 11% of the time at six months, versus 41% for non-gamified users. The tool undermined the goal.",
+        "Building a habit still requires showing up. PetalProgress does not change that. What it tries to remove are the <b>design barriers that make tracking and promoting habit formation harder than it needs to be</b>."
+      ]
+    },
+    {
+      "type": "image2",
+      "header": null,
+      "content": ["/petalprogress-diagram-01.png"],
+      "alt": ["Diagram mapping five common habit app pain points to PetalProgress design solutions"]
+    },
+    {
+      "type": "text_list",
+      "header": "The Art of Showing Up",
+      "content": [
+        "Traditional mandala creation is meditative. An artist returns to the piece session by session, layer by layer. <b>No single mark makes or breaks the work</b>; what matters is the practice of returning to it.",
+        "A finished mandala is a record of every session the artist showed up for. A missed day is not a flaw. It is simply a day the artist was elsewhere.",
+        "<b>PetalProgress replaces the streak counter with a mandala</b>: a visualization that shows what you built, not what you missed."
+      ]
+    },
+    {
+      "type": "image2",
+      "header": "Mandala Editor: Proof of Concept",
+      "content": ["/petalprogress-mandala-editor-poc.png"],
+      "alt": ["Proof of concept for the PetalProgress mandala editor showing petals added through check-ins"]
+    },
+    {
+      "type": "text_list",
+      "header": "Decision 01: Weekly Targets, Not Daily Mandates",
+      "content": [
+        "Research finding: rigid daily scheduling is one of the most emotionally harmful design patterns in habit apps. A Habitify user put it precisely: <b>\"I'd love the ability to track a habit over a week. Trying to force them to a specific day makes me less likely to do them.\"</b>",
+        "The decision: PetalProgress uses weekly targets. Users set how many times per week they want to check in, not which specific days. <b>Missing Tuesday is not a failure if Wednesday still happens.</b>",
+        "The tradeoff: weekly targets are slightly harder to visualize than daily streaks. By adding shapes to the pattern, the mandala design can address that issue with additional layers."
+      ]
+    },
+    {
+      "type": "text_list",
+      "header": "Decision 02: Reducing the Tracking Tax",
+      "content": [
+        "Research finding: the act of logging becomes its own burden. One writer described it precisely: <b>\"I made a Daily specifically for checking and updating Habitica\"</b>, a habit for the habit tracker.",
+        "The design goal was to get check-in time under 30 seconds without opening the app. The solution: <b>email-based check-in. A single reply to a daily email logs the habit</b>.",
+        "Free users get email tracking assigned to their first mandala from day one. When that mandala completes, tracking auto-transfers to the next active mandala. Users can reassign it manually at any time. Petal+ unlocks email tracking across all mandalas simultaneously."
+      ]
+    },
+    {
+      "type": "image2",
+      "header": null,
+      "content": ["/petalprogress-diagram-02.png"],
+      "alt": ["Diagram showing the email-based check-in flow and how email tracking transfers between mandalas"]
+    },
+    {
+      "type": "text_list",
+      "header": "Decision 03: A Genuinely Useful Free Tier",
+      "content": [
+        "Research finding: apps that advertise as free and immediately gate core features generate significant negative sentiment and drive app-switching. One reviewer called it <b>\"almost unusable without subscription.\"</b>",
+        "The decision: the free tier should constitute a complete habit practice, not a trial. Three active mandalas, all themes, full check-in history and gallery, email tracking on the first mandala.",
+        "<b>The line between free and paid is about depth, not access.</b> Petal+ at $1.99/month unlocks unlimited mandalas, email tracking on all of them, reminders, calendar view, and 20% off the shop (one print order covers a month)."
+      ]
+    },
+    {
+      "type": "image2",
+      "header": null,
+      "content": ["/petalprogress-diagram-03.png"],
+      "alt": ["Diagram comparing the free tier and Petal+ subscription features"]
+    },
+    {
+      "type": "text_list",
+      "header": "Decision 04: Start Simple",
+      "content": [
+        "Research finding: the most common failure pattern isn't lack of willpower. It's that users set up 10-15 ambitious habits at onboarding, sustain them for a week, and collapse entirely. <b>The enthusiastic setup creates the conditions for failure.</b>",
+        "The decision: PetalProgress onboards users with weekly mandalas only. Longer timeframes (monthly, quarterly, yearly) exist in the product, but are not introduced at setup.",
+        "A completed weekly mandala is achievable. That completion creates the motivation to start another. Longer timeframes become meaningful once the habit has actually formed."
+      ]
+    },
+    {
+      "type": "image2",
+      "header": null,
+      "content": ["/petalprogress-diagram-04.png"],
+      "alt": ["Diagram illustrating the progression from weekly mandalas to longer timeframes as habits form"]
+    },
+    {
+      "type": "text_list",
+      "header": "The Physical Artifact",
+      "content": [
+        "A completed mandala is not just a data visualization: it is a record of a practice. <b>I wanted to explore what it would mean to take that record off the screen.</b>",
+        "Before the shop, there is sharing. When a user completes a mandala, they can generate a shareable image for social media: <b>a free, built-in engagement feature that turns individual progress into something visible</b>. It is one of the few habit app mechanics that doesn't ask anything of the user; the mandala is already beautiful, and sharing it is optional.",
+        "Social traction creates a natural funnel: someone sees a completed mandala, recognizes what it represents, and downloads the app. <b>This is an organic acquisition path that most habit apps don't have</b>, because their outputs aren't worth sharing.",
+        "The shop extends this logic into the physical world. Users can order their completed mandala as an art print, magnet, or button: a proof of concept for what that layer could look like. The object becomes a tangible marker of the habit they built."
+      ]
+    },
+    {
+      "type": "image2",
+      "header": "Shop: Proof of Concept",
+      "content": ["/petalprogress-shop-poc.png"],
+      "alt": ["Proof of concept for the PetalProgress shop showing completed mandalas as printable art products"]
+    },
+    {
+      "type": "text_list",
+      "header": "For Teams",
+      "content": [
+        "The individual product works because it feels personal, not managed. <b>The Teams product had to preserve that experience for members while giving coaches and program managers what they actually need.</b>",
+        "Members have the same experience as any individual user: their mandala grows the same way. The coach layer adds habit assignment, an engagement dashboard, and at-risk alerts. The member never sees themselves as a data point.",
+        "The end-of-program artifact is where the two layers converge: printed mandalas for every member. <b>For a gym or wellness program, that is something tangible to hand someone at the end of 12 weeks.</b> It marks the work they did."
+      ]
+    },
+    {
+      "type": "image2",
+      "header": null,
+      "content": ["/petalprogress-diagram-05.png"],
+      "alt": ["Diagram showing the Teams product structure with coach dashboard and member mandala experience"]
+    },
+    {
+        "type": "text_list",
+        "header": "What's Next",
+        "content": [
+            "PetalProgress started as a spark, the kind artists describe when an idea arrives and simply has to be followed. <b>The concept felt right before the research confirmed it</b>, and the research confirmed it.",
+            "The user data validates the core visual: momentum-based tracking outperforms streaks, flexible scheduling outperforms rigid daily grids, and simple tools build more durable habits than complex ones. <b>The mandala is not just an aesthetic choice; it is the right structure for the problem.</b>",
+            "<b>I am building this because I believe I see it.</b> That is a different starting point than most habit apps, and I hope it shows in the decisions."
+        ]
+    }
+  ]
 }

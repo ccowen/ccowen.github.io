@@ -13,7 +13,7 @@
         "type": "text_list",
         "header": "A Key Product Decision: Rethinking How Reports Reach Vendors",
         "content": [
-            "The original ask was to email scorecards directly to vendors. I identified this as a problem before implementation and <b>led the effort to gain buy-in for my proposed solution.</b>",            "Analytics was not a vendor-facing team, and handling vendor questions via email at scale would require standing up and monitoring a ticketing system, adding significant overhead.",
+            "The original ask was to email scorecards directly to vendors. I identified this as a problem before implementation and <b>led the effort to gain buy-in for my proposed solution.</b>",            "Analytics was not a vendor-facing team, and handling vendor questions via email at scale would require monitoring a ticketing system, adding overhead.",
             "<b>The solution: embed the report directly within the vendor portal</b>, where vendors already had an established relationship and support infrastructure.",
             "This reframe meant vendors could access their reports in context, and any follow-up questions could be routed through an existing support process, removing analytics from the communication loop entirely.",
             "This decision was based on team structure, security considerations, and designing for scale rather than just the immediate deliverable."
@@ -32,17 +32,25 @@
     {
         "type": "image2",
         "header": null,
-        "content": [ "/scorecard_badges.png"]
+        "content": [ "/scorecard_badges.png"],
+        "alt": ["Gold, Silver, Bronze, and Trial performance badges designed for the vendor scorecard"]
     },
     {
         "type": "image2",
         "header": "Scorecard Samples",
         "content": [
-            "/scorecard_earned_badge_tab.png", 
-            "/scorecard_live_tab.png", 
+            "/scorecard_earned_badge_tab.png",
+            "/scorecard_live_tab.png",
             "/scorecard_badge_threseholds.png",
             "/scorecard_service_category_estimates.png",
             "/scorecard_historical_tab.png"
+        ],
+        "alt": [
+            "Scorecard view showing earned badges by service category",
+            "Live scorecard tab displaying current vendor performance metrics",
+            "Badge threshold definitions showing scoring criteria per tier",
+            "Service category estimates breakdown across vendor metrics",
+            "Historical performance tab showing vendor trends over time"
         ]
     },
     {
@@ -57,7 +65,8 @@
     {
         "type": "image2",
         "header": null,
-        "content": [ "/scorecard_lifecycle.png"]
+        "content": [ "/scorecard_lifecycle.png"],
+        "alt": ["Scorecard lifecycle diagram showing how vendors move through work order and scorecard phases"]
     },
     {
         "type": "text_list",
@@ -71,6 +80,7 @@
     {
         "type": "image2",
         "header": null,
-        "content": [ "/scorecard_key_metrics_overview.png"]
+        "content": [ "/scorecard_key_metrics_overview.png"],
+        "alt": ["Key metrics overview page showing scorecard impact results for stakeholders"]
     }
 ]}

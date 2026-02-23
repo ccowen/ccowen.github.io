@@ -20,12 +20,14 @@
     {
         "type": "image2",
         "header": null,
-        "content": [ "/western-music-notaion-figure4.png"]
+        "content": [ "/western-music-notaion-figure4.png"],
+        "alt": ["Figure showing how equal vertical spacing in traditional notation misrepresents whole steps and half steps"]
     },
     {
         "type": "image2",
         "header": null,
-        "content": [ "/western-music-notaion-figure5.png"]
+        "content": [ "/western-music-notaion-figure5.png"],
+        "alt": ["Figure showing the Circle Notation alternative where vertical spacing accurately reflects interval size"]
     },
     {
         "type": "text_list",
@@ -41,12 +43,14 @@
     {
         "type": "image2",
         "header": null,
-        "content": [ "/westtern_music_notations_comparision.png"]
+        "content": [ "/westtern_music_notations_comparision.png"],
+        "alt": ["Side-by-side comparison of Traditional Notation and Circle Notation systems"]
     },
     {
         "type": "image2",
         "header": null,
-        "content": [ "/western-music-notaion-figure7.png"]
+        "content": [ "/western-music-notaion-figure7.png"],
+        "alt": ["Experiment results chart showing Circle Notation outperformed Traditional Notation for novice and intermediate users"]
     },
     {
         "type": "text_list",

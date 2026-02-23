@@ -45,7 +45,8 @@
     {
         "type": "image2",
         "header": null,
-        "content": [ "/transcriptionExtendedm31to36.png"]
+        "content": [ "/transcriptionExtendedm31to36.png"],
+        "alt": ["Music transcription of measures 31-36 showing both heard samples and their unheard melodic extensions"]
     },
     {
         "type": "component",

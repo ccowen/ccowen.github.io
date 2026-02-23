@@ -12,8 +12,8 @@
         "type": "image2",
         "header": null,
         "content": [ "/ff_pomegranate_tree_15.png"],
+        "alt": ["Pomegranate tree with 15 fruits representing 100% biocapacity"],
         "maxWidth": 300
-
     },
     {
         "type": "text",
@@ -27,7 +27,8 @@
     {
         "type": "image2",
         "header": null,
-        "content": [ "/ff_canada_individual_capacity.png"]
+        "content": [ "/ff_canada_individual_capacity.png"],
+        "alt": ["Canada's biocapacity metaphor showing 8 of 15 pomegranates used with 15 fruit left in reserve"]
     },
     {
         "type": "text",
@@ -39,7 +40,8 @@
     {
         "type": "image2",
         "header": null,
-        "content": [ "/ff_canada_individual_capacity_two_years.png"]
+        "content": [ "/ff_canada_individual_capacity_two_years.png"],
+        "alt": ["Canada's projected pomegranate reserve level after two years of sustained usage"]
     },
     {
         "type": "text",
@@ -51,7 +53,8 @@
     {
         "type": "image2",
         "header": null,
-        "content": [ "/ff_us_individual_capacity.png"]
+        "content": [ "/ff_us_individual_capacity.png"],
+        "alt": ["United States biocapacity metaphor showing all 15 pomegranates and all generated fruit consumed with no reserve"]
     },
     {
         "type": "text",
@@ -63,7 +66,8 @@
     {
         "type": "image2",
         "header": null,
-        "content": [ "/ff_us_individual_capacity_two_years.png"]
+        "content": [ "/ff_us_individual_capacity_two_years.png"],
+        "alt": ["United States projected pomegranate reserve level after two years showing a deficit"]
     },
     {
         "type": "text",
@@ -75,7 +79,8 @@
     {
         "type": "image2",
         "header": null,
-        "content": [ "/ff_globally_live_like_canadians.png"]
+        "content": [ "/ff_globally_live_like_canadians.png"],
+        "alt": ["Global biocapacity scenario if everyone lived like Canadians, showing resources exhausted by March 14"]
     },
     {
         "type": "text",
@@ -88,7 +93,8 @@
     {
         "type": "image2",
         "header": null,
-        "content": [ "/ff_globally_live_like_americans.png"]
+        "content": [ "/ff_globally_live_like_americans.png"],
+        "alt": ["Global biocapacity scenario if everyone lived like Americans, also showing resources exhausted by March 14"]
     },
     {
         "type": "text",
@@ -101,7 +107,8 @@
     {
         "type": "image2",
         "header": null,
-        "content": [ "/ff_table.png"]
+        "content": [ "/ff_table.png"],
+        "alt": ["Table comparing Canada and United States ecological footprint and biocapacity data"]
     },
     {
         "type": "text",

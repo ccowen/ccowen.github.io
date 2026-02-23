@@ -21,7 +21,8 @@
     {
         "type": "image2",
         "header": null,
-        "content": [ "/healthcare-advocacy-main-image.png"]
+        "content": [ "/healthcare-advocacy-main-image.png"],
+        "alt": ["Visual artifact designed with an artist from the Data Visualization Society illustrating the healthcare ethics communication strategy"]
     },
     {
         "type": "text_list",
@@ -37,7 +38,8 @@
         "type": "image2",
         "header": null,
         "maxWidth": 400,
-        "content": [ "/healthcare_linkedin_comments.png"]
+        "content": [ "/healthcare_linkedin_comments.png"],
+        "alt": ["LinkedIn comments responding to the healthcare advocacy post, with readers calling it a must read"]
     },
     {
         "type": "text_list",
@@ -50,7 +52,8 @@
     {
         "type": "image2",
         "header": null,
-        "content": [ "/healthcare-petition-screenshot.png"]
+        "content": [ "/healthcare-petition-screenshot.png"],
+        "alt": ["Screenshot of the healthcare advocacy petition page"]
     },
     {
         "type": "text_list",

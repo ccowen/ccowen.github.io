@@ -18,7 +18,7 @@ function ContentParser({contents}) {
           : item.type === "image" ?
             <div key={i} {...item.content} />
           : item.type === "image2" ?
-            <MyImage images={item.content} maxWidth={item.maxWidth || 600}/>
+            <MyImage images={item.content} alt={item.alt} maxWidth={item.maxWidth || 600}/>
           : null
         )
       ))
