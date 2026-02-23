@@ -2,8 +2,6 @@ import { Card, CardContent, Typography, Box, CardActionArea, Chip, CardMedia } f
 
 
 function MyArticleCard({ route, cardContent, chipColor = "secondary" }) {
-    const imageHeight = 200;
-
     return (
         <>
         <Card 
@@ -32,18 +30,17 @@ function MyArticleCard({ route, cardContent, chipColor = "secondary" }) {
                 {cardContent["thumbnail-image"] ? (
                     <CardMedia
                         component="img"
-                        height={imageHeight}
                         image={`/${cardContent["thumbnail-image"]}`}
                         alt={cardContent["page-title"]}
-                        sx={{ objectFit: 'cover' }}
+                        sx={{ width: '100%', height: 'auto' }}
                     />
                 ) : (
-                    <Box 
-                        sx={{ 
-                            height: imageHeight, 
+                    <Box
+                        sx={{
+                            height: 150,
                             bgcolor: 'primary.light',
-                            opacity: 0.3 
-                        }} 
+                            opacity: 0.3
+                        }}
                     />
                 )}
 
