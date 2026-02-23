@@ -1,4 +1,5 @@
 import { Card, CardContent, Typography, Box, CardActionArea, Chip } from "@mui/material";
+import myColors from "../myColors";
 
 function MyArticleCardHorizontal({route, cardContent}) {
     const card_max_height = 150;
@@ -36,7 +37,7 @@ function MyArticleCardHorizontal({route, cardContent}) {
                         overflow: 'hidden',
                     }}>
                         {cardContent["article-tags"].map(function(item, i){
-                            return <Chip label={item} key={i} color="secondary" size="small" sx={{ marginBottom: .5 }}/>
+                            return <Chip label={item} key={i} size="small" sx={{ marginBottom: .5, backgroundColor: myColors.purple, color: myColors.whiteGray }}/>
                         })}
                     </Box>
                 </CardContent>

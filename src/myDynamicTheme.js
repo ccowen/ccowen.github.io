@@ -28,7 +28,7 @@ function mydynamictheme(mode) {
     ,
     typography: {
       'h2': {
-        fontFamily: font.body,
+        fontFamily: font.headings,
         fontWeight: 600,
         fontStyle: 'normal',
         color: mode === 'light' ? myColors.primary.main : myColors.whiteGray
@@ -67,7 +67,7 @@ function mydynamictheme(mode) {
       'body1': {
         fontFamily: font.body,
         color: mode === 'light' ? myColors.purpleBlack : myColors.whiteGray,
-        fontSize: '1.3rem'
+        fontSize: '1.2rem'
       },
       'body2': {
         fontFamily: font.body

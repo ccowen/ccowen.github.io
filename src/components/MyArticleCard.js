@@ -1,7 +1,7 @@
 import { Card, CardContent, Typography, Box, CardActionArea, Chip, CardMedia } from "@mui/material";
 
 
-function MyArticleCard({ route, cardContent }) {
+function MyArticleCard({ route, cardContent, chipColor = "secondary" }) {
     const imageHeight = 200;
 
     return (
@@ -86,7 +86,7 @@ function MyArticleCard({ route, cardContent }) {
                                 key={i}
                                 label={tag.toUpperCase()} 
                                 size="medium" 
-                                color="secondary"
+                                color={chipColor}
                                 sx={{ 
                                     fontWeight: 'bold',
                                     marginBottom: "4px"

@@ -52,10 +52,15 @@
     },
         {
         "type": "text",
+        "header": "Beyond the Data",
         "content": [
-
             "When I'm not working, you'll find me reading, watching great shows, at yoga, or learning chess. I'm also hoping to get back into painting—because sometimes the unexpected solutions come when you step away from the screen and work with your hands."
         ]
+    },
+    {
+        "type": "component",
+        "header": null,
+        "content":["BeyondTheData"]
     },
     {
         "type": "text",

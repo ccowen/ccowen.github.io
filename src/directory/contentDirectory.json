@@ -25,11 +25,11 @@
             "thumbnail-image": ""
         },
         "vendor-scorecard": {
-            "page-title": "Designing a vendor scorecard to communicate performance and encourage improvement",
+            "page-title": "From Brief to Impact: Designing a Vendor Scorecard System",
             "subtitle": null,
             "author": "Caitlin Cowen",
             "date": "March 2024 - August 2024",
-            "article-tags": ["reporting", "cross team leadership", "Power BI"],
+            "article-tags": ["ux research", "product design", "cross team leadership", "Power BI"],
             "thumbnail-image": "scorecard_earned_badge_tab.png"
         },
         "petal-progress": {
@@ -40,20 +40,12 @@
             "article-tags": ["custom data viz", "storytelling"],
             "thumbnail-image": "main-image-orange-castle.png"
         },
-        "vendor-scorecard-success": {
-            "page-title": "Data Visualizations to evaluate success of scorecard initiatives",
-            "subtitle": null,
-            "author": "Caitlin Cowen",
-            "date": "January 2025",
-            "article-tags": ["reporting", "cross team leadership", "custom data viz"],
-            "thumbnail-image": "scorecard_key_metrics_overview.png"
-        },
             "woven-time/interactive": {
-            "page-title": "Thoughts on our experience of time in a mashup, 'Woven Time'",
+            "page-title": "Woven Time: Designing an Interactive Music Data Story",
             "subtitle": null,
             "author": "Caitlin Cowen",
             "date": "August 2022",
-            "article-tags": ["publication", "custom data viz"],
+            "article-tags": ["custom data viz", "storytelling", "publication", "interactive"],
             "thumbnail-image": "woven-time-thumbnail.jpg"
         },
         "global-footprint-network-united-states-and-canada": {
@@ -64,13 +56,21 @@
             "article-tags": ["custom data viz", "storytelling"],
             "thumbnail-image": "ff_canada_individual_capacity.png"
         },
-        "western-music-notation": {
-            "page-title": "Interpreting Audible Intervals into Visual Learning Tools for Cognitive Brain Training and Musical Advancement",
+        "western-music-notation-ux": {
+            "page-title": "From Design Flaw to User Experiment: A Music Notation Case Study",
             "subtitle": null,
             "author": "Caitlin Cowen",
             "date": "October 2014",
-            "article-tags": ["publication", "custom data viz"],
+            "article-tags": ["ux research", "custom data viz", "publication"],
             "thumbnail-image": "westtern_music_notations_comparision.png"
+        },
+        "advocacy-communication-design": {
+            "page-title": "Communication Design for Systems Change: A Healthcare Ethics Project",
+            "subtitle": null,
+            "author": "Caitlin Cowen",
+            "date": "July 2025 - January 2026",
+            "article-tags": ["communication design", "product design", "storytelling", "publication"],
+            "thumbnail-image": "healthcare-advocacy-main-image.png"
         }
     }
 }

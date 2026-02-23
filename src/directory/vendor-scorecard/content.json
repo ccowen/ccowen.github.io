@@ -3,20 +3,30 @@
         "type": "text_list",
         "header": "Overview",
         "content": [
-            "Envisioned to <b>clearly communicate a process of evaluating vendor performance</b>, thanks to an Operations team for leading and pushing this project forward",
-            "Considered and worked towards ease of use in a clear visualization, and iterated on user feedback to further improve on a clear message",
-            "<b>Led technical implementation with cross team collaboration- from IT, data scientists, and UX design-</b> and devised this solution based on team structure, security, and error handling"
+            "<b>Designed and launched a vendor performance scorecard</b>, from visual design and badge framework to technical implementation and impact measurement.",
+            "Paired vendor-facing scorecards with manager-facing coaching reports, designing for both sides of the performance conversation.",
+            "Collaborated cross-functionally with Operations, IT, data scientists, and UX design, iterating on user feedback throughout to sharpen the communication.",
+            "Led a post-launch evaluation to measure whether the product achieved its goals, creating visualizations to communicate the results to stakeholders."
         ]
     },
     {
         "type": "text_list",
-        "header": "Performance Indicators, Badges",
+        "header": "A Key Product Decision: Rethinking How Reports Reach Vendors",
         "content": [
-            "Gamified system includes performance badges in four categories: Gold, Silver, Bronze, and Trial. These badges represent performance levels in specific service areas.",
-            "Badge design reflects the metallic essence of gold, silver, and bronze awards", 
-            "Combines an indicator marker and a ribbon with a metallic color to <b>emphasize the temporary nature of the badge with the design, designed for dynamic, monthly updates </b> instead of permanent recognition",
-            "Flexible badge design, can be displayed horizontally in tables",
-            "I collaborated with a designer on my vision for badges, a big thank you!"
+            "The original ask was to email scorecards directly to vendors. I identified this as a problem before implementation and <b>led the effort to gain buy-in for my proposed solution.</b>",            "Analytics was not a vendor-facing team, and handling vendor questions via email at scale would require standing up and monitoring a ticketing system, adding significant overhead.",
+            "<b>The solution: embed the report directly within the vendor portal</b>, where vendors already had an established relationship and support infrastructure.",
+            "This reframe meant vendors could access their reports in context, and any follow-up questions could be routed through an existing support process, removing analytics from the communication loop entirely.",
+            "This decision was based on team structure, security considerations, and designing for scale rather than just the immediate deliverable."
+        ]
+    },
+    {
+        "type": "text_list",
+        "header": "Performance Indicators: Badge Design",
+        "content": [
+            "Designed a gamified badge system in four performance tiers: Gold, Silver, Bronze, and Trial, representing performance levels across specific service areas.",
+            "Badge design reflects the visual language of metallic awards while incorporating a ribbon element to <b>reinforce the temporary, dynamic nature of the recognition.</b> Badges are earned monthly, not permanently.",
+            "Flexible horizontal layout allows badges to display cleanly within table rows in the report.",
+            "Collaborated with a designer to execute my vision for the badges. Thank you!"
         ]
     },
     {
@@ -26,7 +36,7 @@
     },
     {
         "type": "image2",
-        "header": "Samples",
+        "header": "Scorecard Samples",
         "content": [
             "/scorecard_earned_badge_tab.png", 
             "/scorecard_live_tab.png", 
@@ -34,5 +44,33 @@
             "/scorecard_service_category_estimates.png",
             "/scorecard_historical_tab.png"
         ]
+    },
+    {
+        "type": "text_list",
+        "header": "Measuring Impact",
+        "content": [
+            "After launch, <b>led a post-launch evaluation to assess measurable impact</b> of the scorecard product.",
+            "Collaborated with the Operations team and data scientists to identify key metrics and surface data gaps.",
+            "Created a <b>scorecard lifecycle diagram to map the product's cyclic nature</b>, illustrating how vendors enter, move through the work order and scorecard phases, and exit, to anchor the impact narrative."
+        ]
+    },
+    {
+        "type": "image2",
+        "header": null,
+        "content": [ "/scorecard_lifecycle.png"]
+    },
+    {
+        "type": "text_list",
+        "header": "Communicating Results to Stakeholders",
+        "content": [
+            "Designed an overview page with main takeaways to precede detailed metric analysis, giving stakeholders a clear entry point before diving into the numbers.",
+            "Structured metric display <b>from most generic to most specific, left to right</b>, to guide readers through the data naturally.",
+            "The scorecard initiative generated <b>$2.5M in cost savings within the first six months</b> of launch, validated through the post-launch metric evaluation."
+        ]
+    },
+    {
+        "type": "image2",
+        "header": null,
+        "content": [ "/scorecard_key_metrics_overview.png"]
     }
 ]}

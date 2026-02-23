@@ -1,35 +1,45 @@
 { "content": [
     {
         "type": "text_list",
-        "header": null,
+        "header": "Overview",
         "content":[
-            "Full methodology for the data visualization is available at the publication link",
-            "<b>Excited to say and thank you DVS, article published in Nightingale Magazine</b>, to dig further, the full methodology available online at <link>https://nightingaledvs.com/woven-time/</link>"
+            "<b>Designed and built an interactive data story</b> exploring how the artistic choices in a mashup reinforce a narrative arc of time, with a clear beginning, middle, and end.",
+            "Published in <b>Nightingale Magazine</b>, the journal of the Data Visualization Society. <link>https://nightingaledvs.com/woven-time/</link>Read the full published article here</link>.",
+            "This page includes an <b>exclusive interactive visualization</b> not in the published article, plus additional musical analysis and the design thinking behind the project."
         ]
     },
     {
         "type": "text_list",
-        "header": "***Interactive section of 'Woven Time'***",
+        "header": "Why Not a Line Graph",
         "content": [
-            "This <b> interactive data visualization is unique to this page</b>, as well as a couple of extra notes.",
-            "The information about a song is <b>synced to show when it appears in the video</b>, by measure number (a musical notation).",
-            "<b>Press play</b> below the video, which is below on the left, to start."
+            "The data could have been displayed as a line graph, mapping samples across a timeline. But that would show the structure of the mashup without letting you experience it.",
+            "<b>Just as we experience listening to a mashup in real time, I wanted the visualization to be experienced the same way.</b> The analysis is about time, and I wanted the form to reflect that.",
+            "The sun rising and falling across the visualization, from morning to evening, provides a visual metaphor for cyclic time, reinforcing the mashup's own narrative arc of beginning, middle, and end.",
+            "A line graph could work alongside this as a complementary view. <b>The interactive lets you feel the time narrative; a line graph lets you see the full structure at a glance.</b> Together they reinforce each other from different angles."
+        ]
+    },
+    {
+        "type": "text_list",
+        "header": "Building the Interactive",
+        "content": [
+            "Creating the experience required more than data visualization. <b>The source video needed to be edited</b> to align with the data layer, so the visualization and video work as a single cohesive experience.",
+            "As each sample plays in the mashup, <b>the visualization highlights the corresponding song information in real time.</b> Artist, song title, and sample data update as you listen, anchored by measure number.",
+            "<b>Press play</b> on the video below to start."
         ]
     },
     {
         "type": "component",
         "header": null,
+        "fullWidth": true,
         "content":["DataVisSection"]
     },
     {
         "type": "text_list",
-        "header": "Extra Note: Extending samples that aren't heard, m32-36",
+        "header": "A Deeper Look: The Psychology of Unheard Samples, m32-36",
         "content": [
-            "During measures 32-36 of the mashup (1:50-2:04), the composition plays on listeners' musical memories.",
-            "A <b>harmonious melodic relationship exists between heard samples and unheard extended samples</b>.",
-            "The creator hypothesized that when a sample ends, listeners mentally continue the next phrase from the original song.",
-            "This section particularly leverages this psychological effect, creating a musical experience that extends beyond what's explicitly played.",
-            "To observe this musically, I musically notated this section with both the heard and unheard samples. Below the transcription, you can play audio files to hear this."
+            "During measures 32-36 (1:50-2:04), the mashup does something psychologically interesting. It plays on listeners' musical memories.",
+            "The creator hypothesized that when a sample ends, listeners mentally continue the next phrase from memory. <b>A harmonious melodic relationship exists between the heard samples and their unheard extensions,</b> and the composition leverages what isn't played as much as what is.",
+            "To make this observable, I transcribed this section with both heard and unheard samples, and recorded audio files so you can hear the relationship directly."
         ]
     },
     {
@@ -46,19 +56,19 @@
     },
     {
         "type": "text_list",
-        "header": "Mashup Time Theme Summary",
+        "header": "What the Analysis Found",
         "content": [
-            "This analysis explores how the <b>artistic choices of this mashup reinforce a narrative timeframe</b> with clear beginning, middle, and end elements.",
-            "Visual markers signal time progression- opening with a blooming flower (representing beginning) and ending with a digital countdown to 0:00 (representing conclusion)",
-            "Lyrical content reinforces the time theme with - (1) repeated phrases 'please don't stop the' seeming resistance against the ending (2) transitions to slower tempo with Rihanna's 'but it's over now' and One Republic's 'it's too late' signaling acceptance of conclusion (3) The rebellious section paradoxically uses the most 'overtime' in the analysis in the composition (4) The recurring 'tonight [tonight]' throughout the mashup grounds listeners in the present moment and creates an ironic temporal displacement",
-            "<b>The visualization explores whether DJ Earworm intentionally incorporated these time themes and if they influenced the creator's visualization approach.</b>"
+            "The mashup's artistic choices consistently reinforce a narrative timeframe. Visual markers, lyrical content, and musical structure all signal beginning, middle, and end.",
+            "Visual markers frame time progression: a blooming flower opens the piece (beginning) and a digital countdown to 0:00 closes it (conclusion).",
+            "Lyrical content deepens the theme. Resistance to ending ('please don't stop the'), acceptance ('but it's over now', 'it's too late'), and present-moment grounding ('tonight [tonight]') create an ironic temporal displacement across the arc.",
+            "<b>The central question: did DJ Earworm intentionally build this time narrative, and did it shape the visualization creator's approach?</b> The analysis explores the evidence on both sides."
         ]
     },
     {
         "type": "text_list",
-        "header": "Thanks for reading!",
+        "header": "Reflections",
         "content": [
-            "This is a <b>passion project</b> of mine, an experimental data visualization. Hope you enjoyed."
+            "This project sits at the intersection of music theory, cognitive psychology, and data visualization. <b>It is an experiment in whether interactive design can make abstract musical analysis tangible and felt, not just understood.</b>"
         ]
     }
 ]}

@@ -1,5 +1,3 @@
-import { purple } from "@mui/material/colors"
-
 const myColors = { 
     primary: {
       main: '#6A84AA',

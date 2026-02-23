@@ -1,5 +1,5 @@
 import React, { useEffect } from 'react';
-import { BrowserRouter as Router, Routes, Route } from 'react-router-dom';
+import { BrowserRouter as Router, Routes, Route, Navigate } from 'react-router-dom';
 
 import { ThemeProvider } from '@mui/material/styles';
 import { Box } from '@mui/material';
@@ -14,10 +14,11 @@ import WovenTimeArticle from './components/pages/WovenTimeArticle';
 import SiteNavigationWovenTime from './components/pages/SiteNavigationWovenTime';
 import VendorScorecard from './components/pages/VendorScorecard';
 import PageNotFound from './components/pages/PageNotFound';
-import VendorScorecardSuccess from './components/pages/VendorScorecardSuccess';
+
 import MusicNotation from './components/pages/MusicNotation';
 import GlobalFootprintNetworkUnitedStatesAndCanada from './components/pages/GlobalFootprintNetworkUnitedStatesAndCanada';
 import PetalProgress from './components/pages/PetalProgress';
+import AdvocacyCommunicationDesign from './components/pages/AdvocacyCommunicationDesign';
 
 function App() {
 
@@ -50,12 +51,14 @@ function App() {
 
             <Route path="/woven-time/interactive" element={<WovenTimeArticle/>} />
             <Route path="/vendor-scorecard" element={<VendorScorecard/>} />
-            <Route path="/vendor-scorecard-success" element={<VendorScorecardSuccess/>} />
-            <Route path="/western-music-notation" element={<MusicNotation/>} />
+            <Route path="/vendor-scorecard-success" element={<Navigate to="/vendor-scorecard" replace />} />
+            <Route path="/western-music-notation-ux" element={<MusicNotation/>} />
+            <Route path="/western-music-notation" element={<Navigate to="/western-music-notation-ux" replace />} />
             <Route path="/global-footprint-network-united-states-and-canada" element={<GlobalFootprintNetworkUnitedStatesAndCanada/>} />
 
             <Route path="/site-navigation-woven-time" element={<SiteNavigationWovenTime/>} />
             <Route path="/petal-progress" element={<PetalProgress/>} />
+            <Route path="/advocacy-communication-design" element={<AdvocacyCommunicationDesign/>} />
             <Route path="*" element={<PageNotFound />}/>
           </Routes>
         </Box>

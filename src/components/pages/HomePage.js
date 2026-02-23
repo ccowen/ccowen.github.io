@@ -5,10 +5,11 @@ import { LinkedIn, GitHub, BarChart, Code, Storage, Cloud, MenuBook, Palette,
  } from '@mui/icons-material';
 
 import MyLogoHeader from "../MyLogoHeader";
-import MySectionWrapper from "../MySectionWrapper"; // You'll need to add this component
+import MySectionWrapper from "../MySectionWrapper";
 import myColors from "../../myColors";
 import contentDirectory from "./../../directory/contentDirectory.json";
 import FeaturedWorkSection from "./home/FeaturedWorkSection";
+import BeyondTheData from "../BeyondTheData";
 import MyFooter from "../MyFooter";
 
 function HomePage() {
@@ -34,7 +35,7 @@ function HomePage() {
     ];
 
     // Process content directory to get featured work
-    const excludeKeys = ['about-me', 'site-navigation-woven-time', 'page-not-found'];
+    const excludeKeys = ['about-me', 'site-navigation-woven-time', 'page-not-found', 'global-footprint-network-united-states-and-canada'];
     const allProjects = Object.entries(contentDirectory['content-directory'])
         .filter(([key]) => !excludeKeys.includes(key))
         .map(([key, value]) => ({
@@ -84,7 +85,7 @@ function HomePage() {
                 </MySectionWrapper>
 
                 {/* Professional Skills */}
-                <MySectionWrapper bgcolor="background.paper" py={isMobile ? 6 : 10}>
+                <MySectionWrapper bgcolor="background.paper" pt={isMobile ? 6 : 10} pb={isMobile ? 2 : 2}>
                     <Typography variant="h4" component="h2" gutterBottom fontWeight="bold">
                         Professional Skills
                     </Typography>
@@ -117,7 +118,7 @@ function HomePage() {
                 </MySectionWrapper>
 
                 {/* Technical Skills */}
-                <MySectionWrapper bgcolor="background.paper" py={isMobile ? 6 : 10}>
+                <MySectionWrapper bgcolor="background.paper" pt={0} pb={isMobile ? 6 : 10}>
                     <Typography variant="h4" component="h2" gutterBottom fontWeight="bold">
                         Technical Skills
                     </Typography>
@@ -158,89 +159,14 @@ function HomePage() {
                 </MySectionWrapper>
 
                 {/* Beyond the Data - Personal MySectionWrapper */}
-                <MySectionWrapper 
+                <MySectionWrapper
                     bgcolor="linear-gradient(135deg, #f5f7fa 0%, #e8eaf6 100%)"
                     py={isMobile ? 6 : 10}
                 >
                     <Typography variant="h4" component="h2" gutterBottom fontWeight="bold">
                         Beyond the Data
                     </Typography>
-                    <Grid container spacing={4} sx={{ mt: 2 }}>
-                        {/* Currently Reading */}
-                        <Grid item xs={12} md={6}>
-                            <Card sx={{ p: 3, height: '100%' }}>
-                                <Box sx={{ display: 'flex', alignItems: 'center', gap: 2, mb: 3 }}>
-                                    <MenuBook sx={{ fontSize: 32, color: 'primary.main' }} />
-                                    <Typography variant="h6" fontWeight="bold">
-                                        Currently Reading
-                                    </Typography>
-                                </Box>
-                                {/* Book 1 */}
-                                <Box sx={{ mb: 3 }}>
-                                    <Typography variant="body1" fontWeight="medium" sx={{ mb: 1 }}>
-                                        Lessons in Chemistry
-                                    </Typography>
-                                    <Typography variant="body2" color="text.secondary" sx={{ mb: 1 }}>
-                                        by Bonnie Garmus
-                                    </Typography>
-                                    <Typography variant="body2" sx={{ fontStyle: 'italic', color: 'text.secondary' }}>
-                                        "A brilliant chemist in the 1960s breaks barriers in science and television cooking."
-                                    </Typography>
-                                </Box>
-
-                                {/* Book 2 */}
-                                <Box>
-                                    <Typography variant="body1" fontWeight="medium" sx={{ mb: 1 }}>
-                                        Vera Wong's Unsolicited Advice for Murderers
-                                    </Typography>
-                                    <Typography variant="body2" color="text.secondary" sx={{ mb: 1 }}>
-                                        by Jesse Q. Sutanto
-                                    </Typography>
-                                    <Typography variant="body2" sx={{ fontStyle: 'italic', color: 'text.secondary' }}>
-                                        "A cozy mystery about a tea shop owner who surprisingly takes solving a murder into her own hands,
-                                        making friends along the way."
-                                    </Typography>
-                                </Box>
-                            </Card>
-                        </Grid>
-
-                        {/* Recent Artwork */}
-                        <Grid item xs={12} md={6}>
-                            <Card sx={{ p: 3, height: '100%' }}>
-                                <Box sx={{ display: 'flex', alignItems: 'center', gap: 2, mb: 3 }}>
-                                    <Palette sx={{ fontSize: 32, color: 'primary.main' }} />
-                                    <Typography variant="h6" fontWeight="bold">
-                                        Recent Artwork
-                                    </Typography>
-                                </Box>
-                                <Box 
-                                    sx={{ 
-                                        width: '100%', 
-                                        bgcolor: 'grey.200',
-                                        background: 'linear-gradient(135deg, #e3f2fd 0%, #f3e5f5 100%)',
-                                        borderRadius: 2,
-                                        mb: 2,
-                                        display: 'flex',
-                                        alignItems: 'center',
-                                        justifyContent: 'center',
-                                    }} 
-                                >
-                                    <img 
-                                        src="/painting-sample.png" 
-                                        alt="Recent painting" 
-                                        style={{
-                                            width: '100%',
-                                            height: '100%',
-                                            objectFit: 'cover'
-                                        }}
-                                    />
-                                </Box>
-                                <Typography variant="body2">
-                                    I paint to capture motion and energy - windy skies, swaying trees, and the dynamic patterns found in nature.
-                                </Typography>
-                            </Card>
-                        </Grid>
-                    </Grid>
+                    <BeyondTheData />
                 </MySectionWrapper>
 
                 {/* Interdisciplinary Background */}

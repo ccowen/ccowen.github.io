@@ -85,7 +85,7 @@ function MyParagraph({header, content, style}) {
     }
 
     return (
-        <>
+        <div style={header != null ? { paddingTop: '24px' } : undefined}>
             {header != null ? <MySectionTitle>{header}</MySectionTitle> : null}
             { style === "text_list" ? 
                 <ul>
@@ -105,8 +105,8 @@ function MyParagraph({header, content, style}) {
                 ))
 
             }
-            
-        </>
+
+        </div>
     )
 }
 

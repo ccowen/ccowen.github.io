@@ -3,18 +3,18 @@
         "type": "text_list",
         "header": "Overview",
         "content": [
-            "This study was <b>published in NCUR 2014</b>, National Conference of Undergraduate Research.",
-            "Created and tested visual learning tools for cognitive brain training and musical advancement",
-            "<b>Highlights my attention to detail in evaluating a data graphic</b>, music notation"
+            "<b>Identified a visual design flaw in Western music notation</b> and proposed an alternative system to improve learnability for new musicians.",
+            "Designed a user experiment to test whether the redesign improved comprehension, and measured results across users with varying levels of musical experience.",
+            "Research was <b>published at NCUR 2014</b>, National Conference of Undergraduate Research. This was my first data visualization and UX research project."
         ]
     },
     {
         "type": "text_list",
-        "header": "Thesis Summary",
+        "header": "The Design Problem",
         "content": [
-            "Western music notation is generally intuitive, time reads left to right, and pitch up and down.",
-            "<b>However, vertical spacing in Western music notation is inconsistent</b>, same amount of vertical space can represent whole or half notes",
-            "Equal vertical space is given to major scale steps regardless of interval size."
+            "Western music notation is largely intuitive: time reads left to right, pitch reads up and down.",
+            "<b>However, vertical spacing is inconsistent.</b> The same amount of vertical space can represent either a whole step or a half step depending on context.",
+            "Equal vertical space is given to major scale steps regardless of interval size, creating a visual encoding that misrepresents the underlying data."
         ]
     },
     {
@@ -31,11 +31,11 @@
         "type": "text_list",
         "header": "Hypothesis, Experiment, and Results",
         "content": [
-            "<b>Proposed this inconsistency creates problems for ear training</b>, because the notation requires a high degree of familiarty with the major scale",
-            "Created hypothetical alternative notation system, Circle Notation (CN), to address the issue noted for Western music notation",
-            "Conducted an experiment with students with known levels of musical backgrounds",
-            "Test consisted of <b>visual and audio questions</b>.",
-            "Test <b>yielded significant results for students with novice or intermediate experience</b>, see exerpt question below with Traditional Notation (TN), Circle Notation (CN), also see results below"
+            "<b>Hypothesis: this inconsistency creates a barrier to learning.</b> The notation demands prior familiarity with the major scale structure rather than communicating it visually.",
+            "Designed an alternative system, Circle Notation (CN), where visual spacing accurately reflects interval size, addressing the identified design flaw directly.",
+            "Conducted a controlled experiment with participants across known levels of musical background: novice, intermediate, and expert.",
+            "Test consisted of <b>paired visual and audio questions</b> comparing Traditional Notation (TN) to Circle Notation (CN).",
+            "<b>Results were statistically significant for novice and intermediate users.</b> The redesigned notation outperformed the traditional system for learners who hadn't yet internalized scale structure."
         ]
     },
     {
@@ -47,5 +47,15 @@
         "type": "image2",
         "header": null,
         "content": [ "/western-music-notaion-figure7.png"]
+    },
+    {
+        "type": "text_list",
+        "header": "Future Directions",
+        "content": [
+            "<b>Educational technology:</b> adaptive music learning apps could use spatially accurate notation to lower the barrier for beginners. The research showed the strongest gains for novice and intermediate users, making this the most promising application.",
+            "<b>Digital-native music tools:</b> notation software like MuseScore or Sibelius is largely constrained by conventions designed for print. A digital context removes those constraints and opens the door to rethinking the visual encoding from the ground up.",
+            "<b>Accessibility:</b> a more consistent visual system may benefit learners with certain cognitive or learning differences who find the spatial inconsistencies of traditional notation a barrier to entry.",
+            "<b>A meaningful design tradeoff to consider:</b> Circle Notation did not outperform traditional notation for expert users, which makes sense. Experts have already internalized scale structure, so the inconsistency no longer registers as a problem. Any real-world implementation would need to consider how a learner transitions between systems as they advance, since optimizing for learnability and optimizing for mastery may require different design approaches."
+        ]
     }
 ]}

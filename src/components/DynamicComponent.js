@@ -4,13 +4,15 @@ import DataVisSection from './pages/woven-time/DataVisSection';
 import ExtendedSampleSoundCloud from './pages/woven-time/ExtendedSampleSoundCloud';
 import MyPlatformHandles from './MyPlatformHandles';
 import MyContentWidget from './MyContentWidget';
+import BeyondTheData from './BeyondTheData';
 
 const components = {
   'YoutubeEmbed': YoutubeEmbed,
   'DataVisSection': DataVisSection,
   'ExtendedSampleSoundCloud': ExtendedSampleSoundCloud,
   'MyPlatformHandles': MyPlatformHandles,
-  'MyContentWidget': MyContentWidget
+  'MyContentWidget': MyContentWidget,
+  'BeyondTheData': BeyondTheData
 };
 
 const DynamicComponent = ({ componentName, ...props }) => {

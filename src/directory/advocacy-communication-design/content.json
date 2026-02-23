@@ -1,0 +1,65 @@
+{ "content": [
+    {
+        "type": "text_list",
+        "header": "Overview",
+        "content": [
+            "A patient with an implanted medical device encountered a healthcare operations issue that raised questions about documentation standards and patient input in device management decisions.",
+            "The brief: <b>how can awareness be raised for the medical ethics of medical devices when healthcare operations fail the patient?</b>",
+            "This case study documents the communication strategy designed to answer that question, including what worked, what didn't, and what comes next.",
+            "Professional experience in data reporting and visual communication directly informed the approach, including <b>collaboration with an artist from the Data Visualization Society community</b> on the visual artifacts."
+        ]
+    },
+    {
+        "type": "text_list",
+        "header": "Strategy: Distilling a Complex Story",
+        "content": [
+            "The first step was thoroughly documenting the pain points, but the full details were overwhelming and distracted from the most powerful points.",
+            "<b>The key insight: the writing was most effective when it connected individual experience to larger systemic issues</b> rather than leading with case-specific detail.",
+            "This shaped a tiered content approach: a brief public statement → a premise article → the full case study and petition, allowing readers to self-select their depth of engagement."
+        ]
+    },
+    {
+        "type": "image2",
+        "header": null,
+        "content": [ "/healthcare-advocacy-main-image.png"]
+    },
+    {
+        "type": "text_list",
+        "header": "Launch: A Tiered Approach",
+        "content": [
+            "The first channel was LinkedIn, a network of professionals where a brief post linked outward through the content tiers.",
+            "The post received comments, with responses calling it a must read, but did not generate the intended broader discussion.",
+            "The petition received two signatures, but did not generate broader engagement, including from those who called it a must read.",
+            "<b>Conclusion: the topic is genuinely complex.</b> Despite months of effort to distill it, readers may not have felt they knew enough about the subject matter to take action."
+        ]
+    },
+    {
+        "type": "image2",
+        "header": null,
+        "maxWidth": 400,
+        "content": [ "/healthcare_linkedin_comments.png"]
+    },
+    {
+        "type": "text_list",
+        "header": "Testing a Different Channel",
+        "content": [
+            "A post in a Reddit community specifically for patients with this condition yielded a different response, community members encouraged legal action rather than engaging with the petition.",
+            "<b>Conclusion: this community is oriented toward supporting individuals in immediate need</b>, not systemic advocacy. Patients managing their own treatment have limited bandwidth for broader change efforts."
+        ]
+    },
+    {
+        "type": "image2",
+        "header": null,
+        "content": [ "/healthcare-petition-screenshot.png"]
+    },
+    {
+        "type": "text_list",
+        "header": "Reflections and Next Steps",
+        "content": [
+            "Social pressure was the first avenue pursued, it felt more accessible than formal channels, but has so far had limited reach.",
+            "Formal options remain: <b>state medical board engagement is a path toward actual policy change</b> rather than awareness alone.",
+            "Medical professional consultation is ongoing.",
+            "This project is a reminder that <b>communication design is only as effective as the audience's readiness</b>. The right message in the wrong channel, or for an audience with competing priorities, will not land."
+        ]
+    }
+]}

@@ -12,7 +12,7 @@ import { ThemeProvider } from '@mui/material/styles';
 function FeaturedWorkSection({ allProjects }) {
     const isMobile = useMediaQuery(theme.breakpoints.down('md'));
     const [selectedTags, setSelectedTags] = useState([]);
-    const [visibleCount, setVisibleCount] = useState(3); // Start with 6 projects
+    const [visibleCount, setVisibleCount] = useState(6);
 
     // Masonry breakpoint configuration
     const breakpointColumns = {
